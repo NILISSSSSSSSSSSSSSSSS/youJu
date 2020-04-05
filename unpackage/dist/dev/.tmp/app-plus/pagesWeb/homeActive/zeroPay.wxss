@@ -1,0 +1,12 @@
+
+.web_view {
+    background: #FFFFFF;
+    width: 100%;
+    height: 100%;
+}
+.web {
+    background: #FFFFFF;
+    width: 100%;
+    height: 100%;
+}
+

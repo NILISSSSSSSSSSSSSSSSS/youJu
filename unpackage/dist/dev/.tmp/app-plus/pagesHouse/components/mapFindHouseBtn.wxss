@@ -1,0 +1,15 @@
+
+button.map_find_house_btn.data-v-04072104{
+	width:100rpx;
+	height:100rpx;
+	position:fixed;
+	right:21rpx;
+	bottom:115rpx;
+	border-radius:50%;
+	will-change: transform;
+	background:url('http://cdn.haofang.net/static/wxPlusApp/yjk/btn_map.png') center no-repeat;
+	background-size:100% 100%;
+	box-shadow:0 0 33px 2px rgba(0, 0, 0, 0.16);
+	z-index:9;
+}
+

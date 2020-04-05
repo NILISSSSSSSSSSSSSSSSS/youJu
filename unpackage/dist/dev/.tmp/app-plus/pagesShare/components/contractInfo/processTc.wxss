@@ -1,0 +1,32 @@
+
+.process_contract{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    z-index: 8888;
+}
+.process_img{
+    width: 439rpx;
+    height: 393rpx;
+    margin: 215rpx auto 0;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+}
+.process_btn{
+    margin: 145rpx auto auto;
+    width: 330rpx;
+    height: 90rpx;
+    line-height: 90rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: #ffffff;
+    border-radius: 45rpx;
+    box-sizing: border-box;
+    background:-webkit-linear-gradient(left, #ff7626, #fe8a11);
+}
+

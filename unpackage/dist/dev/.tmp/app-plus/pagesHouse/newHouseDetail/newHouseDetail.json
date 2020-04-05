@@ -1,0 +1,31 @@
+{
+  "navigationBarTitleText": "",
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "type": "share",
+        "float": "right",
+        "id": "share"
+      }
+    ]
+  },
+  "scrollIndicator": "none",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "house-detail-loading": "/components/houseDetailLoading",
+    "get-user-info": "/components/getUserInfoView",
+    "new-msg-view": "/components/newMsgView",
+    "house-swiper": "/pagesHouse/components/houseSwiper",
+    "top-name": "/pagesHouse/components/newHouseDetail/topName",
+    "hu-xing-jie-shao": "/pagesHouse/components/newHouseDetail/huXingJieShao",
+    "title-view": "/pagesHouse/components/erHouseDetail/titleView",
+    "lou-pan-tu-ku": "/pagesHouse/components/newHouseDetail/louPanTuKu",
+    "lou-pan-info": "/pagesHouse/components/newHouseDetail/louPanInfo",
+    "near-map-view": "/pagesHouse/components/erHouseDetail/nearMapView",
+    "new-house-list-item": "/components/newHouseListItem",
+    "near-er-house": "/pagesHouse/components/erHouseDetail/nearErHouse",
+    "bottom-btn": "/pagesHouse/components/newHouseDetail/bottomBtn",
+    "coupon": "/pagesHouse/components/newHouseDetail/coupon"
+  }
+}

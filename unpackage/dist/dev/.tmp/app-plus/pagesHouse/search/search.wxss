@@ -1,0 +1,605 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 搜索顶部 */
+.sarch_box{
+        background:#fff;
+        padding:26rpx 40rpx 26rpx;
+        position: fixed;
+        box-sizing: border-box;
+        top: 0;
+        z-index: 9999;
+        left: 0;
+        width: 100%;
+}
+
+.input_placeholder{
+		color: #c4cbce;
+		line-height: 82rpx;
+		height: 82rpx;
+}
+.empty_search_box{
+        height: 134rpx;
+}
+.search_view{
+        width: 100%;
+        height: 82rpx;
+        line-height: 82rpx;
+        background-color:#F8F8F9;
+        border-radius: 41rpx;
+		overflow: hidden;
+        position:relative;
+        box-sizing: border-box;
+        color:#666666;
+}
+.input_view{
+        width: 100%;
+}
+.input_icon{
+        height: 30rpx;
+        width: 30rpx;
+        box-sizing: border-box;
+        margin: auto 20rpx auto 30rpx;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+}
+.inout_box{
+        width:100%;
+        height:40rpx;
+        line-height: 40rpx;
+        margin: auto 0;
+        box-sizing:border-box;
+        font-size:28rpx;
+        color:#666666;
+        border:0;
+        outline:none;
+        background-color:#F8F8F9;
+}
+.input{
+        width:100%;
+        height:40rpx;
+		margin: auto 0;
+        line-height: 40rpx;
+        box-sizing:border-box;
+        font-size:28rpx;
+        color:#666666;
+        border:0;
+        outline:none;
+        background-color:#F8F8F9;
+}
+.input:focus{
+		background: #F8F8F9;
+}
+.input input{
+        width:100%;
+        margin: auto 0;
+        height: 40rpx!important;
+        line-height: 40rpx!important;
+        box-sizing:border-box;
+        font-size:28rpx;
+        color:#666666;
+        border:0;
+        outline:none;
+        background-color:#F8F8F9;
+}
+.clear_btn{
+        width:82rpx;
+        height: 82rpx;
+        background: url(http://cdn.haofang.net/static/uuminiapp/search/clear.png) no-repeat center center;
+        background-size: 34rpx 34rpx;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+}
+    /* 首页搜索 */
+.sarch_box_index .search_view{
+		border-radius: 0 41rpx 41rpx 0;
+}
+swan-button.swan-button-radius-ios{
+        border-radius: 41rpx 0 0 41rpx;
+}
+.search_choose{
+		width: 170rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		height: 82rpx;
+		line-height: 82rpx;
+		position: relative;
+		background: #F8F8F9;
+		border-radius: 41rpx 0 0 41rpx;
+}
+.search_choose_text{
+		height:82rpx;
+		line-height:82rpx;
+		font-size:28rpx;
+		color:#101d36;
+		z-index:30;
+		width:90rpx;
+		text-align:center;
+		padding-right:15rpx;
+}
+.search_choose_arrow{
+		width:0;
+		height: 0;
+		border:8rpx solid #101D36;
+		border-color:#101D36 transparent transparent transparent;
+		margin: auto 0;
+}
+.search_choose::after{
+		content: "";
+		position: absolute;
+		left: 166rpx;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		        transform: translateY(-50%);
+		background: #dadce1;
+		height: 30rpx;
+		width: 2rpx;
+}
+    /* 搜索类型切换弹窗 */
+.search_type_tc{
+		position:fixed;
+		width:100%;
+		height:100%;
+		z-index:99999;
+		top:0;
+		left:0;
+}
+.search_type_item_view{
+		background:#ffffff;
+		border:1px solid #F5F5F5;
+		border-radius:7rpx;
+		position:absolute;
+		top:96rpx;
+		left:38rpx;
+}
+
+.search_type_item_view::after{
+		content:'';
+		position: absolute;
+		width:20rpx;
+		height: 20rpx;
+		background: #ffffff;
+		border-top:1px solid #e2e2e2;
+		border-left:1px solid #e2e2e2;
+		left:0;
+		right:0;
+		margin: auto;
+		top:-11rpx;
+		-webkit-transform: rotate(45deg);
+		        transform: rotate(45deg);
+}
+.search_type_item{
+		width:207rpx;
+		height:82rpx;
+		line-height:82rpx;
+		color:#101D36;
+		font-size:28rpx;
+		letter-spacing:1px;
+		text-align:center;
+		border-bottom:1px solid #F5F5F5;
+}
+    /* .search_type_item_view .search_type_item_active{
+		color: #ab7f2e;
+	} */
+    /* 列表 */
+.house_list{
+        padding: 0 40rpx;
+        box-sizing: border-box;
+}
+.house_item{
+		font-size:32rpx;
+		color:#101d36;
+		border-bottom:1px solid #F5F5F5;
+		height:112rpx;
+		line-height:112rpx;
+		position:relative;
+		letter-spacing:1px;
+		box-sizing:border-box;
+}
+.house_item.swan-button-radius-ios{
+        border-radius: 0;
+}
+.house_name{
+        text-align: left;
+        max-width: 75%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 32rpx;
+        font-weight: normal;
+}
+.house_addr{
+        text-align: right;
+        max-width: 25%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        color:#8e94a1;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+		font-weight: normal;
+}
+.clear_local{
+        width: 100%;
+        padding-right: 30rpx;
+        box-sizing: border-box;
+        height:100rpx;
+        line-height:100rpx;
+        text-align:center;
+        margin:0 auto;
+        font-size:24rpx;
+        color:#606060;
+}
+    /* 暂无记录 */
+.no_local_list{
+        position:fixed;
+        width:100%;
+        height:220rpx;
+        background:url(http://cdn.haofang.net/static/uuminiapp/new_images/no_hostory.png?t=20180427) no-repeat center center;
+        background-size:contain;
+        top: 35%;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+                transform: translate(-50%, 0);
+}
+    /* 暂无搜索结果 */
+.no_search_list{
+		margin-top: 40rpx;
+		line-height:60rpx;
+		font-size:28rpx;
+		color:#999999;
+		text-align:center;
+		width: 100%;
+}
+

@@ -1,0 +1,124 @@
+
+.hu_xing_view.data-v-5b495391{
+		width: 100%;
+		overflow: hidden;
+		background: #FFFFFF;
+		white-space: nowrap;
+		padding: 0 0 0 40rpx;
+		box-sizing: border-box;
+}
+button.hu_xing_item.data-v-5b495391,.hu_xing_item.data-v-5b495391{
+		display: inline-block;
+		width: 360rpx;
+		margin-right: 20rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		vertical-align: top;
+        border-radius: 0;
+		will-change: transform;
+}
+button.button.lou_pan_item.data-v-5b495391::after{
+        border-radius: 0;
+		will-change: transform;
+}
+.room_img_view.data-v-5b495391{
+		width:360rpx;
+		height:274rpx;
+		position:relative;
+		overflow:hidden;
+		background:url(http://cdn.haofang.net/static/wxPlusApp/yjk/house/house_list_default.png) no-repeat center center;
+		background-color:#f5f5f5;
+		background-size:contain;
+		border-left: 1rpx solid #EEEEEE;
+		border-right: 1rpx solid #EEEEEE;
+		box-sizing: border-box;
+		border-radius: 4rpx;
+		will-change: transform;
+}
+.room_img_view image.data-v-5b495391{
+		width: 100%;
+		height: 100%;
+}
+.hu_ting_view.data-v-5b495391{
+		line-height: 50rpx;
+		margin-top: 8rpx;
+}
+.hu_ting.data-v-5b495391{
+		font-size:32rpx;
+		color: #101D36;
+		position: relative;
+		top: 6rpx;
+}
+.area.data-v-5b495391{
+		font-size:22rpx;
+		color:#89909d;
+		line-height:28rpx;
+		margin-left:20rpx;
+}
+.totalPrice.data-v-5b495391{
+	    font-size: 30rpx;
+		line-height: 44rpx;
+		margin-bottom: -6rpx;
+}
+.totalPrice_text.data-v-5b495391{
+		font-size: 22rpx;
+		color: #89909d;
+}
+.totalPrice_unit.data-v-5b495391{
+		font-size: 30rpx;
+}
+.tags_view.data-v-5b495391{
+	    font-size:22rpx;
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+		margin-top: 15rpx;
+}
+.tags_view view.data-v-5b495391{
+	    white-space: nowrap;
+	    font-size:22rpx;
+	    display:-webkit-box;
+	    display:-webkit-flex;
+	    display:flex;
+	    -webkit-box-orient: vertical;
+	    -webkit-box-direction: normal;
+	    -webkit-flex-direction: column;
+	            flex-direction: column;
+	    -webkit-box-pack: center;
+	    -webkit-justify-content: center;
+	            justify-content: center;
+	    color:#7991a6;
+	    background:#edf0f3;
+	    padding:4rpx 10rpx 6rpx;
+	    border-radius:2rpx;
+	    margin-right:10rpx;
+	    box-sizing: border-box;
+		will-change: transform;
+}
+.common_tag.data-v-5b495391{
+		white-space: nowrap;
+		font-size:22rpx;
+		color:#7991a6;
+		background:#edf0f3;
+		padding:4rpx 10rpx 6rpx;
+		border-radius:4rpx;
+		will-change: transform;
+		box-sizing: border-box;
+		font-size:22rpx;
+		margin: auto 0 auto 10rpx;
+}
+.greenTag.data-v-5b495391{
+		background: #3d96fd!important;
+		padding: 2rpx 5rpx !important;
+		color: #FFFFFF!important;
+}
+.blueTag.data-v-5b495391{
+		background: #fbb057!important;
+		padding: 2rpx 5rpx !important;
+		color: #FFFFFF!important;
+}
+.grayTag.data-v-5b495391{
+		background: #d1d1d1!important;
+		padding: 2rpx 5rpx !important;
+		color: #FFFFFF!important;
+}
+

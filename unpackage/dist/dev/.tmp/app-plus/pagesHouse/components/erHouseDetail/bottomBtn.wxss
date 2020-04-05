@@ -1,0 +1,131 @@
+
+.bottom_btn_view.data-v-6b8c2ece{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		height: 140rpx;
+		width: 100%;
+		background: #FFFFFF;
+		box-shadow: 0px -1rpx 32rpx 0rpx  rgba(97, 97, 97, 0.11);
+		padding: 0 20rpx;
+        z-index: 100;
+		box-sizing: border-box;
+}
+.x_bottom_view.data-v-6b8c2ece{
+		height: 180rpx!important;
+}
+.bottom_agent_info_view.data-v-6b8c2ece{
+		height: 140rpx;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+}
+.bottom_btn_info_view.data-v-6b8c2ece{
+        height: 140rpx;
+        width: 63%;
+        padding-left: 20rpx;
+        box-sizing: border-box;
+}
+.bottom_agent_img.data-v-6b8c2ece{
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		width: 90rpx;
+		height: 90rpx;
+		border-radius: 100%;
+		will-change: transform;
+		border: 1rpx solid #EEEEEE;
+		box-sizing: border-box;
+		margin: auto 0;
+		/*background: url("http://cdn.haofang.net/static/uuminiapp/im/defaultHead.png?t=20180427") center center no-repeat;*/
+		background-size: 100%;
+}
+.bottom_agent_cont.data-v-6b8c2ece{
+		padding-left: 15rpx;
+		box-sizing: border-box;
+}
+.bottom_agent_name.data-v-6b8c2ece{
+		font-size: 32rpx;
+		color: #101D36;
+}
+.bottom_comp_name.data-v-6b8c2ece{
+        font-size:26rpx;
+        color:#89909d;
+        text-align:left;
+        margin-top:15rpx;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+}
+.bottom_agent_star.data-v-6b8c2ece{
+		margin-top: 10rpx;
+}
+.bottom_agent_star>image.data-v-6b8c2ece{
+		width: 22rpx;
+		height: 20rpx;
+		margin: 0 2rpx 0 0;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+}
+.bottom_agent_star_empty.data-v-6b8c2ece{
+        height: 20rpx;
+        margin-top: 10rpx;
+}
+.bottom_link_me_take.data-v-6b8c2ece{
+        width: 100%;
+        height:100rpx;
+        border-radius:10rpx;
+		will-change: transform;
+		background-color: #ffd900;
+        box-sizing: border-box;
+        font-size:30rpx;
+        text-align:center;
+        color:#101d36;
+        line-height:100rpx;
+        margin: auto 0 auto 14rpx;
+		font-weight: bold;
+}
+.bottom_agent_btn.data-v-6b8c2ece{
+		width:100%;
+		height:100rpx;
+		border-radius:10rpx;
+		will-change: transform;
+		background-image: -webkit-linear-gradient(left,
+		rgba(61, 61, 61, 0.9) 0%,
+		rgba(61, 61, 61, 0.95) 0%,
+		#3d3d3d 0%,
+		#000000 100%),
+		-webkit-linear-gradient(
+				#ff6600,
+				#ff6600);
+		background-image: linear-gradient(90deg,
+		rgba(61, 61, 61, 0.9) 0%,
+		rgba(61, 61, 61, 0.95) 0%,
+		#3d3d3d 0%,
+		#000000 100%),
+		linear-gradient(
+				#ff6600,
+				#ff6600);
+		background-blend-mode:normal, normal;
+		box-sizing: border-box;
+		font-size:30rpx;
+		text-align:center;
+		color:#ffd900;
+		line-height:100rpx;
+		margin: auto 0 auto 14rpx;
+		font-weight: bold;
+}
+.bottom_link_me.data-v-6b8c2ece{
+		background-color: #ffd900;
+		width:100%;
+        height:100rpx;
+        border-radius:10rpx;
+		will-change: transform;
+        background-blend-mode:normal, normal;
+        box-sizing: border-box;
+        font-size:30rpx;
+        text-align:center;
+        color:#101d36;
+        line-height:100rpx;
+        margin: auto 0;
+		font-weight: bold;
+}
+

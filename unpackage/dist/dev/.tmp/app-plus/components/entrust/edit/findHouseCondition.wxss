@@ -1,0 +1,113 @@
+
+.find_house_condition_view.data-v-8dc5df52 {
+  margin-right: -40rpx;
+}
+.find_house_condition_item.data-v-8dc5df52 {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-bottom: 1rpx solid #ececec;
+  box-sizing: border-box;
+  padding-right: 40rpx;
+}
+.find_house_condition_label.data-v-8dc5df52 {
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  font-size: 30rpx;
+  color: #7b8190;
+}
+.find_house_condition_val_view.data-v-8dc5df52 {
+  width: 100%;
+}
+.find_house_condition_val.data-v-8dc5df52 {
+  position: relative;
+  font-size: 30rpx;
+  color: #101e34;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 90%;
+}
+.find_house_condition_arrow.data-v-8dc5df52 {
+  width: 44rpx;
+  height: 44rpx;
+  margin: auto 0;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.fin_house_condition_des_view.data-v-8dc5df52 {
+  padding-right: 40rpx;
+  padding-top: 30rpx;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+.fin_house_condition_img.data-v-8dc5df52 {
+  height: 140rpx;
+  box-sizing: border-box;
+  width: 100%;
+}
+.fin_house_condition_text.data-v-8dc5df52 {
+  text-align: left;
+  color: #79838f;
+  font-size: 24rpx;
+  box-sizing: border-box;
+  line-height: 38rpx;
+  margin: 25rpx auto;
+  width: 100%;
+}
+.condition_bottom.data-v-8dc5df52 {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 30rpx 40rpx 0;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+}
+.bind_phone.data-v-8dc5df52 {
+  border: none;
+  background: none;
+  padding: 0;
+  text-align: center;
+}
+.bind_phone.data-v-8dc5df52::after {
+  border: none;
+  border-radius: 0;
+}
+.condition_bottom view.data-v-8dc5df52 {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 8px;
+  will-change: transform;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #fff;
+  height: 90rpx;
+  line-height: 90rpx;
+  letter-spacing: 1px;
+}
+.condition_bottom .rewardEntrustBtn.data-v-8dc5df52 {
+  background: -webkit-linear-gradient(left, #fe8f0d, #fe712d);
+  margin-bottom: 20rpx;
+}
+.condition_bottom .commonEntrustBtn.data-v-8dc5df52 {
+  background: #eef1f1;
+  margin-bottom: 50rpx;
+  text-align: center;
+  border-radius: 8px;
+  will-change: transform;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #fff;
+  height: 90rpx;
+  line-height: 90rpx;
+  letter-spacing: 1px;
+}
+.condition_bottom_empty.data-v-8dc5df52 {
+  height: 280rpx;
+  width: 100%;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+

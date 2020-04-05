@@ -1,0 +1,32 @@
+{
+  "navigationBarTitleText": "",
+  "usingComponents": {
+    "loading-data": "/components/loadingData",
+    "login-view": "/components/loginView",
+    "evaluate": "/components/entrust/detail/evaluate",
+    "img-receive-view": "/pagesTool/components/im/receive/imgReceiveView",
+    "text-receive-view": "/pagesTool/components/im/receive/textReceiveView",
+    "voice-receive-view": "/pagesTool/components/im/receive/voiceReceiveView",
+    "entrust-receive-view": "/pagesTool/components/im/receive/entrustReceiveView",
+    "position-receive-view": "/pagesTool/components/im/receive/positionReceiveView",
+    "house-receive-view": "/pagesTool/components/im/receive/houseReceiveView",
+    "house-liao-ke-receive-view": "/pagesTool/components/im/receive/houseLiaoKeReceiveView",
+    "video-receive-view": "/pagesTool/components/im/receive/videoReceiveView",
+    "text-me-view": "/pagesTool/components/im/me/textMeView",
+    "voice-me-view": "/pagesTool/components/im/me/voiceMeView",
+    "img-me-view": "/pagesTool/components/im/me/imgMeView",
+    "house-me-view": "/pagesTool/components/im/me/houseMeView",
+    "evaluate-me-view": "/pagesTool/components/im/me/evaluateMeView",
+    "video-me-view": "/pagesTool/components/im/me/videoMeView",
+    "house-wu-ye-me-view": "/pagesTool/components/im/me/houseWuYeMeView",
+    "house-wu-ye-text-me-view": "/pagesTool/components/im/me/houseWuYeTextMeView",
+    "head-view": "/pagesTool/components/im/headView",
+    "send-msg": "/pagesTool/components/im/sendMsg",
+    "send-house-link": "/pagesTool/components/im/me/sendHouseLink",
+    "take-phone": "/pagesTool/components/im/takePhone",
+    "coupon-view": "/pagesTool/components/im/couponView",
+    "go-back-home-page": "/components/goBackHomePage",
+    "recomend-house-list": "/pagesTool/components/im/recomendHouseList",
+    "evaluate-view": "/pagesTool/components/im/evaluateView"
+  }
+}

@@ -1,0 +1,246 @@
+
+.canvas_cityName{
+        position: relative;
+        color: #101D36;
+        font-size: 26rpx;
+        font-weight: normal;
+        text-align: right;
+        margin-left: 20rpx;
+}
+.canvas_point{
+        width: 12rpx;
+        height: 12rpx;
+        margin: auto 12rpx auto 0;
+        border-radius: 100%;
+        overflow: hidden;
+        background: #ff9f3e;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+}
+.top_view{
+		width: 100%;
+		height: 370rpx;
+		background: -webkit-linear-gradient(left, #ff8400 , #ab7f2e);
+		padding: 64rpx 0 0 40rpx;
+		box-sizing: border-box;
+}
+.top_price_view{
+		color: #101d36;
+		margin-top: 18rpx;
+		min-height: 94rpx;
+}
+.no_price{
+        font-size: 40rpx!important;
+}
+.top_price{
+		font-size: 94rpx;
+		font-weight: bold;
+        position: relative;
+        top: 16rpx;
+}
+
+.top_price_unit{
+		margin-right: 17rpx;
+}
+.top_build_name{
+		font-size: 30rpx;
+		line-height: 60rpx;
+		font-weight: bold;
+		color: #101d36;
+		margin-top: 28rpx;
+}
+.top_house_des{
+		line-height: 44rpx;
+		margin-top: 6rpx;
+		color: #101d36;
+		font-size: 30rpx;
+}
+.top_house_room{
+		padding-right: 16rpx;
+		box-sizing: border-box;
+		position: relative;
+}
+.top_house_room::after,.top_house_area::after{
+		content: "";
+		position: absolute;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		        transform: translateY(-50%);
+		right: 0;
+		width: 2rpx;
+		height: 21rpx;
+		background: #706820;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+}
+.no_chart_view{
+        height: 30rpx;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+        width: 100%;
+}
+.top_house_area{
+		padding: 0 16rpx;
+		box-sizing: border-box;
+		position: relative;
+}
+.top_house_floor{
+		padding-left: 16rpx;
+		box-sizing: border-box;
+}
+    /* 价格走势 */
+.price_trend_view{
+		position:relative;
+		width:100%;
+		margin-top:30rpx;
+		box-sizing:border-box;
+		background-color:#FFFFFF;
+		margin-bottom:20rpx;
+}
+.price_trend_title{
+		width:100%;
+		height:86rpx;
+		color:#101d36;
+		font-size:34rpx;
+		padding-left:40rpx;
+		box-sizing:border-box;
+		line-height:86rpx;
+		padding-right:40rpx;
+}
+.price_trend{
+		height:230px;
+		border-bottom:10px solid #f6f6f6;
+		position:relative;
+		padding-left:19rpx;
+		padding-right:40rpx;
+		margin-bottom:40rpx;
+		display:-webkit-box;
+		display:-webkit-flex;
+		display:flex;
+        padding-bottom: 20rpx;
+		box-sizing:border-box;
+}
+    /* 房源 */
+    /* .er_last_item >>> .er_house_item {
+		border-bottom: none;
+	} */
+.house_list_view{
+		padding: 0 40rpx;
+		box-sizing: border-box;
+		width: 100%;
+		background: #FFFFFF;
+}
+.house_list_title{
+		line-height: 60rpx;
+		color: #101D36;
+		font-size: 36rpx;
+		font-weight: bold;
+}
+.look_more{
+		font-size: 24rpx;
+		color: #7A8190;
+		font-weight: normal;
+}
+.right_arrow{
+		width: 14rpx;
+		height: 24rpx;
+		margin: auto 0 auto 11rpx;
+}
+    /* 底部按钮 */
+.bootom_view{
+		padding: 0 40rpx;
+		background: #FFFFFF;
+		z-index: 99999;
+		position: fixed;
+		left: 0;
+		width: 100%;
+		bottom: 0;
+		height: 140rpx;
+		box-sizing: border-box;
+}
+.dai_kuan_view{
+		width:235rpx;
+		text-align:center;
+		margin-right:30rpx;
+		-webkit-flex-shrink:0;
+		        flex-shrink:0;
+}
+.dai_kuan_icon{
+		width:44rpx;
+		height:47rpx;
+		-webkit-flex-shrink:0;
+		        flex-shrink:0;
+		margin:0 auto;
+}
+.dai_kuan_text{
+		color:#101d36;
+		font-size:26rpx;
+		margin-top:10rpx;
+}
+.want_view{
+		width: 100%;
+}
+.want_view view{
+		width:100%;
+		height:100rpx;
+		line-height:100rpx;
+		border-radius:10rpx;
+		box-sizing:border-box;
+		overflow:hidden;
+		text-align:center;
+		color:#FFFFFF;
+		font-size:30rpx;
+		margin:auto 0;
+		font-weight:bold;
+}
+.want_view .want_buy{
+		background:#ff9402;
+		background:-webkit-linear-gradient(left, #ffcb00 , #ff9402);
+		margin-right:14rpx;
+}
+.want_view .want_lease{
+		background:#ab7f2e;
+		background:-webkit-linear-gradient(left, #ff8400 , #ab7f2e);
+}
+.empty_bottom{
+		height: 180rpx;
+		width: 100%;
+}
+.expert_view{
+		padding: 40rpx;
+		box-sizing: border-box;
+}
+    /* 暂无数据 */
+.no-data-box,.loading_mask{
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		background: #fff;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 100000;
+}
+.no-img{
+		position: relative;
+		top: 300rpx;
+		margin: 0 auto;
+		width: 298rpx;
+		height: 322rpx;
+		background: url(http://cdn.haofang.net/static/uuminiapp/trendImg/no-data_new.png)no-repeat center;
+		background-size: 100%;
+}
+.goback-btn{
+		position: relative;
+		top: 350rpx;
+		margin: 0 auto;
+		width: 288rpx;
+		height: 90rpx;
+		text-align: center;
+		line-height: 90rpx;
+		background:-webkit-linear-gradient(left, #ff8400 , #ab7f2e);
+		color: #FFFFFF;
+		font-size:30rpx;
+		border-radius: 10rpx;
+}
+

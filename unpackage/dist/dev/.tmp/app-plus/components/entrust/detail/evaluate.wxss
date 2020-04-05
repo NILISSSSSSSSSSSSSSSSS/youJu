@@ -1,0 +1,175 @@
+
+.evaluate_tc_view.data-v-4f592fd5{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+.evaluate_item_view.data-v-4f592fd5{
+	background: #FFFFFF;
+}
+.evaluate_item_title.data-v-4f592fd5{
+	position:relative;
+	text-align:center;
+	font-size:36rpx;
+	color:#000;
+	height:128rpx;
+	line-height:128rpx;
+	border-bottom:1rpx solid #ddd;
+}
+.evaluate_item_close.data-v-4f592fd5{
+	position:absolute;
+	top:50%;
+	margin-top: -13rpx;
+	right:30rpx;
+	width: 26rpx;
+	height: 26rpx;
+	font-weight: 400;
+}
+.unreal_house_btn.data-v-4f592fd5{
+	width:156rpx;
+	height:64rpx;
+	margin-right: 36rpx;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-image: url(http://cdn.haofang.net/static/uuminiapp/entrustDetail/ic_unselect_fake_source.png);
+}
+.real_house_btn.data-v-4f592fd5{
+	width:156rpx;
+	height:64rpx;
+	background-size:100%;
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-image: url(http://cdn.haofang.net/static/uuminiapp/entrustDetail/ic_unselect_real_source.png);
+}
+.real_house_view .unreal_selected.data-v-4f592fd5{
+	background-image: url(http://cdn.haofang.net/static/uuminiapp/entrustDetail/ic_select_fake_source.png);
+}
+.real_house_view .real_selected.data-v-4f592fd5{
+	background-image: url(http://cdn.haofang.net/static/uuminiapp/entrustDetail/ic_select_real_source.png);
+}
+.evaluate_item_cont.data-v-4f592fd5{
+	padding: 66rpx 70rpx 0;
+	box-sizing: border-box;
+}
+/* 假房源原因 */
+.unreal_house_reason.data-v-4f592fd5{
+	margin:40rpx auto 70rpx;
+	-webkit-flex-wrap:wrap;
+	        flex-wrap:wrap;
+}
+.unreal_house_reason_item.data-v-4f592fd5{
+	width: 47%;
+	height:60rpx;
+	line-height:60rpx;
+	font-size:26rpx;
+	text-align:center;
+	border:1rpx solid #ddd;
+	border-radius:4rpx;
+	color:#999;
+	position:relative;
+	box-sizing:border-box;
+	margin-right: 6%;
+	margin-bottom: 26rpx;
+}
+.unreal_house_reason .unreal_house_reason_item.data-v-4f592fd5:nth-child(2n) {
+	margin-right: 0;
+}
+.unreal_house_reason .unreal_house_reason_active.data-v-4f592fd5{
+	border:1rpx solid #333;
+	color:#333;
+	background-color:#f6f6f6;
+}
+/* textarea */
+.unreal_textarea.data-v-4f592fd5{
+	position:relative;
+	width: 100%;
+	height:166rpx;
+	overflow:hidden;
+	margin:0 auto 38rpx
+}
+.house_textarea.data-v-4f592fd5{
+	background-color:#f1f1f1;
+	width:100%;
+	height:100%;
+	font-size:28rpx;
+	border-radius:8rpx;
+	padding:15rpx 20rpx;
+	box-sizing:border-box;
+	color:#000;
+}
+.house_textarea_num.data-v-4f592fd5{
+	font-size:26rpx;
+	position:absolute;
+	right:15rpx;
+	bottom:18rpx;
+	color:#888;
+}
+/* 假房源提交 */
+.unreal_submit.data-v-4f592fd5{
+	width: 100%;
+	height:70rpx;
+	line-height:70rpx;
+	font-size:30rpx;
+	border-radius:8rpx;
+	text-align:center;
+	color:white;
+	background:orangered;
+	margin:0 auto 60rpx;
+}
+/* 真房源title */
+.real_house_title.data-v-4f592fd5{
+	text-align:center;
+	font-size:26rpx;
+	color:#333;
+	width: 100%;
+	margin: 50rpx auto 65rpx;
+	line-height:40rpx;
+}
+.attitude_star_img.data-v-4f592fd5{
+	width: 50rpx;
+	height: 50rpx;
+	margin: auto 10rpx auto 0;
+}
+.house_star_view.data-v-4f592fd5{
+	width: 100%;
+	margin:0 auto;
+	margin-bottom:35rpx;
+	color:#999;
+	font-size:33rpx;
+	height:50rpx;
+	line-height:50rpx;
+	box-sizing: border-box;
+}
+.attitude_star_view.data-v-4f592fd5{
+	padding-left: 20rpx;
+	box-sizing: border-box;
+	margin: auto 0;
+}
+/* 真房源底部btn */
+.real_btn_view_bottom.data-v-4f592fd5{
+	height:160rpx;
+	overflow:hidden;
+	margin:0 auto;
+}
+.real_btn_view_bottom view.data-v-4f592fd5{
+	position:relative;
+	width:45%;
+	height:70rpx;
+	line-height:70rpx;
+	font-size:30rpx;
+	border-radius:8rpx;
+	text-align:center;
+}
+.real_bottom_no_want.data-v-4f592fd5{
+	background:#fcad08;
+}
+.real_bottom_want.data-v-4f592fd5{
+	background:orangered;
+	color:white;
+}
+

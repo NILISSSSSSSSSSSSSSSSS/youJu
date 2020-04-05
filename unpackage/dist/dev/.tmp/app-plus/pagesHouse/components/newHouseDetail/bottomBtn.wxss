@@ -1,0 +1,254 @@
+
+.bottom_btn.data-v-aadedd20{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		height: 140rpx;
+		width: 100%;
+		background: #FFFFFF;
+		box-shadow: 0px -1rpx 32rpx 0rpx  rgba(97, 97, 97, 0.11);
+		/* padding: 0 40upx; */
+		box-sizing: border-box;
+        z-index: 100;
+}
+.x_bottom.data-v-aadedd20{
+		height: 180rpx!important;
+}
+.collect_view_new.data-v-aadedd20{
+	    -webkit-flex-shrink: 0;
+	            flex-shrink: 0;
+	    position:relative;
+	    font-size:28rpx;
+		width: 100%;
+        -webkit-flex-shrink: 1;
+                flex-shrink: 1;
+	    color:#101D36;
+	    text-align:center;
+		height: 140rpx;
+}
+.collect_img_new.data-v-aadedd20{
+	    margin:0 auto 8rpx;
+	    width:38rpx;
+	    height:38rpx;
+}
+.collect_text_new.data-v-aadedd20{
+	    color:#101D36;
+	    font-size:22rpx;
+		line-height: 33rpx;
+	    text-align:center;
+}
+.bottom_cont.data-v-aadedd20{
+		height: 140rpx;
+				-webkit-flex-shrink: 0;
+				        flex-shrink: 0;
+				margin-right: 40rpx;
+}
+.bottom_btn_click.data-v-aadedd20{
+		width:230rpx;
+		height:100rpx;
+		border-radius:10rpx;
+		will-change: transform;
+		font-size:30rpx;
+		text-align:center;
+		color:#fff;
+		line-height:100rpx;
+		font-weight:bold;
+		margin: auto 0;
+}
+.bottom_btn .back_index.data-v-aadedd20{
+		background:-webkit-linear-gradient(left, rgb(255, 132, 0), rgb(255, 84, 0));
+}
+.bottom_btn .zi_xun.data-v-aadedd20{
+		background:-webkit-linear-gradient(left, rgb(255, 203, 0), rgb(255, 148, 2));
+		margin-right: 14rpx;
+}
+.bottom_btn .zi_xun_one.data-v-aadedd20{
+		background:-webkit-linear-gradient(left, rgb(255, 132, 0), rgb(255, 84, 0));
+		width: 402rpx;
+}
+	/* 置业顾问 */
+.gu_wen_fixed.data-v-aadedd20{
+		position:fixed;
+		width:100%;
+		height:100%;
+		top:0;
+		left:0;
+		background:rgba(0, 0, 0, 0.5);
+		z-index:100;
+}
+.gu_wen_info.data-v-aadedd20{
+		background:#fff;
+		position:absolute;
+		width:100%;
+		bottom:0;
+		left:0;
+}
+.gu_wen_title.data-v-aadedd20{
+		border-bottom:1rpx solid #d6d6d6;
+		box-sizing: border-box;
+}
+.gu_wen_title_text.data-v-aadedd20{
+		height:103rpx;
+		line-height:103rpx;
+		font-size:30rpx;
+		color:#404040;
+		padding-left:43rpx;
+		letter-spacing:1px;
+}
+.gu_wen_title_close.data-v-aadedd20{
+		width:103rpx;
+		height:103rpx;
+		line-height:103rpx;
+		text-align:center;
+		color:#5d5d5d;
+		font-size:40rpx;
+}
+.gu_wen_list_view.data-v-aadedd20{
+		padding-top:38rpx;
+		box-sizing: border-box;
+}
+.gu_wen_list_view .gu_wen_list.data-v-aadedd20{
+		height:400rpx!important;
+		width: 100%;
+}
+.gu_wen_list_item.data-v-aadedd20{
+		width: 100%;
+		height: 100%;
+}
+.gu_wen_item_head_view.data-v-aadedd20{
+		width:154rpx;
+		height:154rpx;
+		overflow:hidden;
+		border-radius:77rpx;
+		will-change: transform;
+		margin:0 auto;
+}
+.gu_wen_item_head_view>image.data-v-aadedd20{
+		width:100%;
+		height:100%;
+}
+.gu_wen_item_name.data-v-aadedd20{
+		color:#000;
+		letter-spacing:1px;
+		font-size:28rpx;
+		line-height:1;
+		padding-top:42rpx;
+		padding-bottom:10rpx;
+		text-align:center;
+}
+.gu_wen_item_star_view.data-v-aadedd20{
+		margin: auto 0;
+}
+.gu_wen_item_star.data-v-aadedd20{
+		height: 23rpx;
+		width: 23rpx;
+		margin-right: 5rpx;
+}
+.gu_wen_item_star_num.data-v-aadedd20{
+		background:#feae00;
+		color:#fff;
+		font-size:20rpx;
+		line-height:1;
+		padding:7rpx 14rpx;
+		border-radius:8rpx;
+		will-change: transform;
+		margin: auto 0 auto 15rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+}
+.gu_wen_item_des.data-v-aadedd20{
+		width:515rpx;
+		text-align:center;
+		color:#606060;
+		line-height:34rpx;
+		margin:10rpx auto;
+		font-size:24rpx;
+}
+.gu_wen_list_btn.data-v-aadedd20{
+		width:100%;
+		height:156rpx;
+		box-sizing:border-box;
+		border-bottom:1rpx solid #eee;
+		border-top:1rpx solid #eee;
+		display:-webkit-box;
+		-webkit-box-align:center;
+		-webkit-box-pack:center;
+		padding:0 34rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+}
+.gu_wen_btn_view.data-v-aadedd20{
+		-webkit-box-flex:1;
+		text-align:center;
+		color:#666;
+		font-size:26rpx;
+		width:100%;
+}
+.gu_wen_online_img.data-v-aadedd20{
+		width: 62rpx;
+		height: 62rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		margin: 0 auto 8rpx;
+}
+.gu_wen_wifi_img.data-v-aadedd20{
+		width: 52rpx;
+		height: 70rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		margin: 0 auto;
+}
+.gu_wen_tel_img.data-v-aadedd20{
+		width: 54rpx;
+		height: 60rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		margin: 0 auto 10rpx;
+}
+	/* 网络通话弹窗 */
+.wifi_chart_view.data-v-aadedd20{
+		position:fixed;
+		top:50%;
+		left:50%;
+		width:600rpx;
+		-webkit-transform:translate(-50%, -50%);
+		        transform:translate(-50%, -50%);
+		z-index:9999;
+		box-sizing:border-box;
+		border-radius:5px;
+		will-change: transform;
+		background:#fff;
+}
+.wifi_chart_top_img.data-v-aadedd20{
+		width:582rpx;
+		height:265rpx;
+		background:url(http://cdn.haofang.net/static/uuminiapp/im/d-top.png) no-repeat center;
+		background-size:100%;
+		margin:10rpx auto;
+}
+.wifi_chart_title.data-v-aadedd20{
+		font-size:30rpx;
+		padding-top:30rpx;
+		margin-bottom:10rpx;
+		text-align:center;
+		font-weight:bold;
+}
+.wifi_chart_des.data-v-aadedd20{
+		font-weight:normal;
+		color:#6b6f84;
+		font-size:26rpx;
+		text-align:center;
+}
+.wifi_chart_btn.data-v-aadedd20{
+		background:#01ca86;
+		color:#fff;
+		font-size:32rpx;
+		width:490rpx;
+		height:90rpx;
+		line-height:90rpx;
+		text-align:center;
+		margin:40rpx auto;
+		border-radius:8rpx;
+		will-change: transform;
+}
+

@@ -1,0 +1,121 @@
+
+.top_name_view.data-v-856412b2{
+        padding: 0 40rpx;
+        box-sizing: border-box;
+        background-color: #FFFFFF;
+}
+.house_name.data-v-856412b2{
+		margin-top: 40rpx;
+        font-size:48rpx;
+		font-weight: bold;
+        -webkit-box-flex:1;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:normal;
+        font-weight:bold;
+        display:-webkit-box;
+        -webkit-box-orient:vertical;
+        -webkit-line-clamp:2;
+        -webkit-box-pack:center;
+        box-sizing:border-box;
+		font-size:48rpx;
+		color: #101D36;
+		padding-right: 20rpx;
+}
+    /* 售价+户型+面积 */
+.price_view.data-v-856412b2{
+        background:#ffffff;
+        color:#89909d;
+        box-sizing: border-box;
+        width: calc(100% + 80rpx);
+		margin-left: -40rpx;
+        margin-top: 55rpx;
+		text-align: left;
+}
+.price_view_item.data-v-856412b2{
+		padding-left: 40rpx;
+		box-sizing: border-box;
+		width: 100%;
+		text-align: left;
+		position: relative;
+		height: 70rpx;
+		padding-right: 10rpx;
+		font-family: PingFang-SC-Heavy;
+}
+.price_view_item.data-v-856412b2::after{
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 2rpx;
+		background: #EEEEEE;
+}
+.price_view>.price_view_item.data-v-856412b2:last-child::after{
+		content: "";
+		width: 0;
+		display: none;
+}
+.totalPrice.data-v-856412b2{
+        font-size: 40rpx;
+		line-height: 44rpx;
+		font-weight: bold;
+        white-space: nowrap;
+}
+.totalPrice_text.data-v-856412b2{
+		font-size: 24rpx;
+		color: #8E94A1;
+		margin-bottom: -10rpx;
+}
+
+.tags_view.data-v-856412b2{
+        font-size:22rpx;
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+		margin-top: 15rpx;
+}
+.tags_view view.data-v-856412b2{
+        white-space: nowrap;
+        font-size:22rpx;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        color:#7991a6;
+        background:#edf0f3;
+        padding:4rpx 10rpx 6rpx;
+        border-radius:2rpx;
+		will-change: transform;
+        margin-right:10rpx;
+        box-sizing: border-box;
+}
+
+.tags_view .redTag.data-v-856412b2{
+		background: #fe6363!important;
+		color: #FFFFFF!important;
+}
+.street_cont.data-v-856412b2{
+		border-bottom: 1rpx solid #F5F5F5;
+}
+.rent_view.data-v-856412b2{
+		padding-bottom: 30rpx;
+}
+.street_view.data-v-856412b2{
+		margin-top: 74rpx;
+		padding-bottom: 30rpx;
+		box-sizing: border-box;
+}
+.street_title.data-v-856412b2{
+		margin-right: 8rpx;
+		color: #8e94a1;
+}
+.street_text.data-v-856412b2{
+		color: #101D36;
+}
+

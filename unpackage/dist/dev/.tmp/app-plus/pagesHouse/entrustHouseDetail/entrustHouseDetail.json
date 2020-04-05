@@ -1,0 +1,25 @@
+{
+  "navigationBarTitleText": "",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "house-detail-loading": "/components/houseDetailLoading",
+    "get-user-info": "/components/getUserInfoView",
+    "new-msg-view": "/components/newMsgView",
+    "house-swiper": "/pagesHouse/components/houseSwiper",
+    "top-name": "/pagesHouse/components/erHouseDetail/topName",
+    "house-des": "/pagesHouse/components/erHouseDetail/houseDes",
+    "hou-money-pay-every-month": "/pagesHouse/components/erHouseDetail/houMoneyPayEveryMonth",
+    "title-view": "/pagesHouse/components/erHouseDetail/titleView",
+    "build-des": "/pagesHouse/components/erHouseDetail/buildDes",
+    "price-trend": "/pagesHouse/components/erHouseDetail/priceTrend",
+    "traffic-info": "/pagesHouse/components/erHouseDetail/trafficInfo",
+    "near-info": "/pagesHouse/components/erHouseDetail/nearInfo",
+    "near-map-view": "/pagesHouse/components/erHouseDetail/nearMapView",
+    "near-er-house": "/pagesHouse/components/erHouseDetail/nearErHouse",
+    "near-new-house": "/pagesHouse/components/erHouseDetail/nearNewHouse",
+    "build-expert": "/pagesHouse/components/erHouseDetail/buildExpert",
+    "gua-pai-agent-list": "/pagesHouse/components/erHouseDetail/guaPaiAgentList",
+    "bottom-btn": "/pagesHouse/components/erHouseDetail/bottomBtn",
+    "pei-tao-she-shi": "/pagesHouse/components/erHouseDetail/peiTaoSheShi"
+  }
+}

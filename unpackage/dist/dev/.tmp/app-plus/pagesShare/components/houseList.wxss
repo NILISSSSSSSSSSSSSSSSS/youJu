@@ -1,0 +1,119 @@
+
+.m-list-ul{
+    height: 100%;
+    position: relative;
+    padding-left: 36rpx;
+    overflow: hidden;
+}
+.m-list-item{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-bottom: 1rpx solid #ececec;
+    padding: 36rpx 0;
+    position: relative;
+}
+.m-list-item:last-child{
+    border-bottom: none !important;
+}
+.m-round{
+    display: block;
+    position: absolute;
+    left: -36rpx;
+    top: 36rpx;
+    width: 14rpx;
+    height: 14rpx;
+    background-color: #e6e6e6;
+    border: 2rpx solid #fff;
+    border-radius: 50%;
+}
+.m-round-line{
+    display: block;
+    position: absolute;
+    left: -29rpx;
+    top: 60rpx;
+    width: 2rpx;
+    height: 210rpx;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+}
+.m-list-item:last-child:after{
+    display: block;
+    content: '';
+    clear: both;
+    position: absolute;
+    left: -29rpx;
+    top: 60rpx;
+    width: 1rpx;
+    height: 100%;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+}
+.u-item-image{
+    width: 216rpx;
+    height: 164rpx;
+    background: url(http://cdn.haofang.net/static/wxPlusApp/yjk/house/house_list_default.png?t=20190717) #f8f8f8 no-repeat center;
+    background-size: cover;
+    float: left;
+    position: relative;
+    margin-right: 33rpx;
+    border-radius: 4rpx;
+}
+.u-item-image image{
+    width: 100%;
+    height: 100%;
+    border-radius: 4rpx;
+}
+.u-item-label{
+    width: 93rpx !important;
+    height: 34rpx !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.u-item-info{
+    overflow: hidden;
+    height: auto;
+}
+.not-look{
+    color: #b9bdc1 !important;
+}
+.u-info-build-name{
+    font-size: 34rpx;
+    color: #101d36;
+    font-weight: bold;
+}
+.u-info-build-info{
+    font-size: 26rpx;
+    color: #101d37;
+    padding-top: 9rpx;
+}
+.u-info-build-info text{
+    border-right: 1rpx solid #babfc5;
+    padding: 0 10rpx;
+}
+.u-info-build-info text:first-child{
+    padding-left: 0rpx !important;
+    padding-right: 10rpx;
+}
+.u-info-build-info text:last-child{
+    border-right: none;
+}
+.u-info-build-price{
+    padding-top: 11rpx;
+}
+.u-total-price{
+    color: #ab7f2e;
+    font-size: 34rpx;
+    font-weight: bold;
+}
+.u-total-price-unit{
+    font-size: 24rpx !important;
+    font-weight: normal;
+}
+.u-average-price{
+    font-size: 24rpx;
+    color: #8e94a1;
+    padding-left: 14rpx;
+}
+

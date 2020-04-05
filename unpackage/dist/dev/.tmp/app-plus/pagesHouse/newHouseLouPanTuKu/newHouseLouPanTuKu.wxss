@@ -1,0 +1,86 @@
+
+.lou_pan_view{
+		padding: 40rpx 0 40rpx 40rpx;
+		box-sizing: border-box;
+		width: 100%;
+}
+.lou_pan_item{}
+.lou_pan_text{
+		height:70rpx;
+		box-sizing:border-box;
+		padding:12rpx 0 28rpx 0;
+		font-size:30rpx;
+		line-height:30rpx;
+		color:rgb(51,51,51);
+}
+.lou_pan_cont{
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+}
+.lou_pan_img{
+		width:33%;
+		padding-right:30rpx;
+		padding-bottom:30rpx;
+		overflow:hidden;
+		height:210rpx;
+		box-sizing:border-box;
+		background:url(http://cdn.haofang.net/static/wxPlusApp/yjk/house/house_list_default.png?t=20190716) no-repeat center center;
+		background-size:contain;
+}
+.lou_pan_img>image{
+		width: 100%;
+		height: 100%;
+}
+	/* 查看大图 */
+.max_img_view{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: #000000;
+        overflow: hidden;
+}
+.max_img_swiper{
+		position: fixed;
+		top: 50%;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		height: 100%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+}
+.max_img_swiper_item{
+		width: 100%;
+}
+.max_img_url{
+		width: 100%;
+}
+.max_img_btn{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height:120rpx;
+        white-space: nowrap;
+		background:#000;
+}
+.max_img_btn .max_img_btn_active{
+		border-color:#1bc964;
+		color:#1bc964;
+}
+.max_img_btn_text{
+		padding:0 20rpx;
+		height:50rpx;
+		line-height:50rpx;
+		text-align:center;
+		border:1px solid #000;
+		border-radius:32rpx;
+		will-change: transform;
+		color:#fff;
+		font-size:30rpx;
+		margin:0 22rpx;
+        display: inline-block;
+}
+

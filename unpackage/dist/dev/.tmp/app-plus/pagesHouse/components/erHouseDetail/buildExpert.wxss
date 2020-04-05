@@ -1,0 +1,35 @@
+
+.build_expert_view.data-v-c28dd1c0{
+	padding: 20rpx 40rpx 0;
+	box-sizing: border-box;
+}
+.build_expert.data-v-c28dd1c0{
+	width: 100%;
+	border-radius: 10rpx;
+	/*box-shadow:0 0 20upx #E2E2E2;*/
+}
+.he_house_title.data-v-c28dd1c0{
+	color: #9097a7;
+	font-size: 24rpx;
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.he_house_title.data-v-c28dd1c0::after{
+	content: "";
+	width: 100%;
+	box-sizing: border-box;
+	height: 1rpx;
+	background-color: #F5F5F5;
+	margin: auto 0 auto 24rpx;
+}
+.he_house_title_text.data-v-c28dd1c0{
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.bulid_cont.data-v-c28dd1c0{
+	padding: 18rpx 26rpx 0;
+	box-sizing: border-box;
+}
+

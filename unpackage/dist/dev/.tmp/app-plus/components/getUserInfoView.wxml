@@ -1,0 +1,1 @@
+<block wx:if="{{isShow}}"><view class="userInfo_view_cont data-v-5c2c7152"><button class="userInfo_view f_r_s data-v-5c2c7152" hover-class="none" data-event-opts="{{[['tap',[['appPageToLogin',['$event']]]]]}}" bindtap="__e"></button></view></block>

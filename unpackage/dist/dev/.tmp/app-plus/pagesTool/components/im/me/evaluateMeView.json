@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "read-status": "/pagesTool/components/im/readStatus"
+  }
+}

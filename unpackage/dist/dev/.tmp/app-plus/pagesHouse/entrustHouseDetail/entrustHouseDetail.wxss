@@ -1,0 +1,54 @@
+
+page{
+		background: #FFFFFF;
+}
+.er_house_detail{
+        overflow-x: hidden;
+}
+.near_map_item{
+		height: 25rpx;
+}
+.position_near{
+		box-shadow: 0rpx 9rpx 32rpx -10rpx rgba(20, 20, 20, 0.07);
+		margin-bottom: 10rpx;
+}
+.near_house{
+		margin-bottom: 20rpx;
+}
+.look_more{
+		color: #7A8190;
+		font-size: 24rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		position: relative;
+		line-height: 54rpx;
+		margin: 57rpx 0 6rpx;
+		margin-right: 40rpx;
+		padding-right: 30rpx;
+}
+.look_more::after{
+		position: absolute;
+		content: '';
+		width: 15rpx;
+		height: 24rpx;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		        transform: translateY(-50%);
+		margin: auto;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		right: 0;
+		background: url(http://cdn.haofang.net/static/uuminiapp/index/l-jtt.png) center center no-repeat;
+		background-size: 100% 100%;
+}
+
+.bottom_btn_empty{
+		height: 140rpx;
+}
+.x_bottom_empty{
+		height: 180rpx!important;
+}
+.cont_empty_view{
+		height: 40rpx;
+}
+

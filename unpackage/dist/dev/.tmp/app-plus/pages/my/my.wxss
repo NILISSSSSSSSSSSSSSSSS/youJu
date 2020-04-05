@@ -1,0 +1,874 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 个人信息 */
+.my_view {
+  padding-top: 30rpx;
+  box-sizing: border-box;
+}
+.my_header_view {
+  width: 100%;
+  background: #fff;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0;
+  will-change: transform;
+  padding: 10rpx 0 10rpx 30rpx;
+}
+.my_header_view::after {
+  border: none;
+  border-radius: 0;
+}
+button.img_view, .img_view {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+  border: 2rpx solid #e2e2e2;
+  overflow: hidden;
+  box-sizing: border-box;
+  margin: auto 20rpx auto 0;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.img_view image {
+  width: 100%;
+  height: 100%;
+}
+.data_info {
+  position: relative;
+  width: 90%;
+}
+.up_top_info {
+  margin-top: 8rpx;
+  height: 35rpx;
+}
+.my_name {
+  height: 35rpx;
+  line-height: 35rpx;
+  font-size: 30rpx;
+  color: #333333;
+  font-weight: bold;
+  margin: auto 10rpx auto 0;
+}
+.bind_phone {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 26rpx;
+  color: #8e94a1;
+  border: none;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  background: #FFFFFF;
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  bottom: 10rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.bind_phone::after {
+  border: none;
+  border-radius: 0;
+}
+.up_data {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 24rpx;
+  color: #09b277;
+  height: 40rpx;
+  background: none;
+  margin: auto 0;
+}
+.up_data::after {
+  border: 0;
+}
+.up_data_img {
+  width: 44rpx;
+  height: 44rpx;
+  background: url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/btb_refresh.png) no-repeat center;
+  background-size: 100% 100%;
+}
+/* 功能 */
+.controls_view {
+  width: 100%;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 20rpx;
+  margin-top: 14rpx;
+}
+.controls_item {
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  width: 25%;
+  height: 190rpx;
+  color: #666666;
+  font-size: 26rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+.controls_img {
+  width: 68rpx;
+  height: 68rpx;
+  margin: 0 auto 20rpx;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.btn_edit {
+  height: 12px;
+  width: 13px;
+  background-position: 0 0;
+}
+.service_view .customeservice_icon {
+  height: 24px;
+  width: 24px;
+  background-position: -13px 0;
+}
+.service_view .phone_btn {
+  height: 24px;
+  width: 24px;
+  background-position: -37px 0;
+}
+.btb_refresh {
+  height: 29px;
+  width: 29px;
+  background-position: -61px 0;
+}
+.renthouse_btn {
+  background-image: url("http://cdn.haofang.net/static/wxPlusApp/yjk/me/renthouse_btn.png");
+}
+.rent_btn {
+  background-image: url("http://cdn.haofang.net/static/wxPlusApp/yjk/me/chuzu_btn.png");
+}
+.sellhouse_btn {
+  background-image: url("http://cdn.haofang.net/static/wxPlusApp/yjk/me/sellhouse_btn.png");
+}
+.buyhouse_btn {
+  background-image: url("http://cdn.haofang.net/static/wxPlusApp/yjk/me/buyhouse_btn.png");
+}
+.collect_btn {
+  background-image: url("http://cdn.haofang.net/static/wxPlusApp/yjk/me/collect_btn.png");
+}
+.guide_btn {
+  background-image: url("http://cdn.haofang.net/static/wxPlusApp/yjk/me/guide_btn.png");
+}
+.controls_text {
+  text-align: center;
+  color: #101d36;
+  font-size: 24rpx;
+}
+.empty_white {
+  height: 40rpx;
+  background-color: #FFFFFF;
+}
+/* 个人钱包 */
+.wallet {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  padding: 0 30rpx 30rpx;
+}
+.wallet_title {
+  position: relative;
+  width: 100%;
+  height: auto;
+  line-height: 104rpx;
+  box-sizing: border-box;
+  font-size: 30rpx;
+  color: #333;
+  font-weight: bold;
+  overflow: hidden;
+}
+.right_arrow {
+  width: 13rpx;
+  height: 24rpx;
+  margin: auto 0;
+}
+.wallet_cont {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 170rpx;
+  background-color: #ffffff;
+  box-shadow: 0 4rpx 33rpx 2rpx rgba(55, 55, 55, 0.1);
+  border-radius: 10rpx;
+  box-sizing: border-box;
+}
+.wallet_item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+  height: 100%;
+}
+.wallet_val_text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  margin-right: 10rpx;
+  position: relative;
+  top: 2px;
+  color: #333333;
+  font-size: 44rpx;
+}
+.wallet_val_unit {
+  font-size: 22rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.wallet_text {
+  margin-top: 20rpx;
+  font-size: 26rpx;
+  color: #666;
+}
+/* 个人服务 */
+.my_service_title {
+  padding-left: 30rpx;
+  box-sizing: border-box;
+}
+.my_service_cont {
+  margin-top: -30rpx;
+}
+.my_service_item {
+  position: relative;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  width: 25%;
+  height: 190rpx;
+  color: #101d36;
+  font-size: 26rpx;
+  text-align: center;
+  box-sizing: border-box;
+}
+.my_service_item_img {
+  width: 61rpx;
+  height: 61rpx;
+  margin: 0 auto 15rpx auto;
+}
+.my_service_cont .set_btn{
+  width: 48rpx;
+  height: 48rpx;
+  margin: 6.5rpx auto 21.5rpx auto;
+}
+/* 客服 */
+.service_view {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  padding-bottom: 40rpx;
+}
+.service_cont {
+  padding: 0 40rpx;
+  box-sizing: border-box;
+}
+.service_left::after {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+}
+.service_cont .service_cont_online {
+  margin-right: 30rpx;
+}
+.service_left {
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  -webkit-tap-highlight-color: initial;
+  overflow: hidden;
+  color: #101D36;
+  background-color: #f6f7f9;
+  width: 100%;
+  margin: 0;
+  height: 130rpx;
+  border-radius: 10rpx;
+}
+.service_icon {
+  width: 21.5px;
+  height: 21.5px;
+  margin: auto 14rpx auto 0;
+}
+.service_oen {
+  color: #101D36;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin: auto 0;
+}
+.service_two {
+  color: #7A8190;
+  font-size: 20rpx;
+  margin-top: 14rpx;
+}
+.phone_icon {
+  width: 21.5px;
+  height: 21.5px;
+  margin: auto 6px auto 0;
+}
+.service_icon, .phone_icon {
+  background: url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/mine_sprites.png) no-repeat;
+  background-size: 385px 34px;
+}
+.bind_phone_val {
+  font-size: 28rpx;
+  color: #8E94A1;
+  margin: auto 12rpx auto 0;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.bind_phone_img {
+  width: 26rpx;
+  height: 25rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  margin: auto 0;
+}
+

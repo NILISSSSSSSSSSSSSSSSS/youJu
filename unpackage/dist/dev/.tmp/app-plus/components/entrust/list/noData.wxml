@@ -1,0 +1,1 @@
+<view class="f_c_c no_data_view data-v-7a88f35a"><view class="no_data_img data-v-7a88f35a"></view><block wx:if="{{caseType}}"><view data-event-opts="{{[['tap',[['noDataBtn',['$event']]]]]}}" class="no_data_btn global-confirm-btn data-v-7a88f35a" bindtap="__e">{{caseTypeMap[caseType]?caseTypeMap[caseType].text:""}}</view></block></view>

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cmd-progress": "/components/upManage/cmd-progress/cmd-progress"
+  }
+}

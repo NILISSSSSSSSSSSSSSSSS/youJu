@@ -1,0 +1,33 @@
+
+page{
+    width: 100%;
+    height: 100%;
+}
+.login_view{
+    width: 100%;
+    height: 100%;
+    padding: 0 60rpx;
+    box-sizing: border-box;
+}
+.top_logo_view{
+    margin: 0 0 210rpx;
+}
+.top_logo{
+    width: 161rpx;
+    height: 222rpx;
+    margin: 0 auto;
+}
+.wx_author{
+    height: 96rpx;
+    background-color: #ffd900;
+    border-radius: 10rpx;
+    line-height: 96rpx;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: PingFangSC-Medium;
+    font-size: 32rpx;
+    font-weight: normal;
+    font-stretch: normal;
+    color: #101d36;
+}
+

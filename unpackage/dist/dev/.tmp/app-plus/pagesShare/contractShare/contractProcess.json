@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "交易进度",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "scroll-loading": "/components/scrollLoading",
+    "process-tc": "/pagesShare/components/contractInfo/processTc",
+    "process-top": "/pagesShare/components/contractInfo/processTop",
+    "process-list": "/pagesShare/components/contractInfo/processList",
+    "bottom-agent": "/pagesShare/components/contractInfo/bottomAgent"
+  }
+}

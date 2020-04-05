@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"web_view.",[1],"data-v-4fdee497{ background: #FFFFFF; }\n.",[1],"web.",[1],"data-v-4fdee497{ background: #FFFFFF; }\n",],undefined,{path:"./pagesWeb/fenQi/fenQi.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pagesWeb/fenQi/fenQi.wxml') } }));

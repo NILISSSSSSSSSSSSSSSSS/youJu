@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"web_view.",[1],"data-v-0c9601e6{ background: #FFFFFF; }\n.",[1],"web.",[1],"data-v-0c9601e6{ background: #FFFFFF; }\n",],undefined,{path:"./pagesWeb/standingOrder/standingOrder.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pagesWeb/standingOrder/standingOrder.wxml') } }));

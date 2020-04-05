@@ -1,0 +1,51 @@
+
+.er_house_detail{
+        overflow-x: hidden;
+}
+.near_map_item{
+		height: 25rpx;
+}
+.position_near{
+		box-shadow: 0rpx 9rpx 32rpx -10rpx rgba(20, 20, 20, 0.07);
+		margin-bottom: 10rpx;
+}
+.near_house{
+		margin-bottom: 20rpx;
+}
+.look_more{
+		color: #7A8190;
+		font-size: 24rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		position: relative;
+		line-height: 54rpx;
+		margin: 57rpx 0 6rpx;
+        padding-right: 40rpx;
+}
+.look_more>image{
+        width: 15rpx;
+        height: 24rpx;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+        position: relative;
+        top: -2rpx;
+        margin: auto 0 auto 10rpx;
+}
+.bottom_btn_empty{
+		height: 140rpx;
+}
+.x_bottom_empty{
+		height: 180rpx!important;
+}
+.cont_empty_view{
+		height: 40rpx;
+}
+.near_house{
+		margin-bottom: 20rpx;
+}
+.house_list_view{
+		margin-top: -40rpx;
+		padding: 0 40rpx;
+		box-sizing: border-box;
+}
+

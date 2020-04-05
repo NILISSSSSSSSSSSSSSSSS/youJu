@@ -1,0 +1,349 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 头部 */
+.entrust_top{
+	width:100%;
+	border-bottom:1rpx solid #f1f1f1;
+	padding: 20rpx;
+	position:relative;
+	box-sizing: border-box;
+}
+.entrust_casetype{
+	font-size: 28rpx;
+	color: #101D36;
+}
+.entrust_create_time{
+	color:#c6c6c6;
+	font-size:26rpx;
+	padding-left:20rpx;
+}
+.entrust_service_img{
+	width: 30rpx;
+	height: 30rpx;
+	margin: auto 0;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.entrust_service_text{
+	font-size: 26rpx;
+	color: #101D36;
+	padding-left: 10rpx;
+}
+/* 房源信息 */
+.track_house_view{
+	padding: 20rpx;
+	box-sizing: border-box;
+	width: 100%;
+	border-bottom:1rpx solid #f1f1f1;
+}
+.track_house_img{
+	width:160rpx;
+	height:120rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.track_house_img>image{
+	width: 100%;
+	height: 100%;
+}
+.track_house_info{
+	padding-left:20rpx;
+	box-sizing: border-box;
+	width: calc(100% - 165rpx);
+}
+.track_house_des{
+	width:90%;
+	overflow:hidden;
+	white-space:nowrap;
+	text-overflow:ellipsis;
+	font-size:28rpx;
+	color: #101D36;
+}
+.track_house_floor{
+	font-size:26rpx;
+	margin-top: 6rpx;
+	color:#999;
+}
+.track_house_botttom{
+	margin-top: 8rpx;
+	line-height: 30rpx;
+}
+.no_price_view{
+	width: 20rpx;
+}
+.track_house_price{
+	font-size:28rpx;
+}
+.track_push_look_view{
+	font-size:25rpx;
+	color:#c6c6c6;
+	padding-right: 30rpx;
+	box-sizing: border-box;
+}
+.track_push_num{
+	padding-left: 34rpx;
+	box-sizing: border-box;
+	background: url("https://zdzfapi.haofang.net/PublicC/images/icon_ts_new.png") left center no-repeat;
+	background-size: 30rpx 30rpx;
+}
+.track_look_num{
+	box-sizing: border-box;
+	padding-left:34rpx;
+	background:url("https://zdzfapi.haofang.net/PublicC/images/icon_dk_new.png") left center no-repeat;
+	background-size:30rpx 30rpx;
+	margin-left: 14rpx;
+}
+/* 跟进列表 */
+.track_list{
+	overflow-x:hidden;
+	background:#fff;
+	padding-top:20rpx;
+	padding-bottom: 30rpx;
+	box-sizing: border-box;
+}
+.track_list .track_list_item:first-child:before{
+	height: 50%;
+	top: 50%;
+}
+.track_list .track_list_item:first-child:after{
+	box-sizing: border-box;
+	width: 16px;
+	height: 16px;
+	border: 4px solid #c6c6c6;
+	border-radius: 8px;
+	will-change: transform;
+	left: 12px;
+	box-shadow: 0 0 0 3px #00ca85;
+	z-index: 2;
+}
+.track_list_item{
+	position:relative;
+	padding-left:80rpx;
+	padding-top:8rpx;
+}
+.track_list_item:before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	width: 1px;
+	height: 100%;
+	border-right: 1px solid #00ca85;
+	left: 19px;
+	z-index: 1;
+}
+.track_list_item:after{
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 8px;
+	height: 8px;
+	background-color: #00ca85;
+	border-radius: 4px;
+	will-change: transform;
+	left: 16px;
+	top: 50%;
+	margin-top: -2px;
+	z-index: 1;
+}
+.track_list_item_info{
+	padding:10px;
+	border-radius:8rpx;
+	will-change: transform;
+	color:#000;
+	font-size:26rpx;
+}
+.track_list_date{
+	color:#333;
+	font-size:26rpx;
+}
+

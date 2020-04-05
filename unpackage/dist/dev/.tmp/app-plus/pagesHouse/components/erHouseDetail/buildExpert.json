@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "village-expert": "/components/villageExpert",
+    "er-house-list-item": "/components/erHouseListItem"
+  }
+}

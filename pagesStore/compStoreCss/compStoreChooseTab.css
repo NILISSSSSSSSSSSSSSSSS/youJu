@@ -1,0 +1,300 @@
+
+
+.flexRowStart{
+  display: flex;
+}
+.flexRowSpaceBetween{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flexRowCenter{
+  display: flex;
+  justify-content: center;
+}
+.flexRowEnd{
+  display: flex;
+  justify-content: flex-end;
+}
+.flexColumnStart{
+  display: flex;
+  flex-direction: column;
+}
+.flexColumnSpaceBetween{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flexColumnCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flexWidth1{flex:1;}
+.flexWidth2{flex:2;}
+.flexWidth3{flex:3;}
+
+.compStoreChooseTabNoFixedView{
+  position: relative;
+  width: 100%;
+  border-radius: 16upx 16upx 0 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  border-bottom: 1upx solid #ebebeb;
+}
+.compStoreChooseTabNoFixedContentView{
+  height: 80upx;
+  padding: 25upx 0;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.compStoreChooseTabNoFixedInfoView{
+  width: 100%;
+  height: 100%;
+  line-height: 30upx;
+  box-sizing: border-box;
+}
+.compStoreChooseTabNoFixedInfoTextView{
+  font-size:25upx;
+  color:#494949;
+  margin-right: 15upx;
+  text-align: left;
+  max-width: 65%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.compStoreChooseTabInfoImg{
+  width: 15upx;
+  height: 9upx;
+  margin: auto 0;
+  flex-shrink: 0;
+}
+
+.compStoreChooseTabTcMarkView{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom: 0;
+  width:100%;
+  overflow:hidden;
+  background:rgba(0, 0, 0, 0.3);
+  z-index: 180;
+}
+.compStoreChooseTabTcView{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom: 0;
+  width:100%;
+  overflow:hidden;
+  background:rgba(0, 0, 0, 0.3);
+  z-index: 200;
+  border-radius: 16upx 16upx 0 0;
+}
+.compStoreChooseTabTcContView{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.compStoreChooseResultView{
+  /*height: 65%;*/
+  width: 100%;
+  overflow: hidden;
+  margin-top: -4upx;
+  box-sizing: border-box;
+  border-top: 2upx solid #e6e6e6;
+}
+
+/*区域选择*/
+.compStoreChooseRegionTemplateView{
+  height: 100%;
+  overflow: hidden;
+  font-size: 30upx;
+}
+.compStoreChooseRegionTemplateLeftView{
+  overflow-y: auto;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #f4f4f4;
+  flex-shrink: 0;
+  margin-right: -2upx;
+}
+.compStoreChooseRegionLeftText{
+  padding: 0 40upx;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width:100%;
+  height:90upx;
+  line-height:90upx;
+  border-bottom:1px solid #eee;
+  text-align: center;
+}
+.compStoreChooseRegionTemplateRightView{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.compStoreChooseRegionRightText{
+  width:100%;
+  height:90upx;
+  line-height:90upx;
+  padding-left:20upx;
+  box-sizing:border-box;
+  border-bottom:1px solid #eee;
+  flex-shrink: 0;
+}
+
+/*价格选择*/
+.compStoreChoosePriceTemplateContentView{
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #FFFFFF;
+}
+.compStoreChoosePriceTemplateView{
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: 30upx;
+}
+.compStoreChoosePriceTemplateViewText{
+  height:90upx;
+  line-height:90upx;
+  width:100%;
+  box-sizing:border-box;
+  border-bottom:1px solid #eee;
+  padding-left:56upx;
+}
+.compStoreChoosePriceTemplateViewTextEmpty{
+  height:120upx;
+  line-height:120upx;
+  width:100%;
+  box-sizing:border-box;
+  padding-left:56upx;
+  flex-shrink: 0;
+}
+.compStoreChoosePriceTemplateFixedView{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height:100upx;
+  box-sizing:border-box;
+  padding:0 40upx 0;
+  background-color: #FFFFFF;
+}
+.compStoreChoosePriceTemplateFixedViewInput{
+  width:180upx;
+  height:50upx;
+  text-align:center;
+  border:1px solid #cccccc;
+  border-radius:10upx;
+  font-size:29upx;
+  margin: auto 0;
+}
+.compStoreChoosePriceTemplateFixedViewInputLine{
+  height: 50upx;
+  margin: auto 0;
+  width: 50upx;
+  text-align: center;
+}
+.compStoreChoosePriceTemplateFixedViewInputLabel{
+  font-size: 29upx;
+  margin-left: 10upx;
+  line-height: 100upx;
+}
+.compStoreChoosePriceTemplateFixedConfirmView{
+  flex-shrink: 0;
+  width:120upx;
+  height:50upx;
+  background:#ff5a1f;
+  text-align:center;
+  border-radius:10upx;
+  color:#ffffff;
+  line-height:50upx;
+  box-sizing: border-box;
+  margin: auto 0;
+  font-size: 29upx;
+}
+
+/*更多选择*/
+.compStoreChooseMoreTemplateView{
+  padding: 0 30upx;
+  box-sizing: border-box;
+  width: 100%;
+}
+.compStoreChooseMoreTemplateListView{
+  padding-bottom:9upx;
+  border-bottom:1px solid #f3f3f3;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.compStoreChooseMoreTemplateTitleView{
+  height:90upx;
+  line-height:90upx;
+  font-size:29upx;
+  color:#2d2c2c;
+  letter-spacing:1px;
+  font-family:'黑体';
+}
+.compStoreChooseMoreTemplateCheckView{
+  flex-wrap: wrap;
+}
+.compStoreChooseMoreTemplateViewText{
+  width:150upx;
+  height:68upx;
+  background:#ffffff;
+  line-height:64upx;
+  text-align:center;
+  color:#6c6c6c;
+  border-radius:6upx;
+  font-size:26upx;
+  margin-right:21upx;
+  margin-bottom:20upx;
+  letter-spacing:1px;
+  box-sizing:border-box;
+  border:1px solid #d6d6d6;
+  flex-shrink: 0;
+}
+.compStoreChooseMoreTemplateFixedView{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing:border-box;
+  background-color: #FFFFFF;
+  height:120upx;
+  padding:20upx 50upx;
+}
+.compStoreChooseMoreRevertClick{
+  width:100%;
+  height: 100%;
+  line-height: 80upx;
+  border-radius:6upx;
+  background:-webkit-linear-gradient(left, rgb(255,203,0) , rgb(255,148,2));
+  text-align:center;
+  font-size:33upx;
+  color:#fff;
+  letter-spacing:10upx;
+}
+.compStoreChooseMoreConfirmClick{
+  width: 100%;
+  height: 100%;
+  border-radius:6upx;
+  text-align:center;
+  line-height:80upx;
+  font-size:33upx;
+  letter-spacing:10upx;
+  background:-webkit-linear-gradient(left, rgb(255,132,0) , rgb(255,84,0));
+  color:#fff;
+}
+.compStoreChooseMoreEmptyButton{
+  flex-shrink: 0;
+  width: 20upx;
+  height: 100%;
+}

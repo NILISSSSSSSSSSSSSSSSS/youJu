@@ -1,0 +1,277 @@
+
+
+.flexRowStart{
+  display: flex;
+}
+.flexColumnStart{
+  display: flex;
+  flex-direction: column;
+}
+.flexRowSpaceBetween{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flexRowCenter{
+  display: flex;
+  justify-content: center;
+}
+.flexRowEnd{
+  display: flex;
+  justify-content: flex-end;
+}
+.flexColumnSpaceBetween{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flexColumnCenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.compStoreIndexView{
+  padding: 0 30upx;
+  box-sizing: border-box;
+  width: 100%;
+}
+.compStoreIndexYXAgentView{
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius:16upx;
+  padding:50upx 30upx;
+  box-sizing: border-box;
+  overflow:hidden;
+  position: relative;
+}
+.compStoreIndexAgentView{
+  height: 40upx;
+}
+.compStoreIndexLineRed{
+  width:8upx;
+  height:36upx;
+  background:-webkit-linear-gradient(top, #ff8a17 , #ab7f2e);
+  background:linear-gradient(top, #ff8a17 , #ab7f2e);
+  border-radius: 4upx;
+  box-sizing: border-box;
+  margin: auto 10upx auto 0;
+}
+.compStoreIndexAgentTitle{
+  font-size:34upx;
+  color:#333;
+  font-weight:bold;
+  margin: auto 0;
+}
+.compStoreIndexMoreAgent{
+  font-size:24upx;
+  color:#aaa;
+  text-align:right;
+  margin: auto 0;
+}
+.compStoreIndexAgentHeaderImgView{
+  width: 100upx;
+  height: 100upx;
+  border-radius: 50%;
+  background:url(http://cd.haofang.net/Public/newPC/images/default/head/90x90.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  margin-right: 20upx;
+  flex-shrink: 0;
+  border: 1upx solid #f3f3f3;
+}
+.compStoreIndexBuildAddr{
+  font-size: 22upx;
+  color: #999;
+  padding-left: 18upx;
+  margin-top: 6upx;
+}
+.compStoreIndexAgentHeaderImg{
+  width: 100%;
+  height: 100%;
+}
+.compStoreIndexAgentInfoView{
+  width: 100%;
+  margin-top: 50upx;
+}
+.entrustButtonView{
+  min-width: 144upx;
+  border-radius:24upx;
+  height:50upx;
+  text-align:center;
+  line-height:50upx;
+  font-size:26upx;
+  color:#fff;
+  background:-webkit-linear-gradient(left, #ff8a17 , #ab7f2e);
+  padding:0 20upx;
+  box-sizing: border-box;
+  position: relative;
+  top: 15upx;
+}
+.compStoreIndexAgentInfoName{
+  font-size:32upx;
+  color:#333;
+  font-weight:bold;
+  text-align: left;
+}
+.compStoreIndexAgentInfoStarImgSrc{
+  width:17upx;
+  height:16upx;
+  margin: auto 2upx auto 0;
+}
+.compStoreIndexAgentInfoStarNum{
+  margin: auto 0 auto 9upx;
+  font-size:20upx;
+  color:#ffb400;
+}
+.compStoreIndexAgentInfoService{
+  font-size:22upx;
+  color:#999;
+  margin-top: 8upx;
+  text-align: left;
+}
+
+.compStoreIndexHouseListView{
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius:16upx;
+  padding:50upx 30upx;
+  padding-bottom: 70upx;
+  box-sizing: border-box;
+  overflow:hidden;
+  margin-top: 20upx;
+}
+
+.sale_no_data {
+  position: relative;
+  top: 250upx;
+  width: 100%;
+  height: 400upx;
+}
+.noDataView {
+  margin: 0 auto 20upx;
+  width: 313upx;
+  height: 221upx;
+  background: url(http://cdn.haofang.net/static/uuminiapp/compStore/nodata.png)no-repeat center;
+  background-size: 100% 100%;
+}
+.noDataViewText {
+  font-size: 26upx;
+  color: #a6a6a6;
+}
+
+.compStoreIndexAgentViewTitleView{
+  height: 40upx;
+  align-items: center;
+  line-height: 40upx;
+}
+
+.compStoreIndexEnterOtherTab{
+  width: 630upx;
+  height: 86upx;
+  line-height: 86upx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  color: #7b9dbb;
+  margin-top: 30upx;
+  margin-bottom: 30upx;
+  background-color: #edf2f5;
+	border-radius: 4upx;
+  font-size: 28upx;
+  position: relative;
+}
+.compStoreIndexEnterOtherTab:last-child{
+  margin-bottom: 0;
+}
+.compStoreIndexMoreAgent{
+  position: relative;
+  padding-right: 15upx;
+}
+.compStoreIndexMoreAgent image{
+  width: 9upx;
+  height: 16upx;
+  background-size: 100%;
+  position: absolute;
+  top: 10upx;
+  right: 0;
+}
+
+.compStoreIndexDeptInfo{
+  padding-left: 15upx;
+  margin-top: 35upx;
+  padding-right: 30upx;
+}
+.compStoreIndexDeptInfoItemNum{
+  color: #333;
+  font-size: 48upx;
+  font-weight:bold;
+  text-align:left;
+
+}
+.compStoreIndexDeptInfoItemNoNum{
+  font-size: 36upx ;
+}
+.compStoreIndexDeptInfoItemNumUnit{
+  color: #333;
+  font-size: 26upx;
+  font-weight:normal;
+}
+.compStoreIndexDeptInfoItemDesc{
+  color: #999;
+  font-size: 22upx;
+  line-height: 1;
+  margin-top: 17upx;
+}
+
+.compStoreIndexDeptPublishBtn{
+  position: absolute;
+  top: 46upx;
+  right: 30upx;
+  background-image: linear-gradient(90deg,
+  #ff8a17 0%,
+  #ab7f2e 100%),
+  linear-gradient(#ffb400,
+  #ffb400);
+  width: 144upx;
+  height: 50upx;
+  line-height: 50upx;
+  color: #fff;
+  font-size: 26upx;
+  text-align: center;
+  border-radius: 25upx;
+}
+.compStoreIndexDeptArchivePublishBtn{
+  width: 64upx;
+}
+.compStoreIndexDeptArchivePublishBtnIcon {
+  width: 64upx;
+  height: 64upx;
+  background:url(http://cdn.haofang.net/static/uuminiapp/flagship/index/btn_online.png) center center no-repeat;
+  background-size:100% 100%;
+}
+.compStoreIndexDeptArchiveContactBtn .compStoreIndexDeptArchivePublishBtnIcon{
+  background:url(http://cdn.haofang.net/static/uuminiapp/flagship/index/btn_contact.png) center center no-repeat;
+  background-size:100% 100%;
+}
+.compStoreIndexDeptArchivePublishBtnText {
+  margin-top: 10upx;
+  line-height: 1;
+  color: #999999;
+  font-size: 22upx;
+  text-align: center;
+}
+.compStoreIndexDeptArchiveContactBtn{
+  margin-left: 26upx;
+}
+.flexMain{
+  flex: 1;
+}
+.no_data_index{
+  background: #FFFFFF;
+  margin-top:30upx;
+  border-radius:16upx;
+  height:100%;
+  overflow: hidden;
+}

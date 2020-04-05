@@ -1,0 +1,173 @@
+
+.message_view {
+  padding-left: 40rpx;
+  box-sizing: border-box;
+  width: 100%;
+  background: #FFFFFF;
+  overflow: hidden;
+}
+.message_item {
+  height: 160rpx;
+  box-sizing: border-box;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  position: relative;
+}
+.message_left {
+  -webkit-transform: translateX(-270rpx);
+          transform: translateX(-270rpx);
+}
+.right_btn_view {
+  position: absolute;
+  right: -270rpx;
+  top: 0;
+  height: 100%;
+  width: 270rpx;
+  background: #FFFFFF;
+  border-bottom: 1rpx solid #F5F5F5;
+  line-height: 160rpx;
+}
+.ping_bi_btn {
+  color: #FFFFFF;
+  text-align: center;
+  width: 160rpx;
+  letter-spacing: 1px;
+  background-color: #989898;
+  font-size: 28rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.del_btn {
+  color: #FFFFFF;
+  font-size: 28rpx;
+  float: right;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: #ff5400;
+}
+.head_img_view {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+  background: #FFFFFF;
+  border: 1rpx solid #F5F5F5;
+  box-sizing: border-box;
+  margin: auto 16rpx auto 0;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  position: relative;
+}
+.point_red {
+  position: absolute;
+  top: 7rpx;
+  right: -9rpx;
+  width: 16rpx;
+  height: 16rpx;
+  background: #ff5400;
+  border-radius: 100%;
+}
+.point {
+  position: absolute;
+  top: 10rpx;
+  right: -12rpx;
+  min-width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  margin-top: -22rpx;
+  font-weight: bold;
+  font-size: 22rpx;
+  color: #FFFFFF;
+  text-align: center;
+  background: #ff5400;
+  border: none;
+  border-radius: 40rpx;
+}
+.empty_view {
+  height: 30rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.head_img_view image {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.message_cont {
+  margin: auto 0;
+  border-bottom: 1rpx solid #F5F5F5;
+  box-sizing: border-box;
+  text-align: left;
+  width: calc(100% - 116rpx);
+  padding-right: 40rpx;
+  height: 160rpx;
+}
+.message_top {
+  line-height: 46rpx;
+}
+.massage_name_view {
+  width: 75%;
+}
+.massage_name {
+  text-align: left;
+  color: #101d36;
+  font-weight: bold;
+  font-size: 32rpx;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.massage_compName {
+  background: #edf0f3;
+  color: #9ba7b1;
+  font-size: 22rpx;
+  text-align: center;
+  height: 32rpx;
+  line-height: 32rpx;
+  padding: 0 10rpx;
+  margin: auto 0 auto 10rpx;
+  border-radius: 4rpx;
+  box-sizing: border-box;
+  max-width: 46%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.message_last_time {
+  text-align: right;
+  font-size: 22rpx;
+  color: #7A8190;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.msg_text_view {
+  margin-top: 6rpx;
+  line-height: 40rpx;
+  width: 100%;
+  min-height: 40rpx;
+}
+.msg_text {
+  width: 100%;
+  color: #7A8190;
+  font-size: 26rpx;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.ping_bi_icon {
+  width: 110rpx;
+  height: 40rpx;
+  border: 1rpx #fb0a00;
+  background: url(http://cdn.haofang.net/static/uuweb/shield.png) center no-repeat;
+  background-size: 100%;
+  margin: auto 0 auto 15rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+

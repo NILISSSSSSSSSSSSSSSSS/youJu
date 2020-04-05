@@ -1,0 +1,21 @@
+{
+  "navigationBarTitleText": "发布委托",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "scroll-loading": "/components/scrollLoading",
+    "entrust-title": "/components/entrust/edit/entrustTitle",
+    "choose-region": "/components/entrust/edit/chooseRegion",
+    "choose-build": "/components/entrust/edit/chooseBuild",
+    "radio-view": "/components/entrust/edit/radioView",
+    "sale-area-slider": "/components/entrust/edit/saleAreaSlider",
+    "sale-price-slider-view": "/components/entrust/edit/salePriceSliderView",
+    "choose-fei-yong": "/components/entrust/edit/chooseFeiYong",
+    "choose-agent": "/components/entrust/edit/chooseAgent",
+    "other-info-input": "/components/entrust/edit/otherInfoInput",
+    "small-title": "/components/entrust/edit/smallTitle",
+    "lou-ceng-slider-view": "/components/entrust/edit/louCengSliderView",
+    "sale-add-house-img": "/components/entrust/edit/saleAddHouseImg",
+    "my-sale-house": "/components/entrust/edit/mySaleHouse",
+    "checkbox-view": "/components/entrust/edit/checkboxView"
+  }
+}

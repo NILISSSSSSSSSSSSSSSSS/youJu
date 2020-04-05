@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "佣金支付",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "login-view": "/components/loginView"
+  }
+}

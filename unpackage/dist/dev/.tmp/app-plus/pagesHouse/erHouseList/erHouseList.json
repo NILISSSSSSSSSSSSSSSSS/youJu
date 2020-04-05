@@ -1,0 +1,19 @@
+{
+  "navigationBarTitleText": "二手房",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColor": "#FFFFFF",
+  "onReachBottomDistance": 100,
+  "softinputNavBar": "none",
+  "bounce": "none",
+  "usingComponents": {
+    "no-data-trust": "/components/houseListNoDataTrust",
+    "new-msg-view": "/components/newMsgView",
+    "er-house-list-item": "/components/erHouseListItem",
+    "screen-house": "/pagesHouse/components/screenHouse",
+    "search-btn-view": "/components/searchBtnView",
+    "map-find-house-btn": "/pagesHouse/components/mapFindHouseBtn",
+    "new-house-list-item": "/components/newHouseListItem",
+    "village-expert-view": "/components/villageExpert"
+  }
+}

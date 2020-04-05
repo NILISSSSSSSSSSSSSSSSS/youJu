@@ -1,0 +1,39 @@
+
+.allTrustListTc.data-v-7977c293{
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	height:100%;
+	z-index:1110;
+	width:100%;
+	background:rgba(0,0,0,0.3);
+}
+.allTrustListTc_cont.data-v-7977c293{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background:#fff;
+	text-align:center;
+}
+.allTrustListTc_item.data-v-7977c293{
+	font-size:30rpx;
+	color:#333;
+	padding:30rpx 0;
+	border-bottom:1px solid #efefef;
+}
+.allTrustListTc_item>image.data-v-7977c293{
+	width: 38rpx;
+	height: 38rpx;
+	margin: auto 15rpx auto 0;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.allTrustListTc_cancel.data-v-7977c293{
+	font-size:30rpx;
+	color:#333;
+	padding:30rpx 0;
+}
+

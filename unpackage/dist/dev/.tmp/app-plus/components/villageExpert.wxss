@@ -1,0 +1,498 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 多个专家 */
+.village_expert_more {
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+}
+.village_expert_more .more_expert_item:last-child {
+  margin-right: 0;
+}
+.more_expert_item {
+  width: 100%;
+  margin-right: 20rpx;
+  padding-bottom: 24rpx;
+  box-shadow: 0 1rpx 27rpx 0 rgba(55, 55, 55, 0.1);
+  border-radius: 10rpx;
+  background: url(http://cdn.haofang.net/static/uuminiapp/expert/expert_bj2.png) no-repeat center;
+  background-size: 100%;
+  background-position: 0 0;
+}
+.more_expert_item_head_view {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  background: url(http://cdn.haofang.net/static/uuminiapp/detail/fang_default.png) no-repeat center;
+  background-size: 100% 100%;
+  border: 2rpx solid #fff;
+  margin: 0 auto;
+  margin-top: 24rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  overflow: hidden;
+}
+.more_expert_item_head_view image {
+  width: 100%;
+  height: 100%;
+}
+.more_expert_name {
+  text-align: center;
+  font-size: 30rpx;
+  color: #101d36;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+  font-weight: bold;
+}
+.more_expert_star_view {
+  margin: 6rpx auto 14rpx;
+}
+.more_expert_star_view image {
+  width: 20rpx;
+  height: 20rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  margin-right: 8rpx;
+}
+.more_expert_num_view {
+  font-size: 20rpx;
+  color: #8E94A1;
+}
+.more_expert_sale_num {
+  margin-right: 20rpx;
+}
+/* 一个专家 */
+.village_expert {
+  width: 100%;
+  padding: 0 26rpx;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 3px;
+}
+.village_expert_shadow {
+  box-shadow: 0 0 20rpx #E2E2E2;
+}
+.expert_top {
+  color: #8E94A1;
+  font-size: 26rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #F5F5F5;
+  letter-spacing: 1rpx;
+  box-sizing: border-box;
+}
+.buildName {
+  text-align: left;
+  max-width: 30%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.buildAddress {
+  text-align: right;
+  max-width: 65%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.expert_cont {
+  padding: 58rpx 15rpx 58rpx 20rpx;
+  box-sizing: border-box;
+}
+.expert_cont_left {
+  padding-right: 30rpx;
+  box-sizing: border-box;
+}
+.agent_header_view {
+  width: 100rpx;
+  height: 100rpx;
+  overflow: hidden;
+  margin: auto 10rpx auto 0;
+  border-radius: 100%;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.agent_header_view > image {
+  width: 100%;
+  height: 100%;
+}
+.agentName {
+  font-size: 28rpx;
+  color: #1f1f1f;
+  font-weight: bold;
+}
+.village_expert_text {
+  color: #8a8a8a;
+  font-size: 22rpx;
+  margin-left: 19rpx;
+  text-align: left;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.expert_des {
+  padding-left: 20rpx;
+  box-sizing: border-box;
+}
+.expert_des .expert_des_pai {
+  margin: auto 0;
+  background: url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/erhouse_detail_sprites.png) no-repeat;
+  background-size: 242px 40px;
+  height: 17px;
+  width: 17px;
+  background-position: -32px 0;
+}
+.expert_info {
+  line-height: 36rpx;
+  font-size: 26rpx;
+  color: #101d36;
+  margin-top: 15rpx;
+}
+.expert_cont_right {
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.expert_cont_right > view:nth-child(2) {
+  margin-left: 20rpx;
+}
+.icon_discount{
+  height: 84rpx;
+  width: 84rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  margin-bottom: 15rpx;
+}
+.expert_cont_right_text {
+  font-size: 20rpx;
+  line-height: 20rpx;
+  color: #a7a7a7;
+  text-align: center;
+}
+

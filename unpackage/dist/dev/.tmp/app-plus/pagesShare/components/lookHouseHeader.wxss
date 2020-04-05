@@ -1,0 +1,51 @@
+
+.m-look-info{
+    height: auto;
+    background-color: #fff;
+    box-shadow: 0rpx 0rpx 30rpx 0rpx rgba(0, 0, 0, 0.08);
+    border-radius: 20rpx;
+    padding: 40rpx 30rpx 51rpx 30rpx;
+}
+.m-demand-text{
+    font-size: 32rpx;
+    color: #101d36;
+    font-weight: bold;
+}
+.m-address-info{
+    font-size: 24rpx;
+    color: #7b8191;
+    padding-top: 10rpx;
+    vertical-align: bottom;
+}
+.m-address-info image{
+    padding-right: 8rpx;
+    margin-bottom: -2rpx;
+}
+.u-place-icon{
+    width: 24rpx;
+    height: 24rpx;
+}
+.u-village-icon{
+    width: 24rpx;
+    height: 28rpx;
+    margin-left: 30rpx;
+}
+.m-look-time{
+    padding-top: 35rpx;
+    font-size: 32rpx;
+    color: #101d36;
+    font-weight: bold;
+}
+.u-time{
+    padding-top: 23rpx;
+    font-size: 30rpx;
+    color: #101d36;
+    height: 30rpx;
+    line-height: 30rpx;
+}
+.u-distance-time{
+    font-size: 24rpx;
+    color: #7b8191;
+    float: right;
+}
+

@@ -1,0 +1,137 @@
+
+.no_finish_reason_item_im_more.data-v-b015ecbe{
+    font-size: 22rpx!important;
+}
+.evaluate_reason_view_im.data-v-b015ecbe{
+    padding: 0 30rpx;
+    box-sizing: border-box;
+}
+.starTexMap_des_evaluate.data-v-b015ecbe{
+    text-align: center;
+    color: #f7a023;
+    font-size: 24rpx;
+}
+.see-evaluate-header_im.data-v-b015ecbe{
+    position: relative;
+    text-align: center;
+    font-size: 24rpx;
+    color: #101D36;
+    height: 80rpx;
+    line-height: 80rpx;
+    border-bottom: 1rpx solid #ececec;
+    margin-bottom: 20rpx;
+}
+.see-evaluate-tt-im.data-v-b015ecbe{
+    font-weight: 400;
+    font-size: 30rpx;
+}
+.see-evaluate-close-im.data-v-b015ecbe{
+    position: absolute;
+    width: 80rpx;
+    height: 80rpx;
+    top: 0;
+    right: 0;
+    background: url(http://cdn.haofang.net/static/uuminiapp/entrustDetail/close2.png) center center no-repeat;
+    background-size: 26rpx 26rpx;
+}
+.finish_evaluate_view_me_im.data-v-b015ecbe{
+    background:#fff;
+    width:100%;
+    box-sizing:border-box;
+    border-radius: 12rpx;
+    padding-bottom: 40rpx;
+    margin-top: 20rpx;
+    margin-bottom: 34rpx;
+    position: relative;
+}
+.no_finish_reason_view_im.data-v-b015ecbe{
+    width: 100%;
+    margin: 35rpx auto 0;
+    -webkit-flex-wrap:wrap;
+            flex-wrap:wrap;
+    padding: 0 10rpx;
+    box-sizing: border-box;
+}
+.no_finish_reason_item_im.data-v-b015ecbe{
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 0 10rpx;
+    width: 30%;
+    height:60rpx;
+    line-height:54rpx;
+    box-sizing:border-box;
+    text-align:center;
+    border:1rpx solid #d5d5d5;
+    border-radius: 30rpx;
+    background-color: #ffffff;
+    color:#999;
+    font-size: 26rpx;
+    position:relative;
+    margin-right: 5%;
+    margin-bottom: 17rpx;
+}
+.no_finish_reason_view_im .no_finish_reason_item_im.data-v-b015ecbe:nth-child(3n){
+    margin-right: 0;
+}
+.no_finish_reason_view_im .no_finish_reason_item_active_im.data-v-b015ecbe{
+    border:1rpx solid #ffba68;
+    color:#f7a023;
+    background-color:#fff8ec;
+}
+.no_finish_remark_im_me.data-v-b015ecbe{
+    position:relative;
+    width: 100%;
+    overflow:hidden;
+    margin:26rpx auto 0;
+    box-sizing: border-box;
+}
+.no_finish_textarea_im_me.data-v-b015ecbe{
+    background-color:#f8f8f8;
+    width:100%;
+    height:100%;
+    font-size:28rpx;
+    border-radius:8rpx;
+    padding:20rpx 20rpx;
+    box-sizing:border-box;
+    color:#101D36;
+}
+.no_finish_textarea_num_im.data-v-b015ecbe{
+    font-size:26rpx;
+    position:absolute;
+    right:15rpx;
+    bottom:18rpx;
+    color:#888;
+}
+.no_finish_textarea_pl_im.data-v-b015ecbe{
+    font-size: 28rpx;
+    color: #c6cacf;
+    background-color: #f8f8f8;
+}
+.no_finish_confirm_btn_im.data-v-b015ecbe{
+    height:80rpx;
+    line-height:80rpx;
+    border-radius:40rpx;
+    text-align:center;
+    border: 1px solid #ab7f2e;
+    color:#ab7f2e;
+    font-size:30rpx;
+    letter-spacing:1rpx;
+    margin-top: 40rpx;
+}
+.finish_evaluate_star_view_im.data-v-b015ecbe{
+    height: 50rpx;
+    margin: 44rpx auto 20rpx;
+}
+.finish_evaluate_star_im.data-v-b015ecbe{
+    width:50rpx;
+    height:50rpx;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+    margin: auto 57rpx auto 0;
+}
+.finish_evaluate_star_view_im .finish_evaluate_star_im.data-v-b015ecbe:last-child{
+    margin-right: 0;
+}
+

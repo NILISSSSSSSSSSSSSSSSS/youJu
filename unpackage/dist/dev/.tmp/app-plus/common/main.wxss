@@ -1,0 +1,454 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+view,button,image{
+    position: relative;
+}
+page{
+	font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    background: #FFFFFF;
+}
+.f_r_s{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+}
+.f_r_c{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+.f_r_b{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.f_r_e{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+            justify-content: flex-end;
+}
+.f_c_s{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+            justify-content: flex-start;
+}
+.f_c_c{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+.f_c_b{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.f_c_e{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+            justify-content: flex-end;
+}
+.main_color{
+    color: #ab7f2e;
+    /*color: #ff5a1f;*/
+}
+page .gray_color{
+    color: #999999;
+    font-size: 24rpx!important;
+    font-weight: normal!important;
+}
+/* 全局通用字体颜色 */
+.global-font-color {
+  color: #ab7f2e !important;
+}
+/* 通用被选择的框 */
+.global-selecet-box {
+  background-color: #ffd900 !important;
+  border: none!important;
+  border-radius: 6rpx !important;
+  color: #101d36 !important;
+}
+.global-cover-box {
+  border-radius: 6rpx !important;
+  color: #101d36 !important;
+  background-color: #f1f3f6 !important;
+}
+.global-selecet-box-entrust{
+  background-color: #fff7cc!important;
+  border: none!important;
+  border-radius: 5px!important;
+  color: #ab7f2e!important;
+}
+/* 通用确认按钮 */
+.global-confirm-btn {
+  background-color: #ffd900 !important;
+  color: #101d36 !important;
+  background-image: none !important;
+  opacity: 1 !important;
+}
+.global-confirm-btn-another {
+  background-image: none !important;
+  background-color: #ffd900 !important;
+  color: #101d36 !important;
+  opacity: 1 !important;
+}
+.global-confirm-btn-right{
+  background-image: -webkit-linear-gradient(left, rgba(61, 61, 61, 0.9) 0%, rgba(61, 61, 61, 0.95) 0%, #3d3d3d 0%, #000000 100%) !important;
+  background-image: linear-gradient(90deg, rgba(61, 61, 61, 0.9) 0%, rgba(61, 61, 61, 0.95) 0%, #3d3d3d 0%, #000000 100%) !important;
+  background-blend-mode: normal, normal !important;
+  color: #ffd900 !important;
+  opacity: 1 !important;
+}
+/* 初始化默认样式 */
+.uni-page-head__title {
+  font-weight: normal !important;
+}
+page,
+page {
+  max-width: 640px;
+  margin: 0 auto;
+}
+uni-tabbar,
+uni-tabbar .uni-tabbar {
+  max-width: 640px;
+  margin: 0 auto;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+button {
+  padding: 0;
+  margin: 0;
+  background: inherit;
+  text-align: left;
+  border: none;
+  border-radius: 0;
+  line-height: normal;
+}
+button::after {
+  border: none;
+  border-radius: 0;
+}
+uni-page-body,#app {height: 100%;}
+

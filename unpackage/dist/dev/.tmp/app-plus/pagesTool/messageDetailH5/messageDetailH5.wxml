@@ -1,0 +1,1 @@
+<view class="web_view"><block wx:if="{{src}}"><web-view class="web" webview-styles="{{webviewStyles}}" src="{{src}}" data-event-opts="{{[['message',[['onWebMessage',['$event']]]]]}}" bindmessage="__e"></web-view></block></view>

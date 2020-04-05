@@ -1,0 +1,114 @@
+
+.about_look{
+    widows: 100%;
+    height:100%;
+    padding: 18rpx 30rpx 170rpx;
+    box-sizing: border-box;
+}
+.m-look-title{
+    font-size: 38rpx;
+    color: #0f1d37;
+    padding: 51rpx 0 10rpx 0;
+    font-weight: bold;
+}
+.m-prompt{
+    padding-top: 30rpx;
+    font-size: 24rpx;
+    color: #b9bdc1;
+}
+/* 底部按钮 start */
+.m-foot{
+    height: 100rpx;
+    background: #fff;
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20rpx 30rpx;
+    box-shadow: 0rpx 1rpx 32rpx 0rpx rgba(97, 97, 97, 0.11);
+}
+.m-agent-icon{
+    width: 90rpx;
+    height: 90rpx;
+    border-radius: 50%;
+    margin-top: 5rpx;
+    float: left;
+    overflow: hidden;
+}
+.m-agent-icon image{
+    width: 100%;
+    height: 100%;
+}
+.m-agent-info{
+    float: left;
+    width: 260rpx;
+    height: 100rpx;
+    margin-left: 22rpx;
+    white-space: nowrap;
+    margin-right: 10rpx;
+}
+.u-agent-name{
+    font-size: 32rpx;
+    color: #101d36;
+    line-height: 50rpx;
+    font-weight: bold;
+}
+.u-agent-store{
+    font-size: 26rpx;
+    color: #8e94a1;
+    line-height: 50rpx;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.about-consult-btn{
+    width: 308rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    float: left;
+    color: #fff;
+    background-image: -webkit-linear-gradient(right,#ab7f2e 0%,#ff8400 100%),-webkit-linear-gradient(#ff6600,#ff6600);
+    background-image: linear-gradient(270deg,#ab7f2e 0%,#ff8400 100%),linear-gradient(#ff6600,#ff6600);
+    border-radius: 10rpx;
+    text-align: center;
+    font-size: 30rpx;
+    position: relative;
+}
+.consult-btn{
+    width: 175rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    float: left;
+    color: #fff;
+    background-image:
+            -webkit-linear-gradient(right,#ff9402 0%,#ffcb00 100%),
+            -webkit-linear-gradient(#ffc100, #ffc100);
+    background-image:
+            linear-gradient(270deg,#ff9402 0%,#ffcb00 100%),
+            linear-gradient(#ffc100, #ffc100);
+    border-radius: 10rpx;
+    text-align: center;
+    font-size: 30rpx;
+    position: relative;
+}
+.evaluate-btn{
+    width: 175rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    background-image:
+            -webkit-linear-gradient(right,#ab7f2e 0%,#ff8400 100%),
+            -webkit-linear-gradient( #ff6600,#ff6600);
+    background-image:
+            linear-gradient(270deg,#ab7f2e 0%,#ff8400 100%),
+            linear-gradient( #ff6600,#ff6600);
+    border-radius: 10rpx;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 30rpx;
+    margin-left: 14rpx;
+    position: relative;
+}
+/* 底部按钮 end */
+

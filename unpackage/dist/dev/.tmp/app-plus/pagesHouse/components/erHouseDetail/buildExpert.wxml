@@ -1,0 +1,1 @@
+<view class="build_expert_view data-v-c28dd1c0"><view class="build_expert data-v-c28dd1c0"><village-expert vue-id="1" item="{{item}}" data-event-opts="{{[['^villageExpertListChange',[['villageExpertList']]]]}}" bind:villageExpertListChange="__e" class="data-v-c28dd1c0" bind:__l="__l"></village-expert></view></view>

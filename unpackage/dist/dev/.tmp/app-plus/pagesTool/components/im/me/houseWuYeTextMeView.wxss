@@ -1,0 +1,36 @@
+
+.houseMeWuYeView.data-v-18faba19{
+    background-color: #FFFFFF;
+    color: #fff;
+    word-break: break-all;
+    line-height: 1.5;
+    position:relative;
+    margin-right:22rpx;
+    min-height:80rpx;
+    box-sizing: border-box;
+    max-width:70%;
+    width:70%;
+    border-radius:8rpx;
+    will-change: transform;
+    text-align:left;
+    font-size:28rpx;
+    margin-bottom: 34rpx;
+    padding: 20rpx;
+}
+.houseMeWuYeView_cont.data-v-18faba19{
+    width: 100%;
+}
+.houseMeWuYeTextView_ting.data-v-18faba19{
+    line-height: 38rpx;
+    margin-bottom: 10rpx;
+    font-size:32rpx;
+    color:#333333;
+    margin-top: 10rpx;
+}
+.houseMeWuYeView_tip.data-v-18faba19{
+    color:#898989;
+    font-size:28rpx;
+    line-height: 32rpx;
+    margin-top: 10rpx;
+}
+

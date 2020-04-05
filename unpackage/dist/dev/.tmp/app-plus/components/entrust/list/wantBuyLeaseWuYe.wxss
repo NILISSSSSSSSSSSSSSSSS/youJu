@@ -1,0 +1,559 @@
+
+.sale_lease_trusting_con_lianmai.data-v-073cde5d{
+        box-sizing: border-box;
+        margin-top: 30rpx;
+        color:#c6c6c6;
+        font-size:28rpx;
+        width:100%;
+}
+    /* 物业版样式 start */
+    /* 邀请人头像 */
+.g-property-box.data-v-073cde5d{
+        width: 100%;
+        height: 100%;
+        padding: 20rpx;
+        box-sizing: border-box;
+        margin: 30rpx auto 0;
+        background: #F1F1F1;
+        overflow: hidden;
+}
+    /* 左 */
+.Invite-portrait.data-v-073cde5d{
+        width: 108rpx;
+        height: 108rpx;
+        border-radius: 50%;
+        background: url(http://cdn.haofang.net/static/uuminiapp/property/property_portrait.png) no-repeat;
+        background-size: 100%;
+        background-color: #ffffff;
+        float: left;
+        overflow: hidden;
+}
+.Invite-portrait-img.data-v-073cde5d{
+        width: 100%;
+        height: 100%;
+}
+    /* 右 */
+.Inviter-information.data-v-073cde5d{
+        width: 525rpx;
+        height: auto;
+        float: right;
+        padding-left: 15rpx;
+        box-sizing: border-box;
+}
+.g-contact.data-v-073cde5d{
+        width:  100%;
+        display: block;
+        overflow: hidden;
+        margin-bottom: 20rpx;
+}
+.marg55.data-v-073cde5d{
+        margin-right: 55rpx;
+}
+.g-contact-name.data-v-073cde5d{
+        margin-top: 20rpx;
+        width: 290rpx;
+        float: left;
+        overflow: hidden;
+        display: -webkit-box;
+        line-height: 50rpx;
+        -webkit-box-orient: horizontal;
+        -webkit-box-align: center;
+        font-size: 32rpx;
+        color: #000000;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+}
+.g-contact-box.data-v-073cde5d{
+        width: 80rpx;
+        text-align: center;
+        float: left;
+}
+.g-contact-itm-img.data-v-073cde5d{
+        width: 33rpx;
+        height: 33rpx;
+}
+.g-contact-phone-img.data-v-073cde5d{
+        width: 32rpx;
+        height: 33rpx;
+}
+.g-contact-box-text.data-v-073cde5d{
+        font-size: 20rpx;
+        color: #999999;
+}
+.Inviter-information-text.data-v-073cde5d{
+        width: 100%;
+        font-size: 28rpx;
+}
+.pad42.data-v-073cde5d{
+        padding: 0rpx 0 10rpx 0;
+}
+.s-textColor-bule.data-v-073cde5d{
+        color: #7185a0;
+}
+.s-textColor-gray.data-v-073cde5d{
+        color: #777777;
+}
+.g-property-addImg.data-v-073cde5d{
+        width: 665rpx;
+        height: 25rpx;
+        color: #7388a9;
+        font-size: 24rpx;
+        margin: 0 auto 28rpx auto;
+}
+.g-property-foot.data-v-073cde5d{
+        width: 100%;
+        height: auto;
+        border-top: 1rpx solid #e6e6e6;
+}
+.property-foot-text.data-v-073cde5d{
+        width: 665rpx;
+        height: auto;
+        color: #aaaaaa;
+        font-size: 28rpx;
+        margin: 31rpx auto 26rpx auto;
+}
+    /* 添加图片 start */
+.g-add-img.data-v-073cde5d{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index:1000;
+}
+.g-addImg-mask.data-v-073cde5d{
+        width: 100%;
+        height: 100%;
+        background-color: #858585;
+        opacity: 0.5;
+}
+.g-addImg-box.data-v-073cde5d{
+        width: 100%;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index:1010;
+        background-color: #FFFFFF;
+}
+.g-choiceImg.data-v-073cde5d{
+        background-color:#fbfbfb;
+        color:#858585;
+}
+.g-addImg-list.data-v-073cde5d{
+        height: 80rpx;
+        line-height: 80rpx;
+        border-bottom: 1rpx solid #eeeeee;
+        text-align: center;
+        font-size: 24rpx;
+}
+.padBtn20.data-v-073cde5d{
+        padding-bottom: 20rpx
+}
+    /* 添加图片 end */
+    /* 物业版样式 start */
+    /* 认领委托 */
+.claim-entrust-title.data-v-073cde5d{
+        width: 670rpx;
+        height: 60rpx;
+        background-color: #fef6e9;
+        border-radius: 30rpx;
+        color: #f68000;
+        font-size: 26rpx;
+        text-align: center;
+        line-height: 60rpx;
+        margin: 30rpx 0 30rpx 40rpx;
+}
+    /* 新增委托 */
+.entrust-text.data-v-073cde5d{
+        color: #aaaaaa;
+        font-size: 26rpx;
+        padding: 0 21rpx;
+        letter-spacing: 0rpx;
+        padding-top: 30rpx;
+        padding-bottom: 28rpx;
+        border-top: 1rpx solid #e6e6e6;
+}
+.entrust-fail-icon.data-v-073cde5d{
+        width: 170rpx;
+        height: 112rpx;
+        background-image: url('http://cdn.haofang.net/static/uuminiapp/personalCenter/enstrust_shibai.png');
+}
+.mar-none.data-v-073cde5d{
+        margin-bottom: 0rpx;
+}
+    /* 弹窗 */
+.entrust_tc_view.data-v-073cde5d{
+		position: fixed;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.5);
+}
+.entrust_tc_cont_view.data-v-073cde5d{
+}
+.want_go_left.data-v-073cde5d{
+		-webkit-transform: translateX(-141rpx);
+		        transform: translateX(-141rpx);
+}
+.want_trust_view.data-v-073cde5d{
+		position: relative;
+		padding:20rpx;
+		background: #FFFFFF;
+		position: relative;
+		margin-bottom: 20rpx;
+		border-radius: 10rpx;
+		will-change: transform;
+		box-sizing: border-box;
+		-webkit-transition:0.5s;
+		transition:0.5s;
+}
+.want_buy_lease_view.data-v-073cde5d{
+		width: 100%;
+}
+.want_buy_lease_tag.data-v-073cde5d{
+		font-size:26rpx;
+		color:#4daaf0;
+		border:1px solid #4daaf0;
+		height: 40rpx;
+		line-height: 40rpx;
+		padding:0 14rpx;
+		border-radius:4rpx;
+		will-change: transform;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		box-sizing: border-box;
+}
+.want_buy_lease_cont.data-v-073cde5d{
+		padding-left:20rpx;
+		width:100%;
+		box-sizing: border-box;
+}
+.want_buy_lease_positionInfo.data-v-073cde5d{
+		font-size:34rpx;
+		color:#333;
+		margin-bottom:20rpx;
+		padding-right:60rpx;
+}
+.want_buy_lease_des.data-v-073cde5d{
+		position:relative;
+		font-size:24rpx;
+		color:#cdcdcd;
+		width:100%;
+		padding-bottom:20rpx;
+}
+.want_buy_lease_des>view.data-v-073cde5d{
+		margin-right: 8rpx;
+}
+.want_buy_lease_des>view.data-v-073cde5d:last-child{
+		margin-right: 0;
+}
+.want_buy_lease_push.data-v-073cde5d{
+		padding-right:32rpx;
+		font-size:24rpx;
+		color:#cdcdcd;
+		padding-bottom:10rpx;
+		box-sizing: border-box;
+}
+.want_success_fail_com.data-v-073cde5d{
+		position: absolute;
+		top: 0;
+		right: 0;
+		background-size: 100% 100%;
+		background-position: center center;
+		background-repeat: no-repeat;
+}
+.want_success_icon_trust.data-v-073cde5d{
+		width: 170rpx;
+		height: 112rpx;
+		background-image: url('http://cdn.haofang.net/static/uuminiapp/personalCenter/enstrust-chengjiao.png');
+}
+.want_fail_icon_trust.data-v-073cde5d{
+		width: 170rpx;
+		height: 112rpx;
+		background-image: url('http://cdn.haofang.net/static/uuminiapp/personalCenter/enstrust-quxiao.png');
+}
+.want_cancle_trust_btn.data-v-073cde5d{
+		width:55rpx;
+		height:55rpx;
+		background:url('http://cdn.haofang.net/static/uuminiapp/personalCenter/more-btn-bg.png') center center no-repeat;
+		background-size:100% 100%;
+		position:absolute;
+		top:10rpx;
+		right:10rpx;
+}
+    /* 抢单中 */
+.want_trusting_con.data-v-073cde5d{
+		background: #FAFAFA;
+		margin: 0 20rpx;
+		padding: 20rpx;
+		box-sizing: border-box;
+}
+.want_trusting_icon.data-v-073cde5d{
+		width: 98rpx;
+		height: 98rpx;
+		background: url('http://cdn.haofang.net/static/uuminiapp/new_images/qianging.png?t=20180427') center center no-repeat;
+		background-size: 100% 100%;
+		margin-right: 20rpx;
+}
+.want_trusting_txt.data-v-073cde5d{
+		color: #c6c6c6;
+		font-size: 28rpx;
+}
+    /* 经纪人列表 */
+.want_trust_agent_list.data-v-073cde5d{
+		border-radius:4px;
+		will-change: transform;
+		position:relative;
+}
+.want_trust_agent_item.data-v-073cde5d{
+		background:#f1f1f1;
+		display:-webkit-box;
+		-webkit-box-align:start;
+		-webkit-box-pack:start;
+		padding:20rpx 0 20rpx 20rpx;
+		position:relative;
+}
+.want_trust_agent_img.data-v-073cde5d{
+		width:110rpx;
+		height:110rpx;
+		overflow:hidden;
+		border-radius:50%;
+		will-change: transform;
+		position:relative;
+}
+.want_trust_agent_img>image.data-v-073cde5d{
+		width:100%;
+		height:100%;
+}
+.want_trust_agent_cont.data-v-073cde5d{
+		-webkit-box-flex:1;
+		margin-left:10rpx;
+		/* border-bottom:1px solid #ededed; */
+		padding-left:20rpx;
+		box-sizing: border-box;
+}
+.want_trust_agent_title.data-v-073cde5d{
+		font-size:28rpx;
+		margin-bottom:10rpx;
+		position:relative;
+}
+.want_trust_agent_name.data-v-073cde5d{
+		font-weight:normal;
+		font-size:32rpx;
+		margin-right:20rpx;
+}
+.want_trust_agent_yongJin_text.data-v-073cde5d{
+		font-weight:normal;
+		font-size:28rpx;
+		color:#999;
+}
+.want_trust_agent_yongJin_val.data-v-073cde5d{
+		font-size:36rpx;
+		color:#ff5d2f;
+		margin-left:5rpx;
+}
+.want_trust_agent_yongJin_unit.data-v-073cde5d{
+		font-size:28rpx;
+		color:#ff5d2f;
+}
+.want_trust_agent_star_view.data-v-073cde5d{
+		margin: auto 0;
+}
+.want_trust_agent_star_view>image.data-v-073cde5d{
+		width: 20rpx;
+		height: 20rpx;
+		margin: auto 8rpx auto 0;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+}
+.want_trust_agent_star_view>image.data-v-073cde5d:last-child{
+		margin-right: 0;
+}
+.want_trust_agent_star_num.data-v-073cde5d{
+		border-radius:4rpx;
+		will-change: transform;
+		color:#fff;
+		background:#FDAD00;
+		background-size:100%;
+		font-size:20rpx;
+		padding:4rpx 6rpx 3rpx;
+}
+.want_trust_agent_img_view.data-v-073cde5d{
+		position: relative;
+}
+.want_trust_agent_red_point.data-v-073cde5d{
+		width:16rpx;
+		height:16rpx;
+		background:url('http://cdn.haofang.net/static/uuminiapp/personalCenter/hongdian.png') center center no-repeat;
+		background-size:100% 100%;
+		position:absolute;
+		top:-5rpx;
+		right:-5rpx;
+}
+.want_trust_agent_node_text.data-v-073cde5d{
+		color: #7185a0;
+		font-size:30rpx;
+		padding-top:20rpx;
+}
+.want_trust_agent_pushLogTime.data-v-073cde5d{
+		font-size:26rpx;
+		color:#777;
+		margin-top:10rpx;
+}
+.want_trust_agent_cancel_icon.data-v-073cde5d{
+		position: absolute;
+		top: 28rpx;
+		right: 40rpx;
+		width: 150rpx;
+		height: 150rpx;
+		background: url(http://cdn.haofang.net/static/uuminiapp/entrustDetail/broker_cancle.png) center center no-repeat;
+		background-size: 100% 100%;
+}
+.want_trust_agent_refuse_icon.data-v-073cde5d{
+		position: absolute;
+		top: 28rpx;
+		right: 40rpx;
+		width: 150rpx;
+		height: 150rpx;
+		background: url(http://cdn.haofang.net/static/uuminiapp/registration/refuse_flag.png) center center no-repeat;
+		background-size: 100% 100%;
+}
+    /* 删除 */
+.want_deal_btn.data-v-073cde5d{
+		position:absolute;
+		height:100%;
+		width:140rpx;
+		line-height:174rpx;
+		background:#ff4940;
+		color:#fff;
+		font-size:30rpx;
+		letter-spacing:1px;
+		text-align:center;
+		top:0;
+		right:-170rpx;
+		z-index:9;
+}
+    /* 取消委托弹窗 */
+.want_cancel_entrust_tc.data-v-073cde5d{
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background:rgba(0,0,0,0.6);
+		z-index:100;
+}
+.want_cancel_entrust_cont.data-v-073cde5d{
+		position:absolute;
+		left:0;
+		bottom:0;
+		width:100%;
+		overflow:hidden;
+		background:#fff;
+}
+.want_cancel_entrust_title.data-v-073cde5d{
+		position:relative;
+		text-align:center;
+		font-size:36rpx;
+		color:#000;
+		height:128rpx;
+		line-height:128rpx;
+		border-bottom:1rpx solid #eee;
+}
+.want_cancel_entrust_close.data-v-073cde5d{
+		position:absolute;
+		width:26rpx;
+		height:26rpx;
+		top:50%;
+		right:38rpx;
+		margin-top:-13rpx;
+		background:url(http://cdn.haofang.net/static/uuminiapp/entrustDetail/close2.png) center no-repeat;
+		background-size:100% 100%;
+}
+.want_cancel_reason_cont.data-v-073cde5d{
+		padding: 40rpx 40rpx 0;
+}
+.want_cancel_reason_list.data-v-073cde5d{
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+}
+.want_cancel_reason_item.data-v-073cde5d{
+		width:45%;
+		height:60rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		line-height:60rpx;
+		font-size:26rpx;
+		box-sizing:border-box;
+		text-align:center;
+		border:1rpx solid #ddd;
+		border-radius:4rpx;
+		will-change: transform;
+		color:#999;
+		position:relative;
+		margin-bottom:30rpx;
+		margin-right: 9%
+}
+.want_cancel_reason_list>.want_cancel_reason_item.data-v-073cde5d:nth-child(2n){
+		margin-right: 0;
+}
+.want_cancel_text_view.data-v-073cde5d{
+		position:relative;
+		width:100%;
+		overflow:hidden;
+		padding: 0 40rpx 40rpx;
+		box-sizing: border-box;
+}
+.want_cancel_text_area.data-v-073cde5d{
+		height:114rpx;
+		box-sizing: border-box;
+		padding: 20rpx;
+		width: 100%;
+		font-size: 28rpx;
+		color: #101D36;
+		background-color: #f1f1f1;
+		border-radius: 8rpx;
+		will-change: transform;
+}
+.want_cancel_text_pla.data-v-073cde5d{
+		font-size: 28rpx;
+		color: #888;
+		background-color: #f1f1f1;
+}
+.want_cancel_empty.data-v-073cde5d{
+		background:#eee;
+		width:100%;
+		height:10rpx;
+}
+.want_cancel_confirm.data-v-073cde5d{
+		text-align:center;
+		font-size:36rpx;
+		height:100rpx;
+		line-height:100rpx;
+}
+.want_cancel_text_num.data-v-073cde5d{
+		font-size:26rpx;
+		position:absolute;
+		right:55rpx;
+		bottom:58rpx;
+		color:#888;
+}
+.want_cancel_reason_item_active.data-v-073cde5d{
+		border:1rpx solid #333;
+		color:#333;
+		background-color:#f6f6f6;
+}
+    /* 专属经纪人icon */
+.want_trust_vip_icon.data-v-073cde5d{
+		width:130rpx;
+		height:34rpx;
+		background:url('http://cdn.haofang.net/static/uuminiapp/entrustImg/vip-icon.png') center center no-repeat;
+		background-size:100%;
+		position:absolute;
+		left:-12rpx;
+		top:90rpx;
+}
+

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "委托跟进",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "scroll-loading": "/components/scrollLoading",
+    "login-view": "/components/loginView"
+  }
+}

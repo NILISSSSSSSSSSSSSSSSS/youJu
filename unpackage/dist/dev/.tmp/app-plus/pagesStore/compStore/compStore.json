@@ -1,0 +1,25 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#315591",
+  "backgroundColor": "#FFFFFF",
+  "onReachBottomDistance": 100,
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "share",
+        "float": "right",
+        "id": "share"
+      }
+    ]
+  },
+  "scrollIndicator": "none",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "get-user-info": "/components/getUserInfoView",
+    "gift-coupon-view": "/components/giftCouponView",
+    "er-house-list-item": "/components/erHouseListItem",
+    "new-house-list-item": "/components/newHouseListItem",
+    "bottom-tab": "/pagesStore/components/compStore/bottomTab"
+  }
+}

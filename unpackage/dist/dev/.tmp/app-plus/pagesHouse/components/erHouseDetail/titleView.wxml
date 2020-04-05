@@ -1,0 +1,1 @@
+<view class="data-v-d5e680f6"><block wx:if="{{fontSize!=32}}"><view class="title_view f_r_s data-v-d5e680f6">{{title}}</view></block><block wx:if="{{fontSize==32}}"><view class="title_small_view f_r_s data-v-d5e680f6">{{title}}</view></block></view>

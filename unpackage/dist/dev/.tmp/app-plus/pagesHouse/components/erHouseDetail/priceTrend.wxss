@@ -1,0 +1,73 @@
+
+.trend_view.data-v-6e3d8bc8{
+        margin: 10rpx 0 7rpx;
+        padding: 0 40rpx;
+        box-sizing: border-box;
+		height: 200rpx;
+}
+.trend_view_cont.data-v-6e3d8bc8{
+		height: 100%;
+		width: 100%;
+		background: #FFFFFF;
+		border-radius: 6rpx;
+		border: 1rpx solid #F5F5F5;
+}
+.trend_item.data-v-6e3d8bc8{
+        width: 100%;
+		padding-left: 26rpx;
+		box-sizing: border-box;
+        text-align: left;
+}
+.trend_item.data-v-6e3d8bc8::before{
+			content: "";
+			width: 1px;
+			height: 78rpx;
+			position: absolute;
+			right: 0;
+			top: 50%;
+			-webkit-transform: translateY(-50%);
+			        transform: translateY(-50%);
+			background: #ebebeb;
+}
+.trend_item.data-v-6e3d8bc8:last-child::before {
+			display: none;
+}
+.trend_val.data-v-6e3d8bc8{
+        font-size: 44rpx;
+		font-weight: bold;
+        color: #101D36;
+        margin-bottom: 10rpx;
+}
+.trend_val text.data-v-6e3d8bc8{
+		font-size: 26rpx;
+		font-weight: normal;
+		margin-left: 5rpx;
+}
+.trend_item:first-child .trend_val text.data-v-6e3d8bc8{
+		white-space: nowrap;
+}
+.trend_text.data-v-6e3d8bc8{
+        font-size:22rpx;
+        color:#8E94A1;
+}
+.trend_up.data-v-6e3d8bc8{
+			margin: auto 10rpx auto 0;
+			-webkit-flex-shrink: 0;
+			        flex-shrink: 0;
+			background:url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/erhouse_detail_sprites.png)  no-repeat;
+			background-size: 242px 40px;
+			height: 7px;
+			width: 8px;
+			background-position: -6px 0;
+}
+.trend_down.data-v-6e3d8bc8{
+			margin: auto 10rpx auto 0;
+			-webkit-flex-shrink: 0;
+			        flex-shrink: 0;
+			background:url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/erhouse_detail_sprites.png)  no-repeat;
+			background-size:242px 40px;
+			height:7px;
+			width:9px;
+			background-position:-14.5px 0;
+}
+

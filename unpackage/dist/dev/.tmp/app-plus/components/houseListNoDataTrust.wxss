@@ -1,0 +1,30 @@
+
+.no_trust.data-v-49b12741{
+	width: 100%;
+	padding-top: 200rpx;
+	box-sizing: border-box;
+}
+.no_trust_img.data-v-49b12741{
+	width: 336rpx;
+	height: 250rpx;
+	margin: 0 auto;
+}
+.no_trust_text.data-v-49b12741{
+	line-height:60rpx;
+	font-size:28rpx;
+	color:#999999;
+	text-align:center;
+}
+.trust_btn.data-v-49b12741{
+	width:510rpx;
+	height:76rpx;
+	text-align:center;
+	line-height:76rpx;
+	border-radius:5px;
+	color:#ffffff;
+	letter-spacing:2px;
+	font-size:32rpx;
+	margin:42rpx auto 0;
+	background: #ab7f2e;
+}
+

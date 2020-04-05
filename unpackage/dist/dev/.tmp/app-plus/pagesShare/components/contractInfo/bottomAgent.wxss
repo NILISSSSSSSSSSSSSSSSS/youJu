@@ -1,0 +1,73 @@
+
+.bottom_agent_view{
+    box-shadow:0 4rpx 33rpx 2rpx rgba(55, 55, 55, 0.1);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 20;
+    width: 100%;
+    box-sizing: border-box;
+    background: #ffffff;
+    padding: 20rpx 30rpx;
+}
+.bottom_agent_left{
+    width: calc(100% - 335rpx);
+}
+.bottom_agent_head{
+    border: 1up solid #eeeeee;
+    box-sizing: border-box;
+    width: 90rpx;
+    height: 90rpx;
+    overflow: hidden;
+    margin: auto 20rpx auto 0;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+    border-radius: 100%;
+}
+.bottom_agent_img{
+    width: 100%;
+    height: 100%;
+}
+.bottom_agent_text{
+    text-align: left;
+    width: calc(100% - 110rpx);
+}
+.bottom_agent_mame{
+    font-size: 32rpx;
+    color: #101d36;
+    line-height: 40rpx;
+    text-align: left;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bold;
+    margin-top: 10rpx;
+}
+.bottom_agent_deptName{
+    color: #8e94a1;
+    font-size: 26rpx;
+    line-height: 40rpx;
+    text-align: left;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.online_chart{
+    width: 308rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    text-align: center;
+    border-radius: 10rpx;
+    box-sizing: border-box;
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 30rpx;
+    background:-webkit-linear-gradient(left, #ab7f2e, #ff8400);
+    margin-left: 25rpx;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+}
+

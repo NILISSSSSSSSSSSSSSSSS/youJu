@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"web_view.",[1],"data-v-008b4b65{ background: #FFFFFF; }\n.",[1],"web.",[1],"data-v-008b4b65{ background: #FFFFFF; }\n",],undefined,{path:"./packageShare/pages/quickPay/quickPay.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./packageShare/pages/quickPay/quickPay.wxml') } }));

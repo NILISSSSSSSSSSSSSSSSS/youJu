@@ -1,0 +1,1 @@
+<view class="other_info_input_view data-v-074f3f22"><input class="other_info_input data-v-074f3f22" placeholder-class="other_info_input_place" maxlength="{{maxlength}}" placeholder="{{placeholder}}" data-event-opts="{{[['input',[['otherInfoInputChange',['$event']]]]]}}" value="{{newValue}}" bindinput="__e"/></view>

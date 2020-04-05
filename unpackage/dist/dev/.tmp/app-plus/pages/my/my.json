@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "get-user-info": "/components/getUserInfoView",
+    "bind-claim-view": "/components/bindClaimView"
+  }
+}

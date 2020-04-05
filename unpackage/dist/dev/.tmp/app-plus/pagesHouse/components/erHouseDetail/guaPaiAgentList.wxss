@@ -1,0 +1,64 @@
+
+.gua_pai_list.data-v-e3220374{
+	padding: 0 40rpx;
+	box-sizing: border-box;
+}
+.gua_pai_item.data-v-e3220374{
+	border-bottom: 1rpx solid #F5F5F5;
+	padding: 40rpx 0;
+	box-sizing: border-box;
+}
+.gua_pai_list .gua_pai_item.data-v-e3220374:last-child{
+	border-bottom: none;
+}
+.gua_pai_cont.data-v-e3220374{
+	width: calc(100% - 60rpx);
+}
+.headerImg.data-v-e3220374{
+	width:92rpx;
+	height:92rpx;
+	border-radius:100%;
+	will-change: transform;
+	margin-right:20rpx;
+	background:url(http://cdn.haofang.net/static/uuminiapp/detail/fang_default.png) no-repeat center top;
+	background-size:cover;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.agent_info.data-v-e3220374{
+	width: calc(100% - 120rpx);
+}
+.agent_name.data-v-e3220374{
+	color:#394043;
+	font-size:30rpx;
+	margin-bottom:10rpx;
+	text-align: left;
+	max-width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.agent_service.data-v-e3220374{
+	color:#808080;
+	font-size:22rpx;
+	text-align: left;
+	max-width: 100%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.take_phone_icon.data-v-e3220374{
+	margin:auto 0;
+	width:55rpx;
+	height:55rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.gui_pai_des.data-v-e3220374{
+	font-size: 24rpx;
+	color: #ccc;
+	line-height: 98rpx;
+	text-align: center;
+	width: 100%;
+}
+

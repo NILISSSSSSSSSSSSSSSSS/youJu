@@ -1,0 +1,162 @@
+
+.see-evaluate-header.data-v-2c8e5e1b{
+	position: relative;
+	text-align: center;
+	font-size: 36rpx;
+	color: #000;
+	height: 80rpx;
+	line-height: 80rpx;
+	border-bottom: 1rpx solid #ddd;
+	margin-bottom: 20rpx;
+}
+.see-evaluate-tt.data-v-2c8e5e1b{
+	font-weight: 400;
+}
+.see-evaluate-close.data-v-2c8e5e1b{
+	position: absolute;
+	width: 80rpx;
+	height: 80rpx;
+	top: 0;
+	right: 0;
+	background: url(http://cdn.haofang.net/static/uuminiapp/entrustDetail/close2.png) center center no-repeat;
+	background-size: 26rpx 26rpx;
+}
+.finish_evaluate_view.data-v-2c8e5e1b{
+	background:#fff;
+	width:100%;
+	box-sizing:border-box;
+	padding: 0 50rpx 50rpx;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: 600;
+	overflow-y: auto;
+}
+
+.finish_evaluate_title.data-v-2c8e5e1b{
+	font-size:32rpx;
+	color:#999;
+	margin-bottom:75rpx;
+	text-align: left;
+}
+.finish_evaluate_money.data-v-2c8e5e1b{
+	font-weight:bold;
+	font-size:50rpx;
+	text-align:center;
+	margin:0 auto 54rpx;
+	color: #101D36;
+}
+.finish_evaluate_find_house.data-v-2c8e5e1b{
+	font-size:32rpx;
+	margin:0 auto 60rpx;
+	text-align:center;
+	color:#000;
+}
+.no_finish_reason_view.data-v-2c8e5e1b{
+	width: 100%;
+	margin:40rpx auto 44rpx;
+	-webkit-flex-wrap:wrap;
+	        flex-wrap:wrap;
+	padding: 0 70rpx;
+	box-sizing: border-box;
+}
+.no_finish_reason_item.data-v-2c8e5e1b{
+	width: 47%;
+	height:60rpx;
+	line-height:60rpx;
+	font-size:26rpx;
+	box-sizing:border-box;
+	text-align:center;
+	border:1rpx solid #ddd;
+	border-radius:4rpx;
+	will-change: transform;
+	color:#999;
+	position:relative;
+	box-sizing:border-box;
+	margin-right: 6%;
+	margin-bottom:26rpx;
+}
+.no_finish_reason_view .no_finish_reason_item.data-v-2c8e5e1b:nth-child(2n){
+	margin-right: 0;
+}
+.no_finish_reason_view .no_finish_reason_item_active.data-v-2c8e5e1b{
+	border:1rpx solid #333;
+	color:#333;
+	background-color:#f6f6f6;
+}
+.no_finish_remark.data-v-2c8e5e1b{
+	position:relative;
+	width: 100%;
+	height:126rpx;
+	overflow:hidden;
+	margin:0 auto 38rpx
+}
+.no_finish_textarea.data-v-2c8e5e1b{
+	background-color:#f1f1f1;
+	width:100%;
+	height:100%;
+	font-size:28rpx;
+	border-radius:8rpx;
+	padding:15rpx 20rpx;
+	will-change: transform;
+	box-sizing:border-box;
+	color:#000;
+}
+.no_finish_textarea_num.data-v-2c8e5e1b{
+	font-size:26rpx;
+	position:absolute;
+	right:15rpx;
+	bottom:18rpx;
+	color:#888;
+}
+.no_finish_textarea_pl.data-v-2c8e5e1b{
+	font-size: 28rpx;
+	color: #888;
+	background-color: #f1f1f1;
+}
+.no_finish_confirm_btn.data-v-2c8e5e1b{
+	height:94rpx;
+	line-height:94rpx;
+	border-radius:8rpx;
+	will-change: transform;
+	text-align:center;
+	color:#fff;
+	font-size:32rpx;
+	background: -webkit-linear-gradient(left, rgb(255,111,46) , rgb(254,142,13));
+	letter-spacing:1rpx;
+	margin-top:26rpx;
+}
+.no_finish_bottom_view.data-v-2c8e5e1b{
+	height: 80rpx;
+	width: 100%;
+}
+.server-evaluate-result.data-v-2c8e5e1b{
+	font-size: 30rpx;
+	padding: 30rpx 0;
+	color: #888;
+}
+.server-evaluate-result text.data-v-2c8e5e1b{
+	text-align: left;
+	display: inline;
+}
+.server-evaluate-result text.data-v-2c8e5e1b:last-child{
+	font-size: 28rpx;
+}
+.finish_evaluate_star_view.data-v-2c8e5e1b{
+	height:86rpx;
+	margin:0 auto;
+	margin-bottom:20rpx;
+	margin-top:20rpx;
+}
+.finish_evaluate_star.data-v-2c8e5e1b{
+	width:86rpx;
+	height:86rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	margin: auto 16rpx auto 0;
+}
+.finish_evaluate_star_view .finish_evaluate_star.data-v-2c8e5e1b:last-child{
+	margin-right: 0;
+}
+

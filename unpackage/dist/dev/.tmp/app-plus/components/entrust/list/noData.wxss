@@ -1,0 +1,29 @@
+
+.no_data_view.data-v-7a88f35a{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+}
+
+.no_data_img.data-v-7a88f35a{
+	width:246rpx;
+	height:296rpx;
+	background:url(http://cdn.haofang.net/static/uuminiapp/personalCenter/no-entrust.png) center center no-repeat;
+	background-size:100% 100%;
+	margin:0 auto;
+}
+.no_data_btn.data-v-7a88f35a{
+	width:250rpx;
+	height:80rpx;
+	font-size:32rpx;
+	text-align:center;
+	line-height:80rpx;
+	background:-webkit-linear-gradient(left, rgb(255,203,0) , rgb(255,148,2));
+	color:#fff;
+	border-radius:50rpx;
+	will-change: transform;
+	margin: 80rpx auto 0;
+}
+

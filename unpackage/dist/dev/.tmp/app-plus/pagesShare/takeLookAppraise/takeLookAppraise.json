@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "服务评价",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "loading-data": "/components/loadingData",
+    "look-house-evaluate-view": "/pagesShare/components/lookHouseEvaluateView"
+  }
+}

@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"web_view.",[1],"data-v-d39feab2{ background: #FFFFFF; }\n.",[1],"web.",[1],"data-v-d39feab2{ background: #FFFFFF; }\n",],undefined,{path:"./pagesWeb/contractSign/contractSign.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pagesWeb/contractSign/contractSign.wxml') } }));

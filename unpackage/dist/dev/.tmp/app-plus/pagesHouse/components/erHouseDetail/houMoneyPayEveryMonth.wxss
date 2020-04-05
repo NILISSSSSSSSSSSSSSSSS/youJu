@@ -1,0 +1,27 @@
+
+.pay_month_view.data-v-470a7663{
+	padding: 0 40rpx;
+	box-sizing: border-box;
+	margin-top: 54rpx;
+}
+.pay_month_img.data-v-470a7663{
+	width: 145rpx;
+	height: 34rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	margin: auto 10rpx auto 0;
+}
+.pay_month_text.data-v-470a7663{
+	height:100%;
+	font-size:24rpx;
+	color:#101D36;
+	line-height:60rpx;
+}
+.pay_month_arrow.data-v-470a7663{
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	width: 15rpx;
+	height: 24rpx;
+	margin: auto 0;
+}
+

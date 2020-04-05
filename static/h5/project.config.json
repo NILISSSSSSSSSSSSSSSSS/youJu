@@ -1,0 +1,292 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		}
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.0",
+	"appid": "wx28b7902beee26937",
+	"projectname": "悠居客+",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 32,
+			"list": [
+				{
+					"id": -1,
+					"name": "更换手机号",
+					"pathName": "pagesTool/changePhone/changePhone",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "物业版委托登记",
+					"pathName": "packageProperty/pages/findHouse/findHouse",
+					"query": "archiveId=1335742&compId=286601&deptId=297627&shareOpenId=oEcog5ed1Q2BPKCk84wLo2eokmE4&shareUserId=219977",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "编辑物业版委托房源",
+					"pathName": "pagesProperty/editPropertyEntrust/editPropertyEntrust",
+					"query": "vipCaseId=137711&caseType=1&cityId=1&archiveId=1335742",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "约看",
+					"pathName": "packageShare/pages/aboutLook/aboutLook",
+					"query": "aboutId=32998&cityId=1",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "im详情",
+					"pathName": "pagesTool/messageDetail/messageDetail",
+					"query": "messageId=1249895&caseId=7789583&caseType=1&userId=219977&openId=o3v8N5IDAnelT2WlwHzLYBG6pyRQ&name=%E6%8A%B9%E8%8C%B6&pageFrom=houseDetail&cityId=1&reSource=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "委托详情 dev",
+					"pathName": "pagesEntrust/entrustDetail/entrustDetail",
+					"query": "entrustId=51232",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "小二 - dev - 旗舰店",
+					"pathName": "pagesStore/compStore/compStore",
+					"query": "archiveId=1280311&compId=202995&cityId=1&deptId=204334",
+					"scene": null
+				},
+				{
+					"id": 8,
+					"name": "委托详情（超多好房豆接单）",
+					"pathName": "pagesEntrust/entrustDetail/entrustDetail",
+					"query": "entrustId=5378327",
+					"scene": null
+				},
+				{
+					"id": 9,
+					"name": "IM详情（带优惠券）",
+					"pathName": "pagesTool/messageDetail/messageDetail",
+					"query": "couponId=38&shareArchiveId=1249895&messageId=1249895&caseId=7741983&caseType=1&userId=219977&openId=oEcog5ed1Q2BPKCk84wLo2eokmE4&name=%E6%84%8F%E5%90%91%E9%87%91%E6%B5%8B%E8%AF%95001&cityId=1&reSource=1",
+					"scene": null
+				},
+				{
+					"id": 10,
+					"name": "编辑出售自助委托",
+					"pathName": "pagesEntrust/registration/registration",
+					"query": "fromStatus=1&caseType=1&vipCaseId=139094&archiveId=&pushLogId=&cityId=1&isHezu=0&isEdit=1&houseRoof=3&houseUnit=2&houseFloor=1&houseNum=2",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "委托跟进",
+					"pathName": "pagesEntrust/entrustTrack/entrustTrack",
+					"query": "cityId=1&caseType=1&caseId=139094&isBroker=1",
+					"scene": null
+				},
+				{
+					"id": 11,
+					"name": "华宇广场 二手房详情",
+					"pathName": "pagesHouse/erHouseDetail/erHouseDetail",
+					"query": "cityId=1&caseId=7783663&caseType=1&resource=1&pageFrom=&archiveId=1249895&compId=&buildId=&activity=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "房源投诉",
+					"pathName": "pagesHouse/fakeHouse/fakeHouse",
+					"query": "archiveId=1265761&caseId=7783663&caseType=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "新房楼书",
+					"pathName": "packageTool/pages/buildBook/buildBook",
+					"query": "cityid=1&caseId=2079633&casetype=6&source=zshft&archive_id=1235036",
+					"scene": null
+				},
+				{
+					"id": 15,
+					"name": "带看确认书网页",
+					"pathName": "packageWeb/pages/takeLook/takeLook",
+					"query": "lookOrderUuid=2b4683ba23b141dd90054df5ff74d4a2",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "房源委托书（网页）",
+					"pathName": "packageWeb/pages/standingOrder/standingOrder",
+					"query": "caseId=7789760&caseType=1&proxyId=321&cityId=1&compId=57618&mobile=13554456699",
+					"scene": null
+				},
+				{
+					"id": 16,
+					"name": "新房详情（有置业顾问）",
+					"pathName": "pagesHouse/newHouseDetail/newHouseDetail",
+					"query": "buildId=2039721",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "地图找房",
+					"pathName": "pagesTool/mapFindHouse/mapFindHouse",
+					"query": "type=erHouse",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "委托经纪人",
+					"pathName": "pagesEntrust/entrustAgent/entrustAgent",
+					"query": "caseId=102461&caseType=3",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "方圆投诉",
+					"pathName": "pagesHouse/fakeHouse/fakeHouse",
+					"query": "archiveId=1249895&caseId=7783663&caseType=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "卢文静个人微店（有新房）",
+					"pathName": "pagesStore/personalStore/personalStore",
+					"query": "archiveId=65796",
+					"scene": null
+				},
+				{
+					"id": 21,
+					"name": "旗舰店（有新房）",
+					"pathName": "pagesStore/compStore/compStore",
+					"query": "cityId=9&adminDeptId=289118&adminCompId=279104",
+					"scene": null
+				},
+				{
+					"id": 22,
+					"name": "带看 服务评价",
+					"pathName": "pagesShare/takeLookAppraise/takeLookAppraise",
+					"query": "takeLookId=4743&archiveId=1335742&cityId=1&userName=%E5%B0%8F%E4%BA%8C%E7%BA%BF%E4%B8%8A%EF%BC%9A%E5%8F%8B%E9%82%BB%E9%80%9A%E5%A5%BD%E6%88%BF%E7%89%A9%E4%B8%9A&lookTime=07%E6%9C%8831%E6%97%A5&isAppraise=0&userPhoto=http%3A%2F%2Fcdn.haofang.net%2Fstatic%2Fuuminiapp%2Fim%2FdefaultHead.png",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "远大都市风景四期 -  二手房详情（有公司id）",
+					"pathName": "pagesHouse/erHouseDetail/erHouseDetail",
+					"query": "cityId=1&caseId=7773769&caseType=1&resource=1&pageFrom=&archiveId=&compId=1&buildId=2019566",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "远大都市风景四期（正常进入）",
+					"pathName": "pagesHouse/erHouseDetail/erHouseDetail",
+					"query": "cityId=1&caseId=7773769&caseType=1&resource=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "发布买房委托",
+					"pathName": "pagesEntrust/entrust/entrust",
+					"query": "casetype=3",
+					"scene": null
+				},
+				{
+					"id": 26,
+					"name": "合同签订",
+					"pathName": "pagesWeb/contractSign/contractSign",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 27,
+					"name": "合同信息",
+					"pathName": "pagesShare/contractShare/contactInfo",
+					"query": "contractId=12346",
+					"scene": null
+				},
+				{
+					"id": 28,
+					"name": "优惠券（未使用）",
+					"pathName": "pages/im/im",
+					"query": "couponId=956&shareArchiveId=1265761",
+					"scene": null
+				},
+				{
+					"id": 29,
+					"name": "优惠券（已失效）",
+					"pathName": "pages/im/im",
+					"query": "couponId=957&shareArchiveId=558818",
+					"scene": null
+				},
+				{
+					"id": 30,
+					"name": "交易进度",
+					"pathName": "pagesShare/contractShare/contractProcess",
+					"query": "erpCompId=12001&dealId=10575&cityId=1",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "委托签订 网页",
+					"pathName": "pagesWeb/standingOrder/standingOrder",
+					"query": "proxyId=228&cityId=1&caseType=1&caseId=6639498",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "带看房源 网页",
+					"pathName": "pagesWeb/takeLook/takeLook",
+					"query": "lookOrderUuid=faf05abd4f6d411d8c3b6a8d61f0eadf",
+					"scene": null
+				}
+			]
+		}
+	}
+}

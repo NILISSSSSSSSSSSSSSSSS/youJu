@@ -1,0 +1,1116 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* 支付宝swiper自定义 */
+.swiper-wrap{
+		width: 100%;
+		position: relative;
+}
+.dots{
+		position: absolute;
+		right: 0;
+		bottom: 12rpx;
+		left: 0;
+		height: 20rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+}
+	/*未选中时的小圆点样式 */
+.dot{
+		margin-right: 8rpx;
+		width: 10rpx;
+		height: 10rpx;
+		border-radius: 50%;
+		will-change: transform;
+		background-color: #dbe2e7;
+}
+	/*选中以后的小圆点样式  */
+.active{
+		background-color: #101d36;
+}
+	/* 支付宝swiper自定义 END*/
+image {
+		width: 100%;
+		display: block;
+}
+page {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		font-family: "Helvetica Neue",
+			Helvetica,
+			Arial,
+			"PingFang SC",
+			"Hiragino Sans GB",
+			"Heiti SC",
+			"Microsoft YaHei",
+			"WenQuanYi Micro Hei",
+			sans-serif;
+}
+#account-wrap-1 {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+		display: -webkit-flex;
+		display: -webkit-box;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		width: 100%;
+		height: 100%;
+}
+#account-wrap-2 {
+		display: -webkit-flex;
+		display: -webkit-box;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		width: 100%;
+		height: 100%;
+}
+	/* 微信swiper 自定义 */
+	
+	/* swiper END*/
+.swiper {
+		height: 420rpx;
+		margin-top: 40rpx;
+}
+.swiper-content {
+		position: relative;
+        height: 370rpx;
+        width: 670rpx;
+        border-radius: 20rpx;
+        overflow: hidden;
+        will-change: transform;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+.swiper-content-top {
+		position: absolute;
+		left: 50rpx;
+		top: 38rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+        z-index: 55;
+}
+.swiper-content-top-img {
+		width: 42rpx;
+		height: 42rpx;
+		margin-right: 12rpx;
+		background:url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/wallet_sprites.png)  no-repeat;
+		background-size:148px 30px;
+}
+.swiper_icon_2{height:22px;width:22px;background-position:0 0;}
+.swiper_icon_3{height:22px;width:22px;background-position:-22px 0;}
+.swiper_icon_4{height:22px;width:22px;background-position:-44px 0;}
+.swiper_icon_1{height:22px;width:22px;background-position:-66px 0;}
+.swiper-content-top-cont {
+		font-size: 32rpx;
+		color: #fff;
+		line-height: 33px;
+}
+.swiper-content-money {
+		position: absolute;
+		left: 50rpx;
+		top: 155rpx;
+		font-size: 90rpx;
+		color: #fff;
+		line-height: 33px;
+        z-index: 55;
+}
+.swiper-content-money>view {
+		font-size: 30rpx;
+		display: inline-block;
+}
+.swiper-content-bottom {
+		position: absolute;
+		bottom: 74rpx;
+		left: 50rpx;
+		font-size: 26rpx;
+		color: #fff;
+		opacity: 0.5;
+		margin-top: 30rpx;
+        z-index: 55;
+}
+.swiper-content-btn {
+		position: absolute;
+		top: 146rpx;
+		right: 50rpx;
+		font-size: 30rpx;
+		color: #fff;
+		border-radius: 32rpx;
+		will-change: transform;
+		border: solid 2rpx #fff;
+		line-height: 64rpx;
+		width: 150rpx;
+		height: 64rpx;
+		text-align: center;
+        z-index: 55;
+}
+.slide-image {
+		height: 370rpx;
+		width: 670rpx;
+		border-radius: 20rpx;
+        box-sizing: border-box;
+        position: absolute;
+        left: 0;
+        top: 0;
+		will-change: transform;
+}
+.content {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		height: 150rpx;
+		border-bottom: solid 1rpx #ececec;
+		margin: 0 40rpx;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+}
+.content-images {
+		height: 50rpx;
+		width: 50rpx;
+		margin-right: 27rpx;
+		margin-left: 13rpx;
+}
+.content-img {
+		height: 50rpx;
+		width: 50rpx;
+}
+.content-detail {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		        flex: 1;
+}
+.content-detail-title {
+		font-size: 32rpx;
+		margin-bottom: 12rpx;
+		color: #101d36;
+}
+.content-detail-time {
+		font-size: 24rpx;
+		color: #7a8190;
+}
+.content-money {
+		font-size: 36rpx;
+		color: #101d36;
+}
+.content-btn {
+		font-size: 28rpx;
+		color: #ab7f2e;
+		padding: 10rpx 27rpx;
+		border: solid 1px #ab7f2e;
+		border-radius: 24px;
+		will-change: transform;
+		margin-left: 27rpx;
+}
+.content-btning {
+		font-size: 28rpx;
+		color: #69abfe;
+		margin-left: 40rpx;
+		margin-right: 16rpx;
+}
+.tab-cont {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		        flex: 1;
+}
+.scoll-h {
+		position: relative;
+		width: 100%;
+		height: 100%;
+}
+.no-wrap {
+		width: 100%;
+		position: relative;
+		top: 200rpx;
+}
+.no-data-img {
+		margin: 0 auto;
+		width: 283rpx;
+		height: 287rpx;
+}
+.no-txt {
+		width: 100%;
+		text-align: center;
+		font-size: 32rpx;
+		color: #999;
+}
+.ticket-box {
+		padding-left: 40rpx;
+		box-sizing: border-box;
+}
+.ticket-li {
+		display: -webkit-flex;
+		width: 100%;
+		padding: 20rpx 0;
+		border-bottom: 1px solid #eee;
+}
+.tik-pic {
+		width: 72rpx;
+		height: 72rpx;
+		margin-right: 20rpx;
+		overflow: hidden;
+}
+.tik-pic image {
+		width: 100%;
+}
+.tik-cont {
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		        flex: 1;
+}
+.tik-title {
+		width: 100%;
+		font-size: 32rpx;
+		margin-bottom: 10rpx;
+}
+.tik-title text {
+		float: right;
+		margin-right: 40rpx;
+}
+.tik-time {
+		font-size: 24rpx;
+		color: #999;
+}
+.reward-btn {
+		float: right;
+		font-size: 26rpx;
+		margin-right: 20rpx;
+}
+.reward-btn-blue {
+		color: #4daaf0;
+}
+.reward-btn-gray {
+		color: #ccc;
+}
+.reward-btn-error {
+		color: #ab7f2e;
+}
+.reward-btn-active::after {
+		content: '';
+		display: inline-block;
+		width: 14rpx;
+		height: 24rpx;
+		vertical-align: -2rpx;
+		margin-left: 8rpx;
+		background: url(https://zdzfapi.haofang.net/Public/wxApp/images/registration/arrow_right.png) center no-repeat;
+		background-size: 100% 100%;
+}
+	/*优惠券*/
+.coupon-box-has {
+		width: 681rpx;
+		height: 259rpx;
+		margin: 0 auto;
+		color: #999;
+		margin-bottom: 20rpx;
+		background: url(http://cdn.haofang.net/static/uuminiapp/myAccount/yhj_gq.png) no-repeat center;
+		background-size: 100%;
+}
+.coupon-box {
+		width: 681rpx;
+		height: 259rpx;
+		margin: 0 auto;
+		color: #999;
+		margin-bottom: 20rpx;
+		background: url(http://cdn.haofang.net/static/uuminiapp/myAccount/yhj_lv.png) no-repeat center;
+		background-size: 100%;
+}
+.cou-title {
+		padding: 20rpx 20rpx;
+		width: 100%;
+		font-size: 32rpx;
+		box-sizing: border-box;
+}
+.no-use {
+		color: #00ca85 !important;
+}
+.cou-title text {
+		float: right;
+}
+.from-box {
+		width: 100%;
+		padding: 0 20rpx;
+		font-size: 28rpx;
+		box-sizing: border-box;
+		margin-bottom: 40rpx;
+}
+.from-box text {
+		float: right;
+		font-size: 32rpx;
+}
+.cou-msg {
+		width: 100%;
+		padding: 0 20rpx;
+		box-sizing: border-box;
+		font-size: 24rpx;
+		word-wrap: normal;
+		display: -webkit-box;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 2;
+}
+.red-packet {
+		padding-top: 30rpx;
+		background: #f6f6f6;
+		box-sizing: border-box;
+}
+	/** 优惠券:新版样式 **/
+.coupan-li {
+  position: relative;
+  width: 685rpx;
+  height: 218rpx;
+  margin: 0 auto;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  background: url(https://cdn.haofang.net/static/storeWxApp/uu_platform/entrustAdjust/redPack_bg.png) center center no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 20rpx;
+  padding-left: 8rpx;
+}
+.coupan-li.coupan-li-disabled {
+  background: url(https://cdn.haofang.net/static/storeWxApp/uu_platform/entrustAdjust/redPack_bg_end.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+.coupan-li .coupan-info {
+  -webkit-box-flex: 1;
+  line-height: 1;
+  padding: 0 30rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  height: 100%;
+  padding-top: 50rpx;
+}
+.coupan-li .coupan-info .title {
+  font-size: 28rpx;
+  color: #7a8190;
+}
+.coupan-li .coupan-info .desc {
+  font-size: 24rpx;
+  color: #a0a4ad;
+  white-space: normal;
+  line-height: 30rpx;
+  margin-top: 20rpx;
+}
+.coupan-li .coupan-info .date {
+  font-size: 24rpx;
+  color: #bbb;
+  margin-top: 17rpx;
+}
+.coupan-li .coupan-info .act-btn {
+  position: absolute;
+  right: 36rpx;
+  bottom: 28rpx;
+  width: 150rpx;
+  height: 54rpx;
+  line-height: 54rpx;
+  text-align: center;
+  background-color: #fe4e4a;
+  border-radius: 27rpx;
+  font-size: 26rpx;
+  color: #ffffff;
+  z-index: 2;
+}
+.coupan-li .coupan-num {
+  width: 230rpx;
+  color: #fe4e4a;
+  text-align: center;
+  line-height: 1;
+}
+.coupan-li .coupan-num .num-text {
+  font-size: 36rpx;
+}
+.coupan-li .coupan-num .num-text text {
+  font-weight: bold;
+  font-size: 60rpx;
+  margin-left: 0rpx;
+}
+.coupan-li .coupan-num .num-desc {
+  font-size: 26rpx;
+  margin-top: 20rpx;
+  letter-spacing: 1rpx;
+  color: #000;
+}
+.coupan-li-disabled .coupan-num .num-text,
+.coupan-li-disabled .coupan-num .num-desc,
+.coupan-li-disabled .coupan-num {
+  color: #a7aab2;
+}
+.coupan-li-disabled .coupan-info .date,
+.coupan-li-disabled .coupan-info .desc {
+  color: #d0d0d0;
+}
+.coupan-li .coupan-status {
+  width: 130rpx;
+  height: 113rpx;
+  position: absolute;
+  right: 10rpx;
+  bottom: 10rpx;
+}
+.coupan-li .coupan-status image {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+	/** 优惠券:新版样式 :end **/
+

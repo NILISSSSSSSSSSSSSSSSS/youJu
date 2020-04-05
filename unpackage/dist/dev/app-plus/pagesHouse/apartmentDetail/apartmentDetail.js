@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"er_house_detail{ overflow-x: hidden; }\n.",[1],"near_map_item{ height: ",[0,25],"; }\n.",[1],"bottom_btn_empty{ height: ",[0,140],"; }\n.",[1],"x_bottom_empty{ height: ",[0,180],"!important; }\n.",[1],"cont_empty_view{ height: ",[0,40],"; }\n",],undefined,{path:"./pagesHouse/apartmentDetail/apartmentDetail.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pagesHouse/apartmentDetail/apartmentDetail.wxml') } }));

@@ -1,0 +1,39 @@
+
+.new_msg_view.data-v-ca080a10{
+	width:100rpx;
+	height:100rpx;
+	position:fixed;
+	background:url(http://cdn.haofang.net/static/kdbweb/zdzfminiapp/zdzfPlatform/newUiStyle/btn_mess.png) center center no-repeat;
+	right:21rpx;
+	bottom:270rpx;
+	border-radius:50%;
+	will-change: transform;
+	z-index:9;
+	background-size:100% 100%;
+	box-shadow:0px 0px 33rpx 2rpx rgba(0, 0, 0, 0.16);
+}
+.new_msg_point.data-v-ca080a10{
+	background-color:red;
+	height:12rpx;
+	width:12rpx;
+	right:20rpx;
+	top:26rpx;
+	position:absolute;
+	border-radius:50%;
+	will-change: transform;
+}
+.has_new_msg_icon.data-v-ca080a10{
+	-webkit-animation:pound-data-v-ca080a10 1s infinite;
+	        animation:pound-data-v-ca080a10 1s infinite;
+}
+@-webkit-keyframes pound-data-v-ca080a10{
+from{-webkit-transform:none;transform:none}
+50%{-webkit-transform:scale(1.6);transform:scale(1.6)}
+to{-webkit-transform:none;transform:none}
+}
+@keyframes pound-data-v-ca080a10{
+from{-webkit-transform:none;transform:none}
+50%{-webkit-transform:scale(1.6);transform:scale(1.6)}
+to{-webkit-transform:none;transform:none}
+}
+

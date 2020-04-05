@@ -1,0 +1,26 @@
+
+.pei_tao_she_shi.data-v-fe50ba8c{
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	box-sizing: border-box;
+	margin-left: -20rpx;
+	margin-top: 30rpx;
+	margin-bottom: -30rpx;
+}
+.pei_item.data-v-fe50ba8c{
+	width: 25%;
+	text-align: center;
+	margin-bottom: 50rpx;
+}
+.pei_icon.data-v-fe50ba8c{
+	width: 40rpx;
+	height: 40rpx;
+	margin: 0 auto;
+}
+.pei_text.data-v-fe50ba8c{
+	font-size: 24rpx;
+	color: #101D36;
+	line-height: 34rpx;
+	margin-top: 17rpx;
+}
+

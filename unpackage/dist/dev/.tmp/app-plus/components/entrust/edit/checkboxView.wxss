@@ -1,0 +1,48 @@
+
+.radio_choose_title.data-v-139310aa{
+	text-align:left;
+	font-size:28rpx;
+	color:#101d36;
+	height:40rpx;
+	line-height:40rpx;
+	position:relative;
+	box-sizing:border-box;
+	margin-bottom: 28rpx;
+}
+.radio_choose_list.data-v-139310aa{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:row;
+	        flex-direction:row;
+	-webkit-box-pack:start;
+	-webkit-justify-content:start;
+	        justify-content:start;
+	-webkit-flex-wrap:wrap;
+	        flex-wrap:wrap;
+	padding:4rpx 0 28rpx;
+	box-sizing:border-box;
+}
+.radio_choose_list_item.data-v-139310aa{
+	width:155rpx;
+	padding: 11rpx 0;
+	text-align:center;
+	color:#101d36;
+	font-size:28rpx;
+	background-color:#f1f3f6;
+	border-radius:5rpx;
+	will-change: transform;
+	margin:0 16rpx 16rpx 0;
+	box-sizing:border-box;
+}
+.radio_choose_list_item.data-v-139310aa:nth-child(4n) {
+	margin-right: 0;
+}
+.radio_choose_list .radio_choose_list_item_active.data-v-139310aa{
+	background-color:#FFFFFF;
+	color:#ab7f2e;
+	border:1rpx solid #ab7f2e;
+}
+

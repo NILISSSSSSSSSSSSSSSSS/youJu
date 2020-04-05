@@ -1,0 +1,68 @@
+
+.near_map.data-v-5745a141 {
+  width: 100%;
+  height: 320rpx;
+  position: relative;
+}
+.near_map > image.data-v-5745a141 {
+  width: 100%;
+  height: 100%;
+}
+.map_view.data-v-5745a141 {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.map_center_view.data-v-5745a141 {
+  position: absolute;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #101d36;
+  background-color: #ffffff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 4rpx;
+  z-index: 20;
+}
+.map_center_view.data-v-5745a141::after {
+  display: none;
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -15rpx;
+  border-left: 20rpx solid transparent;
+  border-right: 20rpx solid transparent;
+  border-top: 20rpx solid #ffffff;
+  z-index: 20;
+}
+.map_center_icon.data-v-5745a141 {
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 45rpx);
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  width: 52rpx;
+  height: 52rpx;
+  border-radius: 50%;
+  border: none;
+  background-color: inherit;
+  /* border: solid 3upx #005aff; */
+  /* background-color: #adcef1; */
+  background-image: url('http://cdn.haofang.net/static/wxPlusApp/yjk/house/icon_dian.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto 0;
+  z-index: 1;
+}
+

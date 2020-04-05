@@ -1,0 +1,99 @@
+
+.houseLiaoKeReceiveView.data-v-785c11eb{
+	background-color: #FFFFFF;
+	color: #fff;
+	word-break: break-all;
+	line-height: 1.5;
+	position:relative;
+	margin-right:22rpx;
+	min-height:40px;
+	padding:19rpx 20rpx;
+	box-sizing: border-box;
+	width:100%;
+	border-radius:15rpx;
+	text-align:left;
+	font-size:15px;
+}
+.houseMeView_title.data-v-785c11eb{
+	margin-bottom:20rpx;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:1;
+	font-size:30rpx;
+	color:#424242;
+	font-weight:800;
+}
+.houseLiaoKeReceiveView_img_view.data-v-785c11eb{
+	width:222rpx;
+	height:170rpx;
+	margin-right:20rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	background:url('http://cdn.haofang.net/static/wxPlusApp/yjk/house/house_list_default.png') #f5f5f5 no-repeat center;
+	background-size:100% 100%;
+	border-radius: 6rpx;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.houseLiaoKeReceiveView_img_view>image.data-v-785c11eb{
+	width:100%;
+	height:100%;
+}
+.houseMeView_cont.data-v-785c11eb{
+	overflow:hidden;
+	-webkit-box-flex:1;
+}
+.houseLiaoKeReceiveView_price.data-v-785c11eb{
+	margin-top: 20rpx;
+}
+.houseLiaoKeReceiveView_unit_price.data-v-785c11eb{
+	max-width:100%;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	line-height:1;
+	white-space:nowrap;
+	padding-bottom:10rpx;
+	color:#898989;
+	font-size:28rpx;
+	margin-left: 30rpx;
+}
+.houseMeView_name.data-v-785c11eb{
+	max-width:100%;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	line-height:1;
+	white-space:nowrap;
+	padding-bottom:10rpx;
+	color:#898989;
+	font-size:28rpx;
+}
+.houseMeView_ting.data-v-785c11eb{
+	font-size:26rpx;
+	color:#898989;
+	line-height:1.5;
+	max-width:100%;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.houseMeView_ting_info.data-v-785c11eb{
+	margin-right: 10rpx;
+}
+.houseMeView_total.data-v-785c11eb{
+	line-height:1.5;
+	max-width:100%;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	font-size:33rpx;
+	font-weight: bold;
+}
+.houseMeView_total>text.data-v-785c11eb{
+	display:inline-block;
+	font-size:22rpx!important;
+	font-weight:normal;
+}
+.houseMeView_no_price.data-v-785c11eb{}
+

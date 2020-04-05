@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "map-btn-view": "/pagesHouse/components/erHouseDetail/mapBtnView"
+  }
+}

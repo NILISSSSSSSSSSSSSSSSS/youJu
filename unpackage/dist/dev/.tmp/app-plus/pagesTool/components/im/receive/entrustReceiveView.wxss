@@ -1,0 +1,171 @@
+
+.house-tips.data-v-76348c7e{
+	color: #fea33f;
+	font-size: 20rpx;
+	line-height: 30rpx;
+	margin-top: 30rpx;
+	background: #fef6e9;
+	border-radius: 10rpx;
+	padding: 20rpx;
+	max-width: 80%;
+	box-sizing: border-box;
+	margin-left: 22rpx;
+}
+/* 看/不看 */
+.entrust_re_look_or.data-v-76348c7e{
+	height:60rpx;
+	line-height:60rpx;
+	width:100%;
+	text-align:center;
+	margin-top:20rpx;
+}
+.entrust_re_look_or>view.data-v-76348c7e{
+	width:40%;
+	text-align:center;
+	box-sizing: border-box;
+	border:2rpx solid #4daaf0;
+	border-radius: 10rpx;
+	color:#4daaf0;
+}
+.entrust_re_look_or>.entrust_re_no.data-v-76348c7e{
+	border:2rpx solid #999;
+	margin-right:20rpx;
+	color: #101D36;
+}
+/* 委托状态标签 */
+.house-status-tag.data-v-76348c7e{
+	position: absolute;
+	top: 33rpx;
+	right: 22rpx;
+	width: 130rpx;
+	height: 105rpx;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.tag-1.data-v-76348c7e{
+	background-image: url(http://cdn.haofang.net/static/uuminiapp/entrustDetail/refuse_house.png);
+}
+.entrust-btns.data-v-76348c7e{
+	height: 60rpx;
+	line-height: 60rpx;
+	width: 100%;
+	text-align: center;
+	margin-top: 20rpx;
+}
+.has-see-house.data-v-76348c7e,.has-eva-house.data-v-76348c7e{
+	width: 100%;
+	height: 60rpx;
+	line-height: 60rpx;
+	color: #B6B6B6;
+	background: #f2f2f2;
+	text-align: center;
+}
+.see-house-prise.data-v-76348c7e{
+	color: #ff864a;
+	border: 2rpx solid #ff864a;
+	width: 50%;
+	margin:0 auto;
+	border-radius: 10rpx;
+}
+.house-eva.data-v-76348c7e{
+	color: #ff864a;
+	border: 2rpx solid #ff864a;
+	width: 60%;
+	margin:0 auto;
+	border-radius: 10rpx;
+}
+.entrust-success.data-v-76348c7e{
+	position: absolute;
+	top: 20rpx;
+	right: 0;
+	background-size:100% 100%;
+	background-position:center center;
+	background-repeat:no-repeat;
+	width:170rpx;
+	height:112rpx;
+	background-image:url('http://cdn.haofang.net/static/uuminiapp/personalCenter/enstrust-chengjiao.png');
+}
+/* 房源信息 */
+.houseReceiveView.data-v-76348c7e{
+	position: relative;
+	background-color: #FFFFFF;
+	color: #fff;
+	word-break: break-all;
+	line-height: 1.5;
+	position:relative;
+	margin-left:22rpx;
+	min-height:40px;
+	padding:19rpx 20rpx;
+	box-sizing: border-box;
+	max-width: 80%;
+	border-radius:15rpx;
+	text-align:left;
+	font-size:15px;
+}
+.houseReceiveView_title.data-v-76348c7e{
+	margin-bottom:20rpx;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2;
+	font-size:30rpx;
+	color:#424242;
+	font-weight:800;
+}
+.houseReceiveView_img_view.data-v-76348c7e{
+	width:150rpx;
+	height:120rpx;
+	margin-right:20rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	background:url('http://cdn.haofang.net/static/wxPlusApp/yjk/house/house_list_default.png') #f5f5f5 no-repeat center;
+	background-size:100% 100%;
+}
+.houseReceiveView_img_view>image.data-v-76348c7e{
+	width:100%;
+	height:100%;
+}
+.houseReceiveView_cont.data-v-76348c7e{
+	overflow:hidden;
+	-webkit-box-flex:1;
+}
+.houseReceiveView_name.data-v-76348c7e{
+	max-width:100%;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	line-height:1;
+	white-space:nowrap;
+	padding-bottom:10rpx;
+	color:#898989;
+	font-size:28rpx;
+}
+.houseReceiveView_ting.data-v-76348c7e{
+	font-size:26rpx;
+	color:#898989;
+	line-height:1.5;
+	max-width:100%;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+}
+.houseReceiveView_ting_info.data-v-76348c7e{
+	margin-right: 10rpx;
+}
+.houseReceiveView_total.data-v-76348c7e{
+	line-height:1.5;
+	max-width:100%;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	font-size:33rpx;
+	font-weight: bold;
+}
+.houseReceiveView_total>text.data-v-76348c7e{
+	display:inline-block;
+	font-size:22rpx!important;
+	font-weight:normal;
+}
+.houseReceiveView_no_price.data-v-76348c7e{}
+

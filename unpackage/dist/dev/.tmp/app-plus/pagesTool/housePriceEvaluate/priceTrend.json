@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "er-house-list-item": "/components/erHouseListItem",
+    "village-expert": "/components/villageExpert"
+  }
+}

@@ -1,0 +1,93 @@
+
+.process_top.data-v-9e74682e{
+    background:-webkit-linear-gradient(top, #ff7626, #fe8a11);
+    padding: 0 30rpx 33rpx 36rpx;
+    box-sizing: border-box;
+}
+.process_name_address.data-v-9e74682e{
+    width: 100%;
+    padding-top: 28rpx;
+    box-sizing: border-box;
+}
+.process_top_left.data-v-9e74682e{
+    width: 100%;
+}
+.process_top_text.data-v-9e74682e{
+    line-height: 55rpx;
+    text-align: left;
+    color: #ffffff;
+    font-size: 36rpx;
+    font-weight: bold;
+}
+.process_top_name.data-v-9e74682e{
+    margin-right: 14rpx;
+}
+.process_top_address.data-v-9e74682e{
+    line-height: 40rpx;
+    margin-top: 5rpx;
+    text-align: left;
+}
+.process_top_icon.data-v-9e74682e{
+    width: 21rpx;
+    height: 27rpx;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+    margin: 7rpx 10rpx auto 0;
+    display: inline-block;
+    position: relative;
+    top: 3rpx;
+}
+.process_address_text.data-v-9e74682e{
+    font-size: 26rpx;
+    color: #ffffff;
+    text-align: left;
+    line-height: 40rpx;
+}
+.look_contract_btn.data-v-9e74682e{
+    background: #ffffff;
+    width: 154rpx;
+    height: 54rpx;
+    line-height: 54rpx;
+    border-radius: 27rpx;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 24rpx;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+    color: #ff7823;
+    font-size: 28rpx;
+    margin-left: 15rpx;
+}
+.process_info_list.data-v-9e74682e{
+    width: 100%;
+    margin-top: 30rpx;
+}
+.process_info_view.data-v-9e74682e{
+    width: 50%;
+}
+.process_info_item.data-v-9e74682e{
+    height: 46rpx;
+    line-height: 46rpx;
+    color: #ffffff;
+    font-size: 26rpx;
+    text-align: left;
+    width: 100%;
+}
+.process_info_title.data-v-9e74682e{
+    width: 110rpx;
+    text-align:justify;
+    text-justify:distribute-all-lines;
+    text-align-last:justify;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+}
+.process_info_val.data-v-9e74682e{
+    width: 100%;
+    text-align: left;
+    margin-left: 16rpx;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+

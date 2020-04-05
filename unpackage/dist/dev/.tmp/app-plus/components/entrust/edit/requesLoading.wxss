@@ -1,0 +1,60 @@
+
+.load.data-v-16633364 {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	max-width: 1280rpx;
+	margin: 0 auto;
+	background: rgba(0, 0, 0, 0);
+	z-index: 300;
+}
+.load-content.data-v-16633364 {
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	width: 160rpx;
+	height: 160rpx;
+	margin-left: -60rpx;
+	background-color: rgba(0, 0, 0, .6);
+	border-radius: 12rpx;
+	will-change: transform;
+}
+.loading-text.data-v-16633364 {
+	font-size: 24rpx;
+	color: #fff;
+	text-align: center;
+}
+.loading-pic.data-v-16633364 {
+	display: block;
+	width: 60rpx;
+	height: 60rpx;
+	margin: 26rpx auto 20rpx;
+	background: url(https://zdzfapi.haofang.net/PublicC/images/publish/index/loading_circle_white.png) center no-repeat;
+	background-size: 100% 100%;
+	animation: loading-data-v-16633364 3s linear infinite;
+	-webkit-animation: loading-data-v-16633364 3s linear infinite;
+}
+@-webkit-keyframes loading-data-v-16633364 {
+0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg)
+}
+100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+}
+}
+@keyframes loading-data-v-16633364 {
+0% {
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg)
+}
+100% {
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+}
+}
+

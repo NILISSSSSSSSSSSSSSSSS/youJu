@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "收藏与关注",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColor": "#FFFFFF",
+  "onReachBottomDistance": 250,
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "get-user-info": "/components/getUserInfoView",
+    "collect-er-house-item": "/pagesHouse/components/collect/collectErHouseItem",
+    "collect-new-house-item": "/pagesHouse/components/collect/collectNewHouseItem",
+    "collect-aparment-item": "/pagesHouse/components/collect/collectAparmentItem",
+    "new-house-list-item": "/components/newHouseListItem",
+    "er-house-list-item": "/components/erHouseListItem",
+    "history-apartment": "/pagesHouse/components/collect/historyApartment"
+  }
+}

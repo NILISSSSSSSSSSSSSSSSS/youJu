@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "input-choose-build": "/components/entrust/edit/inputChooseBuild"
+  }
+}

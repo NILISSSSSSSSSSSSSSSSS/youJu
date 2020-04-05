@@ -1,0 +1,142 @@
+
+.input_choose_build_view.data-v-4bfc1310{
+		position:fixed;
+		width:100%;
+		top:0;
+		left:0;
+		height:100%;
+		background:#fff;
+		z-index:10000;
+}
+.hoose_build_input_view.data-v-4bfc1310{
+		position:fixed;
+		top:0;
+		width:100%;
+		z-index:99;
+		background-color:#FFFFFF;
+		padding:26rpx 40rpx 0;
+		box-sizing:border-box;
+		margin:0 auto 0;
+}
+.search-box-head.data-v-4bfc1310{
+		height:83rpx;
+		line-height:83rpx;
+		width: 100%;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+}
+.search-head-con.data-v-4bfc1310{
+		border-radius:40rpx;
+		will-change: transform;
+		background:#f8f8f9;
+		height: 100%;
+		line-height: 83rpx;
+		margin-right: 40rpx;
+		width: 100%;
+		position: relative;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+        overflow: hidden;
+}
+.search-cancle-btn.data-v-4bfc1310{
+		color: #7a8190;
+		font-size: 28rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+}
+.input-font.data-v-4bfc1310{
+		color: #c9cdd2;
+        line-height: 82rpx;
+        height: 82rpx;
+        margin: auto 0;
+}
+.search-input-box.data-v-4bfc1310{
+		padding-left: 84rpx;
+		height: 83rpx;
+		line-height: 83rpx;
+		position: relative;
+		font-size: 28rpx;
+		overflow: hidden;
+		box-sizing: border-box;
+		width: 100%;
+        background-color: #F8F8F9;
+		padding-right:60rpx;
+}
+.search-input-box.data-v-4bfc1310::before{
+		content:'';
+		display: inline-block;
+		width:40rpx;
+		height: 40rpx;
+		background: url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/registration/search_icon.png) center no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		left:34rpx;
+		top: 50%;
+		margin-top: -20rpx;
+}
+.input-padding.data-v-4bfc1310{
+        background: #F8F8F9;
+		height: 40rpx;
+		line-height: 40rpx;
+		margin: auto 0;
+}
+.kwd-delte.data-v-4bfc1310{
+		width: 60rpx;
+		height: 60rpx;
+		background: url(http://cdn.haofang.net/static/uuminiapp/new_images/close.png?t=20180503) center center no-repeat;
+		background-size: 35rpx 35rpx;
+		position: absolute;
+		right:0;
+		top: 50%;
+		margin-top: -34rpx;
+		z-index:999999;
+		padding-right:10rpx;
+}
+.search-list-con.data-v-4bfc1310 {
+		height: 100%;
+		overflow: auto;
+		padding: 108rpx 40rpx 40rpx;
+		box-sizing: border-box;
+}
+.search-list-li.data-v-4bfc1310 {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		        justify-content: space-between;
+		height: 112rpx;
+		line-height: 112rpx;
+		font-size: 32rpx;
+		border-bottom: 1rpx solid #ececec;
+		box-sizing: border-box;
+}
+.search-build-name.data-v-4bfc1310 {
+		color: #101d36;
+		position: relative;
+}
+.search-build.data-v-4bfc1310 {
+		color: #8e94a1;
+		font-size: 28rpx;
+}
+

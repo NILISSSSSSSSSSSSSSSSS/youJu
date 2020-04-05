@@ -1,0 +1,267 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*合同作废*/
+.no_use_contract_view{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.no_use_contract{
+    width: 550rpx;
+    margin: auto;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+    background: #ffffff;
+    border-radius: 20rpx;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.no_use_contract_text{
+    font-size: 32rpx;
+    color: #333333;
+    line-height: 70rpx;
+    text-align: center;
+    margin-top: 35rpx;
+    margin-bottom: 29rpx;
+    padding: 0 55rpx;
+    box-sizing: border-box;
+}
+.no_use_contract_btn{
+    height: 90rpx;
+    line-height: 90rpx;
+    width: 100%;
+    font-size: 32rpx;
+    text-align: center;
+    border-top: 1rpx solid #e7e7e7;
+    box-sizing: border-box;
+    color: #5786f2;
+    border-left: 1rpx solid #e7e7e7;
+}
+

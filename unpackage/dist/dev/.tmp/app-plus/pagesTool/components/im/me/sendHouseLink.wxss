@@ -1,0 +1,93 @@
+
+.sendHouseLink_empty.data-v-0b8f3c17{
+	height: 20rpx;
+	background: #f2f2f2;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	width: 100%;
+}
+.sendHouseLink_margin.data-v-0b8f3c17{
+	margin-left: 5rpx;
+}
+.sendHouseLink_tag_img.data-v-0b8f3c17{
+	width: 65rpx;
+	height: 37rpx;
+	margin: auto 4rpx auto 0;
+}
+.sendHouseLink.data-v-0b8f3c17{
+	position:fixed;
+	top:0;
+	border-radius:6rpx;
+	will-change: transform;
+	background:#fff;
+	width:100%;
+	margin:0 auto;
+	z-index:200;
+	padding-bottom: 30rpx;
+	box-sizing: border-box;
+}
+
+.sendHouseLink_cont.data-v-0b8f3c17{
+	display:-webkit-box;
+	-webkit-box-align:start;
+	-webkit-box-pack:start;
+	padding:20rpx;
+	padding-top:34rpx;
+	height:140rpx;
+	position:relative;
+}
+.sendHouseLink_img_view.data-v-0b8f3c17{
+	width:180rpx;
+	height:130rpx;
+	background:#f8f8f8 url(http://cdn.haofang.net/static/wxPlusApp/yjk/house/house_list_default.png?t=20190717) no-repeat center center;
+	background-size:cover;
+	overflow:hidden;
+	margin:0 20rpx;
+}
+.sendHouseLink_img_view>image.data-v-0b8f3c17{
+	width: 100%;
+	height: 100%;
+}
+.sendHouseLink_info.data-v-0b8f3c17{
+	line-height:1.6;
+}
+.sendHouseLink_name.data-v-0b8f3c17{
+	font-size:30rpx;
+	color:#424242;
+	font-weight:800;
+	height:40rpx;
+	line-height:40rpx;
+	position:relative;
+}
+.sendHouseLink_ting.data-v-0b8f3c17{
+	font-size:26rpx;
+	color:#898989;
+	height:45rpx;
+	line-height:50rpx;
+}
+.sendHouseLink_total.data-v-0b8f3c17{
+	font-size:33rpx;
+	color:#ff4c11;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+.sendHouseLink_total>text.data-v-0b8f3c17{
+	display:inline-block;
+	font-size:23rpx;
+}
+.sendHouseLink_btn.data-v-0b8f3c17{
+	background:#fff;
+	color:#4daaf0;
+	border:1rpx solid #4daaf0;
+	border-radius: 6rpx;
+	will-change: transform;
+	width:264rpx;
+	height:54rpx;
+	line-height:54rpx;
+	font-size:28rpx;
+	text-align:center;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+

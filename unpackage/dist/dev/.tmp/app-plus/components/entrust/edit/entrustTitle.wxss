@@ -1,0 +1,30 @@
+
+.entrust_title_common.data-v-2ca9f66c{
+	text-align: left;
+	font-size: 36rpx;
+	color: #101d36;
+	height: 40rpx;
+	line-height: 40rpx;
+	position: relative;
+	font-weight: bold;
+	padding-left: 20rpx;
+	box-sizing: border-box;
+}
+.entrust_title_common.data-v-2ca9f66c::before{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	content: ' ';
+	width: 8rpx;
+	height: 34rpx;
+	border-radius: 4rpx;
+	will-change: transform;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	background-color: #ffd900;
+	box-shadow: 1rpx 0 9rpx 0 rgba(255, 217, 0, 0.38);
+	margin: auto 8rpx auto 0;
+}
+

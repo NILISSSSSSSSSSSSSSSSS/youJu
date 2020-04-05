@@ -1,0 +1,16 @@
+
+
+.compStoreErHouse{
+  min-height: 200upx;
+  background: #FFFFFF;
+  padding: 0 30upx;
+  box-sizing: border-box;
+}
+.compStoreErHouseContentView{
+  background-color: #FFFFFF;
+}
+.compStoreErHouseHouseItemView{
+  padding: 0 30upx 20upx;
+  box-sizing: border-box;
+  border-bottom: 1upx solid #ebebeb;
+}

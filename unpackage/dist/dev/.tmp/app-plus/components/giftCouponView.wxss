@@ -1,0 +1,349 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 抢单优化优惠券 */
+.giftCouponView.data-v-2101bea6 {
+  position: relative;
+}
+
+/* 大弹窗 */
+.giftCouponView .big-box.data-v-2101bea6 {
+  z-index: 202;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.giftCouponView .big-box .giftCoupon-mask.data-v-2101bea6 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.giftCouponView .big-box .cont.data-v-2101bea6 {
+  z-index: 203;
+  position: relative;
+  width: 630rpx;
+  padding: 78rpx 64rpx 70rpx;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 30rpx;
+}
+.giftCouponView .big-box .cont .close-btn.data-v-2101bea6 {
+
+  position: absolute;
+  width: 87rpx;
+  height: 87rpx;
+  top: 0rpx;
+  right: 0rpx;
+  background: url(https://cdn.haofang.net/static/storeWxApp/uu_platform/entrustAdjust/close_icon.png) center center no-repeat;
+  background-size: 27rpx 27rpx;
+}
+.giftCouponView .big-box .cont .gift-tt.data-v-2101bea6 {
+  font-size: 34rpx;
+  line-height: 1;
+  letter-spacing: 0rpx;
+  color: #101d36;
+}
+.giftCouponView .big-box .cont .gift-icon.data-v-2101bea6 {
+  margin: 0 auto 40rpx;
+  width: 300rpx;
+  height: 300rpx;
+  background: url(https://cdn.haofang.net/static/storeWxApp/uu_platform/entrustAdjust/redPack_icon.png) center center no-repeat;
+  background-size: 100% 100%;
+  padding-top: 90rpx;
+  box-sizing: border-box;
+}
+.giftCouponView .big-box .cont .gift-icon .gift-icon-text.data-v-2101bea6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-left: -10rpx;
+}
+.giftCouponView .big-box .cont .gift-icon .gift-icon-text .gift-icon-num.data-v-2101bea6 {
+  font-size: 46rpx;
+  color: #592914;
+}
+.giftCouponView .big-box .cont .gift-icon .gift-icon-text .gift-icon-unit.data-v-2101bea6 {
+  font-size: 22rpx;
+  color: #592914;
+}
+.giftCouponView .big-box .cont .gift-desc.data-v-2101bea6 {
+  text-align: center;
+  font-size: 26rpx;
+  color: #89909d;
+}
+.giftCouponView .big-box .cont .gift-btn.data-v-2101bea6 {
+  width: 500rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  background-image: -webkit-linear-gradient(204deg,
+  #ff6f2e 0%,
+  #fe8e0d 100%),
+  -webkit-linear-gradient(#ffffff,
+    #ffffff);
+  background-image: linear-gradient(246deg,
+  #ff6f2e 0%,
+  #fe8e0d 100%),
+  linear-gradient(#ffffff,
+    #ffffff);
+  background-blend-mode: normal, normal;
+  border-radius: 50rpx;
+  font-size: 34rpx;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.giftCouponView .mini-box.data-v-2101bea6 {
+  z-index: 201;
+  position: fixed;
+  bottom: 152rpx;
+  right: 37rpx;
+  width: 99rpx;
+  height: 113rpx;
+  background: url(https://cdn.haofang.net/static/storeWxApp/uu_platform/entrustAdjust/redPack.png) center center no-repeat;
+  background-size: 100% 100%;
+}
+.giftCouponView .mini-box .mini-box-num.data-v-2101bea6 {
+  position: absolute;
+  text-align: center;
+  font-size: 30rpx;
+  color: #ffe4a2;
+  left: 0;
+  bottom: 18rpx;
+  width: 100%;
+  line-height: 1;
+}
+.check-mobile-button.data-v-2101bea6 {
+  border: none;
+  background: none;
+  padding: 0;
+}
+.check-mobile-button.data-v-2101bea6::after {
+  background: none;
+  border: none;
+}
+
+

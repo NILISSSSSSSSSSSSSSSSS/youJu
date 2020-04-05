@@ -1,0 +1,78 @@
+
+.apartment_item{
+        width:500rpx;
+        padding:20rpx 26rpx;
+        -webkit-flex-shrink:0;
+                flex-shrink:0;
+        background:#fff;
+        overflow:hidden;
+        position:relative;
+}
+.apartment_item_img{
+        width:100%;
+        height:350rpx;
+}
+.apartment_item_des{
+        max-height:44rpx;
+        margin-top: 20rpx;
+}
+.apartment_item_tag{
+        white-space: nowrap;
+        font-size:22rpx;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        padding:2rpx 6rpx 4rpx;
+        border-radius:2rpx;
+        margin-right:10rpx;
+        box-sizing: border-box;
+}
+
+
+.houseResourceText{
+        background:#ff8a00;
+        color:#fff;
+        border:1rpx solid #ff8a00;
+}
+.housePriceOfMonth{
+        border:1rpx solid #ff8a00;
+        color:#ff8a00;
+        background:#fff;
+}
+.apartment_item_info_0{
+        border: 1rpx solid rgb(27, 201, 100);
+        color: rgb(27, 201, 100);
+}
+.apartment_item_info_1{
+        color: #ff8a00;
+        border: 1rpx solid #ff8a00;
+}
+.apartment_item_info_2{
+      border: 1rpx solid rgb(0, 158, 224);
+      color: rgb(0, 158, 224);
+}
+.apartment_item_bottom{
+        font-size:30rpx;
+        color:#000;
+        padding:10rpx 0;
+        box-sizing: border-box;
+		text-align: left;
+		max-width: 100%;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+}
+.apartment_item_addr{
+        margin-right: 8rpx;
+}
+.apartment_item_name{
+        margin-right: 8rpx;
+}
+

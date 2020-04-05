@@ -1,0 +1,205 @@
+
+.new_house_100_item.data-v-a0837f7a{
+        padding: 40rpx 0 40rpx 0;
+        box-sizing: border-box;
+        border-bottom: 2rpx solid #F5F5F5;
+		width: 100%;
+        background: #FFFFFF;
+}
+.er_house_img_view.data-v-a0837f7a{
+        position: relative;
+        width:216rpx;
+		height:165rpx;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+}
+.er_house_img_cont.data-v-a0837f7a{
+		border-radius: 4rpx;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+}
+.er_house_img.data-v-a0837f7a{
+        width: 100%;
+        height: 100%;
+}
+.new_house_hot_icon.data-v-a0837f7a,.new_house_luju_icon.data-v-a0837f7a{
+        height:17px;
+        width:46px;
+        position: absolute;
+        top: -8rpx;
+        left: 10rpx;
+		background:url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/house_list_sprites.png)  no-repeat;
+		background-size:215px 30px;
+}
+.new_house_hot_icon.data-v-a0837f7a{
+		background-position:-123px 0;
+}
+.new_house_luju_icon.data-v-a0837f7a{
+		background-position:-77px 0;
+}
+.er_house_cont.data-v-a0837f7a{
+        padding-left: 30rpx;
+        box-sizing: border-box;
+        width: calc(100% - 220rpx);
+}
+.new_house_title.data-v-a0837f7a{
+        font-size:32rpx;
+        color:#333333;
+        line-height:45rpx;
+        text-align: left;
+		margin-top: -4rpx;
+        margin-bottom:15rpx;
+}
+.new_build_name_box.data-v-a0837f7a{
+        width: auto;
+        width: 80%;
+        height: 44rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+                align-items: center;
+        padding-right: 12rpx;
+        box-sizing: border-box;
+}
+.new_build_name.data-v-a0837f7a {
+        overflow: hidden;
+		color: #101D36;
+        text-align: left;
+        max-width: calc(100% - 55rpx);
+        margin-left: 10rpx;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+		/* line-height: 1; */
+		font-weight: bold;
+}
+.coupon-icon.data-v-a0837f7a {
+        width: 45rpx;
+        height: 30rpx;
+        background-image: url('http://cdn.haofang.net/static/uuminiapp/common/coupon_icon.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+}
+.new_house_title .house_status_tag.data-v-a0837f7a{
+        color:#fff;
+        font-size: 22rpx;
+		height: 30rpx;
+		line-height: 30rpx;
+        text-align: center;
+        padding: 0 5rpx;
+		border-radius: 4rpx;
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        margin: auto 0;
+		word-break: keep-all;
+}
+.new_house_title .wait_house.data-v-a0837f7a{
+        background: #fbb057;
+}
+.new_house_title .selling_house.data-v-a0837f7a{
+        background: #46a5fe;
+}
+.new_house_title .soldOut_house.data-v-a0837f7a{
+        background: #d1d1d1;
+}
+.er_house_des.data-v-a0837f7a{
+        height: 30rpx;
+        font-size:26rpx;
+        line-height: 30rpx;
+        color:#89909D;
+        text-align: left;
+        max-width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+}
+.er_house_ting.data-v-a0837f7a{
+        margin-right: 8rpx;
+        text-align: left;
+        max-width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+}
+.er_house_tag_info.data-v-a0837f7a{
+		overflow: hidden;
+		height: 30rpx;
+		margin-bottom: 10rpx;
+}
+
+.er_house_tag_view.data-v-a0837f7a{
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+}
+.er_house_tag_info .er_house_tag.data-v-a0837f7a:nth-of-type(4n+1){
+        color: #18acf0;
+        background: #ddf3fd;
+}
+.er_house_tag_info .er_house_tag.data-v-a0837f7a:nth-of-type(4n+2){
+        color: #ff9600;
+        background: #fff1dc;
+}
+.er_house_tag_info .er_house_tag.data-v-a0837f7a:nth-of-type(4n+3){
+        color: #f3685f;
+        background: #fde8e7;
+}
+.er_house_tag_info .er_house_tag.data-v-a0837f7a:nth-of-type(4n+4){
+        color: #1bc964;
+        background: #ddf7e8;
+}
+.er_house_tag.data-v-a0837f7a{
+        height: 100%;
+        white-space: nowrap;
+        font-size:22rpx;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        color:#7991a6 !important;
+        background:#edf0f3 !important;
+        padding:0 6rpx;
+        border-radius:2rpx;
+        margin-right:10rpx;
+        box-sizing: border-box;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+                align-items: center;
+}
+
+.er_house_price_view.data-v-a0837f7a{
+		font-size: 30rpx;
+        height:30rpx;
+        line-height:30rpx;
+}
+.buildPriceOfAreaUnit.data-v-a0837f7a{
+		font-weight: normal;
+}
+.er_house_price.data-v-a0837f7a{
+        font-size:30rpx;
+        font-weight:bold;
+        margin-right: 20rpx;
+}
+.er_house_area.data-v-a0837f7a{
+	    font-size: 22rpx;
+		color: #89909D;
+}
+

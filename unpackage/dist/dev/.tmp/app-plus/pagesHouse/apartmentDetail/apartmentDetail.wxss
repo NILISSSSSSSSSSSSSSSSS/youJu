@@ -1,0 +1,17 @@
+
+.er_house_detail{
+        overflow-x: hidden;
+}
+.near_map_item{
+		height: 25rpx;
+}
+.bottom_btn_empty{
+		height: 140rpx;
+}
+.x_bottom_empty{
+		height: 180rpx!important;
+}
+.cont_empty_view{
+		height: 40rpx;
+}
+

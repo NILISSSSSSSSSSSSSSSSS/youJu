@@ -1,0 +1,315 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 城市列表 */
+.choose_city{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+.choose_city_scroll{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+.choose_city_cont{
+    padding-right: 60rpx;
+    box-sizing: border-box;
+}
+
+.choose_title{
+    height:60rpx;
+    line-height:60rpx;
+    font-size:24rpx;
+    color:#8a8a8a;
+    padding-left: 30rpx;
+    background:#f2f2f2;
+    box-sizing: border-box;
+}
+.gps_city{
+    padding-left: 30rpx;
+    position:relative;
+    height:80rpx;
+    line-height:84rpx;
+    font-size:27rpx;
+    color:#0f0f0f;
+}
+.gps_city_icon{
+    width: 35rpx;
+    height: 35rpx;
+    margin: auto 10rpx auto 0;
+}
+.city_item{
+    padding-left: 30rpx;
+    border-bottom:1rpx solid #e5e5e5;
+    height:90rpx;
+    line-height:90rpx;
+    color:#636363;
+    font-size:28rpx;
+}
+/* 城市首字母 */
+.letter_list{
+    width: 40rpx;
+    height: 100%;
+    position:fixed;
+    right:0;
+    top:0;
+    background:#ffffff;
+    z-index:2;
+    box-sizing:border-box;
+    padding-top: 140rpx;
+}
+.letter_item{
+    color:#8c8c8c;
+    line-height:38rpx;
+    text-align:center;
+    font-size:18rpx;
+}
+/* 热门城市 */
+.hot_city_list{
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    background-color: #FFFFFF;
+    padding-left: 30rpx;
+    padding-top: 30rpx;
+    padding-bottom: 10rpx;
+    box-sizing: border-box;
+}
+.hot_city_item{
+    width:186rpx;
+    height:60rpx;
+    line-height:60rpx;
+    font-size:27rpx;
+    color:#0f0f0f;
+    letter-spacing:1rpx;
+    text-align:center;
+    border-radius:6rpx;
+    border:1rpx solid #e1e1e1;
+    margin-right:30rpx;
+    margin-bottom:20rpx;
+    box-shadow:#ededed 0 3rpx 5rpx 1rpx;
+}
+

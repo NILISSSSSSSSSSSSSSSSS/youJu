@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "合同信息",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "scroll-loading": "/components/scrollLoading",
+    "get-user-info": "/components/getUserInfoView",
+    "bottom-agent": "/pagesShare/components/contractInfo/bottomAgent",
+    "download": "/pagesShare/components/contractInfo/download"
+  }
+}

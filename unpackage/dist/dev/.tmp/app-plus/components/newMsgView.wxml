@@ -1,0 +1,1 @@
+<block wx:if="{{isShow}}"><view data-event-opts="{{[['tap',[['lookNewMsg',['$event']]]]]}}" class="new_msg_view data-v-ca080a10" bindtap="__e"><view class="new_msg_point has_new_msg_icon data-v-ca080a10"></view></view></block>

@@ -1,0 +1,28 @@
+{
+  "navigationBarTitleText": "",
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "type": "share",
+        "float": "right",
+        "id": "share"
+      }
+    ]
+  },
+  "scrollIndicator": "none",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "house-detail-loading": "/components/houseDetailLoading",
+    "get-user-info": "/components/getUserInfoView",
+    "new-msg-view": "/components/newMsgView",
+    "house-swiper": "/pagesHouse/components/houseSwiper",
+    "top-name": "/pagesHouse/components/apartmentDetail/topName",
+    "house-des": "/pagesHouse/components/erHouseDetail/houseDes",
+    "title-view": "/pagesHouse/components/erHouseDetail/titleView",
+    "near-map-view": "/pagesHouse/components/erHouseDetail/nearMapView",
+    "pei-tao-she-shi": "/pagesHouse/components/erHouseDetail/peiTaoSheShi",
+    "fang-jian-choose": "/pagesHouse/components/apartmentDetail/fangJianChoose",
+    "bottom-btn": "/pagesHouse/components/apartmentDetail/bottomBtn"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "pullToRefresh": {
+    "support": true,
+    "color": "#101D36",
+    "style": "default",
+    "height": "60px",
+    "range": "40%",
+    "contentdown": {
+      "caption": "下拉即可刷新"
+    },
+    "contentover": {
+      "caption": "释放立即刷新"
+    },
+    "contentrefresh": {
+      "caption": "正在刷新中..."
+    }
+  },
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "want-buy-lease": "/components/entrust/list/wantBuyLease",
+    "all-trust-list-tc": "/components/entrust/list/allTrustListTc",
+    "sale-lease": "/components/entrust/list/saleLease",
+    "no-data": "/components/entrust/list/noData",
+    "sale-lease-lian-mai": "/components/entrust/list/saleLeaseLianMai",
+    "sale-lease-wu-ye": "/components/entrust/list/saleLeaseWuYe",
+    "want-buy-lease-wu-ye": "/components/entrust/list/wantBuyLeaseWuYe"
+  }
+}

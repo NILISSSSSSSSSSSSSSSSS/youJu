@@ -1,0 +1,27 @@
+{
+  "navigationBarTitleText": "委托详情",
+  "enablePullDownRefresh": true,
+  "pullToRefresh": {
+    "support": true,
+    "color": "#101D36",
+    "style": "default",
+    "height": "60px",
+    "range": "40%",
+    "contentdown": {
+      "caption": "下拉即可刷新"
+    },
+    "contentover": {
+      "caption": "释放立即刷新"
+    },
+    "contentrefresh": {
+      "caption": "正在刷新中..."
+    }
+  },
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "scroll-loading": "/components/scrollLoading",
+    "get-user-info": "/components/getUserInfoView",
+    "er-house-list-item": "/components/erHouseListItem",
+    "evaluate": "/components/entrust/detail/evaluate"
+  }
+}

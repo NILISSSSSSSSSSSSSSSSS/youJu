@@ -1,0 +1,289 @@
+
+.top_name_view.data-v-2ad17b30{
+        padding: 0 40rpx;
+        box-sizing: border-box;
+        background-color: #FFFFFF;
+}
+.name_view.data-v-2ad17b30{
+        color:#101D36;
+        font-size:48rpx;
+        width:100%;
+        box-sizing:border-box;
+        margin-top: 40rpx;
+}
+.house_name.data-v-2ad17b30{
+		font-weight: bold;
+        -webkit-box-flex:1;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:normal;
+        font-weight:bold;
+        display:-webkit-box;
+        -webkit-box-orient:vertical;
+        -webkit-line-clamp:2;
+        -webkit-box-pack:center;
+        box-sizing:border-box;
+		font-size:48rpx;
+		color: #101D36;
+		padding-right: 20rpx;
+}
+.collect_view.data-v-2ad17b30{
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+        position:relative;
+        font-size:28rpx;
+        color:#101D36;
+        text-align:center;
+}
+.collect_img.data-v-2ad17b30{
+        margin:2px auto 10rpx;
+		background:url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/erhouse_detail_sprites.png)  no-repeat;
+		background-size: 219px 37px;
+		background-position: -84px 0;
+		height: 20px;
+		width: 21px;
+}
+.collect_img_active.data-v-2ad17b30{
+		background-position:-62px 0;
+}
+.collect_text.data-v-2ad17b30{
+        color:#101D36;
+        font-size:22rpx;
+		line-height: 33rpx;
+        text-align:center;
+}
+    /* 售价+户型+面积 */
+.price_view.data-v-2ad17b30{
+        background:#ffffff;
+        color:#89909d;
+        box-sizing: border-box;
+        width: calc(100% + 80rpx);
+		margin-left: -40rpx;
+        margin-top: 55rpx;
+		text-align: left;
+}
+.price_view_item.data-v-2ad17b30{
+		padding-left: 40rpx;
+		box-sizing: border-box;
+		width: 100%;
+		text-align: left;
+		position: relative;
+		height: 70rpx;
+		padding-right: 10rpx;
+		font-family: PingFang-SC-Heavy;
+}
+.price_view_item.data-v-2ad17b30::after{
+		content: "";
+		position: absolute;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 2rpx;
+		background: #EEEEEE;
+}
+.price_view>.price_view_item.data-v-2ad17b30:last-child::after{
+		content: "";
+		width: 0;
+		display: none;
+}
+.totalPrice.data-v-2ad17b30{
+        font-size: 40rpx;
+		line-height: 44rpx;
+		font-weight: bold;
+        white-space: nowrap;
+}
+.totalPrice_text.data-v-2ad17b30{
+		font-size: 24rpx;
+		color: #89909D;
+}
+
+.total_unit.data-v-2ad17b30{
+        color:#fd5438;
+        margin-left:4rpx;
+        font-size: 26rpx;
+        line-height: 1;
+        position: relative;
+        top: -6rpx;
+}
+.unit_price.data-v-2ad17b30{
+        color:#444444;
+        font-size:26rpx;
+        margin-right:20rpx;
+        margin-left: 40rpx;
+}
+.ping_gu.data-v-2ad17b30{
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		position:relative;
+		font-size:28rpx;
+		color:#101D36;
+		text-align:center;
+		margin-right: 30rpx;
+}
+.ping_gu_img.data-v-2ad17b30{
+       margin:4px auto 8rpx;
+	   background:url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/erhouse_detail_sprites.png)  no-repeat;
+	   background-size:242px 40px;
+	   height:19px;
+	   width:20px;
+	   background-position:-49px 0;
+}
+.ping_gu_text.data-v-2ad17b30{
+       color:#101D36;
+       font-size:22rpx;
+       line-height: 33rpx;
+       text-align:center;
+}
+.house_info.data-v-2ad17b30{
+        background:#ffffff;
+        color:#333333;
+        font-size:36rpx;
+        font-weight:bold;
+        margin: 20rpx 0;
+}
+.house_info view.data-v-2ad17b30{
+        margin-right: 44rpx;
+}
+.tags_view.data-v-2ad17b30{
+        background:#ffffff;
+        color:#7991a6;
+        font-size:22rpx;
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+		margin-top: 15rpx;
+}
+.tags_view view.data-v-2ad17b30{
+			height: 30rpx;
+			white-space: nowrap;
+			font-size:22rpx;
+			display:-webkit-box;
+			display:-webkit-flex;
+			display:flex;
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+			-webkit-flex-direction: row;
+			        flex-direction: row;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			        justify-content: center;
+			color:#7991a6;
+			background: #edf0f3;
+			padding:0 10rpx;
+			border-radius:2rpx;
+			will-change: transform;
+			margin-right: 8rpx;
+			box-sizing: border-box;
+			 margin-bottom: 10rpx;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			        align-items: center;
+}
+
+    /* 单价+楼层+装修+朝向+年代+类型+小区 */
+.house_other.data-v-2ad17b30{
+        width:100%;
+        box-sizing:border-box;
+        background:#fff;
+        -webkit-flex-wrap: wrap;
+                flex-wrap: wrap;
+        box-sizing: border-box;
+        margin-top: 30rpx;
+        font-size: 30rpx;
+		color: #121c34;
+}
+.house_other_item.data-v-2ad17b30{
+        width:50%;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        overflow:hidden;
+		text-align: left;
+		line-height: 66rpx;
+}
+.house_other_title.data-v-2ad17b30{
+        color: #8E94A1;
+        font-size: 32rpx;
+        margin-right: 17rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+}
+button.true_house.data-v-2ad17b30{
+			margin-top: 40rpx;
+			height:60rpx;
+			background:#f7f7f7;
+			font-size:24rpx;
+			line-height: 60rpx;
+			border-radius: 6rpx;
+			overflow: hidden;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			        align-items: center;
+}
+.true_house_icon_view.data-v-2ad17b30{
+		width: 121rpx;
+		height: 60rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		border-radius: 20rpx 2rpx 20rpx 2rpx;
+}
+.true_house_icon.data-v-2ad17b30{
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+		margin: auto;
+		background:url('http://cdn.haofang.net/static/wxPlusApp/yjk/detail_house_icon.png')  no-repeat;
+		background-size: contain;
+		height: 60rpx;
+		width: 121rpx;
+}
+.true_hous_cont.data-v-2ad17b30{
+		width: 100%;
+		padding-left: 13rpx;
+		box-sizing: border-box;
+		font-size: 24rpx;
+		color: #101D36;
+		line-height: 60rpx;
+}
+.true_hous_cont_text.data-v-2ad17b30{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        height: 40rpx;
+        margin: auto 0;
+}
+
+.true_hous_arrow.data-v-2ad17b30{
+        margin: auto 20rpx auto 10rpx;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+		background:url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/erhouse_detail_sprites.png)  no-repeat;
+		background-size:242px 40px;
+		height:10px;width:5px;
+		background-position:0 0;
+}
+    /* 核验码 */
+.check_code_view.data-v-2ad17b30{
+		position: relative;
+		color: #999;
+		padding-left: 30rpx;
+		font-size: 24rpx;
+		line-height: 24rpx;
+		margin-top: 10rpx;
+}
+.check_code_view.data-v-2ad17b30::before{
+		content: '';
+		position: absolute;
+		width: 22rpx;
+		height: 24rpx;
+		left: 0;
+		top: 50%;
+		margin-top: -12rpx;
+		background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAYAAAALHW+jAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTM4IDc5LjE1OTgyNCwgMjAxNi8wOS8xNC0wMTowOTowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKFdpbmRvd3MpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjFEODRGODcyODhEQzExRThBNzlDOTBBODJGODVENzlCIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjFEODRGODczODhEQzExRThBNzlDOTBBODJGODVENzlCIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MUQ4NEY4NzA4OERDMTFFOEE3OUM5MEE4MkY4NUQ3OUIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MUQ4NEY4NzE4OERDMTFFOEE3OUM5MEE4MkY4NUQ3OUIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz7Ik1TtAAACKklEQVR42qzVS0hUURzH8ekqhWVmUYsWIghBbTOxogekkKvMAhdSUGkEUuBQtLJNtuhF+CBkCtyFIG1cmRD0UJKiIkl89NCNplZSZok1UH7/8Bs5HO5MDzvwYYb7+N1zzv2fc9NjsVjEayuwHbtRiI1Yi1/4iFd4jh48wZh7c7p+16NMdmGp95DPSEOOFDnnBtGBO3hoga0oR6ALvqAdXXiEAczq3HJsQL56X6QRmCgmLHAP4mhR0D38iIQ3C+6VFh3LQzGuIMN6lY1JVKMzRViyNowbmt+sQPMVjyy+fcOSwBnKv7S92OIeCBbRoxN6u9H/EXgczehHjVO/8UAvIfMvwioRUzlZhXxwanrWAqe9wMu4rZrz2zHcVDFb2Hv/gkCFnOUc+4qDmh/3+FGFDSls0suya2cSPVzm9Og8LmgJ3sUaHFHYa4VNeGF27yobvo37LTZrOXXpgnPq6UU80/p9o7DxkKnYYTWIPuvhAx3c5110CSeRq4da2LskL2q/fjstsA3fUaVl6Lbr2IatKcLW4bB2pPZAr71ZYU0hNzzGpxRldE1V0mjTlCjsWs3RIf3/03ZK94xoihZWii3sA5hCnU6m/SbsDBq0D5Qn9gN36b1EiUriLO5rM/WbfQ5uaf+zjpTiabK1bCcK0K1S6MNVrFad1WqVVGgd71StptwcRvWBimoYp/UhGtd0rFTvrG5fhC29sPYT9RpyvYLnVA2bNCVzYTfOCzAA4T2EuxNcb7cAAAAASUVORK5CYII=) center no-repeat;
+		background-size: 100% 100%;
+}
+

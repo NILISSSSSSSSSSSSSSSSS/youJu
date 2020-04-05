@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "设置",
+  "softinputNavBar": "none",
+  "bounce": "none",
+  "usingComponents": {
+    "show-modal": "/components/common/showModal",
+    "yomol-upgrade": "/components/upManage/yomol-upgrade/yomol-upgrade"
+  }
+}

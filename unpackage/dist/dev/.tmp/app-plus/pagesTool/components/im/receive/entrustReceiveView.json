@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "evaluate": "/components/entrust/detail/evaluate",
+    "service-star": "/components/entrust/detail/serviceStar"
+  }
+}

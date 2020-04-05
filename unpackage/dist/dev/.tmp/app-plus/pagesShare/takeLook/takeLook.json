@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "带看房源",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "loading-data": "/components/loadingData",
+    "login-view": "/components/loginView",
+    "look-house-header": "/pagesShare/components/lookHouseHeader",
+    "house-list": "/pagesShare/components/houseList"
+  }
+}

@@ -1,0 +1,45 @@
+
+.scroll_box.data-v-18ddf5ed{
+        width: 100%;
+        overflow: hidden;
+        background: #fff;
+        white-space: nowrap;
+        padding: 20rpx 30rpx;
+        box-sizing: border-box;
+}
+.map_item.data-v-18ddf5ed{
+        display: inline-block;
+        width: 100rpx;
+        text-align: center;
+}
+.map_img.data-v-18ddf5ed{
+        width: 50rpx;
+        height: 50rpx;
+        margin: 0 auto;
+		background:url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/near_map_sprites.png)  no-repeat;
+		background-size:468px 26px;
+}
+.shop_map_active.data-v-18ddf5ed{height:26px;width:26px;background-position:0 0;}
+.sport_map_default.data-v-18ddf5ed{height:26px;width:26px;background-position:-26px 0;}
+.school_map_active.data-v-18ddf5ed{height:26px;width:26px;background-position:-52px 0;}
+.shop_map_default.data-v-18ddf5ed{height:26px;width:26px;background-position:-78px 0;}
+.sport_map_active.data-v-18ddf5ed{height:26px;width:26px;background-position:-104px 0;}
+.transit_map_default.data-v-18ddf5ed{height:26px;width:26px;background-position:-130px 0;}
+.transit_map_active.data-v-18ddf5ed{height:26px;width:26px;background-position:-156px 0;}
+.subway_map_default.data-v-18ddf5ed{height:26px;width:26px;background-position:-182px 0;}
+.subway_map_active.data-v-18ddf5ed{height:26px;width:26px;background-position:-208px 0;}
+.eat_map_default.data-v-18ddf5ed{height:26px;width:26px;background-position:-234px 0;}
+.eat_map_active.data-v-18ddf5ed{height:26px;width:26px;background-position:-260px 0;}
+.bank_map_default.data-v-18ddf5ed{height:26px;width:26px;background-position:-286px 0;}
+.bank_map_active.data-v-18ddf5ed{height:26px;width:26px;background-position:-312px 0;}
+.hospital_map_default.data-v-18ddf5ed{height:26px;width:26px;background-position:-338px 0;}
+.play_map_active.data-v-18ddf5ed{height:26px;width:26px;background-position:-364px 0;}
+.school_map_default.data-v-18ddf5ed{height:26px;width:26px;background-position:-390px 0;}
+.hospital_map_active.data-v-18ddf5ed{height:26px;width:26px;background-position:-416px 0;}
+.play_map_default.data-v-18ddf5ed{height:26px;width:26px;background-position:-442px 0;}
+.map_text.data-v-18ddf5ed{
+        font-size:24rpx;
+        text-align:center;
+        margin: 0 auto 0;
+}
+

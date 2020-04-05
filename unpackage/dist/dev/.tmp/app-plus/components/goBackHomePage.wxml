@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['goBackHome',['$event']]]]]}}" class="{{['go_back_home_view data-v-619624e2',isIphoneX?'go_back_home_view_iphoneX':'']}}" bindtap="__e"></view>

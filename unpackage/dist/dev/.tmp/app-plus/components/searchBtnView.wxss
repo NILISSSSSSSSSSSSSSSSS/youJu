@@ -1,0 +1,41 @@
+
+.search_box.data-v-13fd58d7{
+        margin: 28rpx 0 15rpx;
+        padding: 0 40rpx;
+        box-sizing: border-box;
+}
+.search.data-v-13fd58d7{
+        height:82rpx;
+        background-color:#f8f8f9;
+        border-radius:41rpx;
+        position:relative;
+        color:#666666;
+        box-sizing:border-box;
+        line-height:82rpx;
+        font-size:28rpx;
+        color:#7A8190;
+        border:0;
+        outline:none;
+        padding:0 32rpx;
+}
+.search_icon.data-v-13fd58d7{
+        width: 30rpx;
+        height: 30rpx;
+        box-sizing: border-box;
+        margin: 28rpx 15rpx auto 0;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+}
+.search_text.data-v-13fd58d7{
+		font-size: 28rpx;
+		color: #101D36;
+}
+.clear_btn.data-v-13fd58d7{
+        width:82rpx;
+        height: 82rpx;
+        background: url(http://cdn.haofang.net/static/uuminiapp/search/clear.png) no-repeat center center;
+        background-size: 30rpx 30rpx;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+}
+

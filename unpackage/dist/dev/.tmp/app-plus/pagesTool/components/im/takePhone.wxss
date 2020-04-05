@@ -1,0 +1,125 @@
+
+.take_phone_btn.data-v-8e912bca {
+  height: 106rpx;
+  width: 106rpx;
+  background: url(http://cdn.haofang.net/static/wxPlusApp/yjk/tel_pic.png) no-repeat 0 0;
+  background-size: 100%;
+  margin-bottom: 30rpx;
+  position: fixed;
+  right: 10rpx;
+  bottom: 250rpx;
+  opacity: 0.9;
+}
+
+/* 拨打电话弹层 */
+.call-modal-box.data-v-8e912bca {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 300;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+
+.cl-conten.data-v-8e912bca {
+  margin: auto;
+  width: 630rpx;
+  box-sizing: border-box;
+  border-radius: 5px;
+  will-change: transform;
+  background: #fff;
+}
+.cl-close.data-v-8e912bca {
+  position: absolute;
+  width: 70rpx;
+  height: 70rpx;
+  background: url(http://cdn.haofang.net/static/uuminiapp/loadDownImg/close_icon.png) no-repeat center;
+  background-size: 27rpx 27rpx;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+.cl-title.data-v-8e912bca {
+  width: 500rpx;
+  margin: 50rpx auto 0;
+  color: #333;
+  font-size: 34rpx;
+  line-height: 70rpx;
+  font-weight: bold;
+  background: #fff;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  position: relative;
+}
+.cl-title-text.data-v-8e912bca {
+  width: 220rpx;
+  padding: 0 25rpx;
+  margin: auto;
+  position: relative;
+  z-index: 99;
+  background: #FFFFFF;
+}
+.cl-title-line.data-v-8e912bca {
+  position: absolute;
+  height: 1rpx;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: #E6E6E6;
+}
+.cl-conten > .cl-listinfo.data-v-8e912bca:last-child {
+  border: 0;
+}
+.cl-listinfo.data-v-8e912bca {
+  padding: 45rpx 60rpx;
+  box-sizing: border-box;
+  border-bottom: solid 2rpx #f6f6f6;
+}
+.clst-con.data-v-8e912bca {
+  background: url('http://cdn.haofang.net/static/uuminiapp/im/hideNumber.png') no-repeat left center;
+  background-size: 90rpx 90rpx;
+  padding-left: 110rpx;
+}
+.clst-zhicall.data-v-8e912bca {
+  background: url('http://cdn.haofang.net/static/uuminiapp/im/callNumber.png') no-repeat left center;
+  background-size: 90rpx 90rpx;
+  padding: 10rpx 110rpx;
+  padding-right: 0;
+}
+.clast-title.data-v-8e912bca {
+  font-size: 32rpx;
+  color: #404040;
+  line-height: 36rpx;
+  font-weight: bold;
+  margin-bottom: 15rpx;
+}
+.clast-title image.data-v-8e912bca {
+  width: 54rpx;
+  height: 27rpx;
+  margin-top: 5rpx;
+}
+.clast-titfo.data-v-8e912bca {
+  font-size: 24rpx;
+  color: #999;
+  line-height: 30rpx;
+}
+.my-button.data-v-8e912bca {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  background: none;
+  text-align: left;
+}
+.my-button.data-v-8e912bca::after {
+  border: none;
+}
+

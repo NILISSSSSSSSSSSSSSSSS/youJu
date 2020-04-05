@@ -1,0 +1,1 @@
+<view class="near_new_house data-v-38b4b3f0"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block class="data-v-38b4b3f0"><new-house-list-item vue-id="{{'1-'+index}}" item="{{item}}" class="data-v-38b4b3f0" bind:__l="__l"></new-house-list-item></block></block></view>

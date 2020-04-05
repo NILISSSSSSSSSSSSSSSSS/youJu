@@ -1,0 +1,154 @@
+
+.bottomtab.data-v-798e6942 {
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+    background: #fff;
+    border-top: 2rpx solid #e7e7e7;
+    height: 120rpx;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%;
+    max-width: 760rpx;
+    box-sizing: border-box;
+    z-index: 101;
+}
+.BottomIphoneX.data-v-798e6942 {
+    height: 168rpx;
+}
+.group.data-v-798e6942 {
+    -webkit-box-flex: 1;
+    text-align: center;
+    position: relative;
+    color: #BBBBBB;
+    font-size: 22rpx;
+}
+.icon_tab.data-v-798e6942 {
+    display: inline-block;
+    width: 40rpx;
+    height: 40rpx;
+    color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon_home.data-v-798e6942 {
+    background-image: url(https://zdzfapi.haofang.net/Public/wxApp/images/personalStore/home_icon_gray.png);
+    background-size: 85%;
+}
+.home_choose .icon_home.data-v-798e6942 {
+    background-image: url(https://zdzfapi.haofang.net/Public/wxApp/images/personalStore/home_icon.png);
+}
+.home_choose .group-font.data-v-798e6942,
+.weituo_choose .group-font.data-v-798e6942 {
+    color: #ff5a1f;
+}
+.icon_weituo.data-v-798e6942 {
+    background-image: url(http://cdn.haofang.net/static/uuminiapp/compStore/tab_mine_gray.png);
+}
+.weituo_choose .icon_weituo.data-v-798e6942 {
+    background-image: url(http://cdn.haofang.net/static/uuminiapp/compStore/tab_mine.png?t=111);
+}
+.icon_kf.data-v-798e6942 {
+    background-image: url(http://cdn.haofang.net/static/uuminiapp/compStore/tab_comp_gray.png);
+}
+.kf_choose .icon_kf.data-v-798e6942 {
+    background-image: url(http://cdn.haofang.net/static/uuminiapp/compStore/tab_comp.png?t=111);
+}
+.icon_im.data-v-798e6942{
+    background-image: url(http://cdn.haofang.net/static/uuminiapp/compStore/tab_chart_gray.png);
+}
+.im_choose .icon_im.data-v-798e6942 {
+    background-image: url(http://cdn.haofang.net/static/uuminiapp/compStore/tab_chart.png?t=111);
+}
+.kf_choose .group-font.data-v-798e6942 {
+    color: #ff5a1f;
+}
+.unReadMsgNum.data-v-798e6942{
+    position: absolute;
+    top:-8rpx;
+    background:#ab7f2e;
+    color:#fff;
+    border-radius:100%;
+    -webkit-flex-shrink:0;
+            flex-shrink:0;
+    width:30rpx;
+    height:30rpx;
+    line-height:30rpx;
+    text-align:center;
+    left:55%;
+}
+/*底部中间  */
+.bottomcont.data-v-798e6942 {
+    width: 100%;
+    height: 500rpx;
+    padding-top: 30rpx;
+}
+.bottomatab-cont.data-v-798e6942 {
+    width: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: justify;
+}
+.contIphoneX.data-v-798e6942 {
+    margin-bottom: 50rpx;
+}
+.nav-top.data-v-798e6942 {
+    padding-left: 30rpx;
+    background-color: #fff;
+    width: auto;
+}
+.nav-tab.data-v-798e6942 {
+    display: block;
+    height: 110rpx;
+    background-color: #fff;
+    line-height: 110rpx;
+    font-size: 30rpx;
+    position: relative;
+    color: #282828;
+    margin-bottom: 30rpx;
+}
+.navtab-bef.data-v-798e6942 {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 46rpx;
+    height: 46rpx;
+    top: 46%;
+    left: 0;
+    margin-top: -18rpx;
+    background-size: 100% 100% !important;
+    background: url(http://weidian.haofang.net/Public/web/default/images/broker/icon_publish.png) center no-repeat;
+}
+.navtab-aft.data-v-798e6942 {
+    content: "";
+    display: block;
+    width: 16rpx;
+    height: 26rpx;
+    background: url(http://weidian.haofang.net/Public/web/default/images/arrow-right.png) center no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    right: 26rpx;
+    top: 40%;
+    margin-bottom: 10rpx;
+}
+.size.data-v-798e6942 {
+    display: inline-block;
+    width: 120rpx;
+    height: 1px;
+    padding-left: 60rpx;
+}
+.nav-tabbott.data-v-798e6942 {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 0rpx;
+}
+.bigbox.data-v-798e6942 {
+    width: 100%;
+    height: 100%;
+    background-color: #e7e7e7;
+}
+

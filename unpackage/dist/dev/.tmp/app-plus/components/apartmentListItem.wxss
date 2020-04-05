@@ -1,0 +1,89 @@
+
+.apartment_item{
+        width: 100%;
+        padding: 10rpx 0 40rpx;
+		box-sizing: border-box;
+        background:#fff;
+        position:relative;
+}
+.apartment_item_img_view{
+		width:100%;
+		height:448rpx;
+		background:url(http://cdn.haofang.net/static/wxPlusApp/yjk/house/house_list_default.png?t=20190717) no-repeat center center;
+		background-size:cover;
+		border-radius: 14rpx;
+		overflow: hidden;
+		box-sizing: border-box;
+		position:relative;
+}
+.apartment_item_img{
+        width:100%;
+        height: 100%;
+}
+.houseSource{
+		position:absolute;
+		bottom:30rpx;
+		right:0;
+		background-color:#41cbc0;
+		height:44rpx;
+		width:143rpx;
+		text-align:center;
+		color:#fff;
+		font-size:26rpx;
+		line-height:42rpx;
+		border-radius:22rpx 0 0 22rpx;
+}
+.apartment_item_des{
+        overflow: hidden;
+        height: 30rpx;
+        margin-bottom: 10rpx;
+        margin-top: 6rpx;
+}
+.apartment_item_tag{
+        white-space: nowrap;
+        font-size:22rpx;
+        display:-webkit-box;
+        display:-webkit-flex;
+        display:flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        color:#7991a6 !important;
+        background:#edf0f3 !important;
+        padding:4rpx 6rpx 6rpx;
+        border-radius:2rpx;
+        margin-right:10rpx;
+        box-sizing: border-box;
+}
+	
+.housePriceOfMonth{
+        color:#ab7f2e;
+        background:#fff;
+		font-size: 30rpx;
+		font-weight: bold;
+		line-height: 40rpx;
+		margin-bottom: 10rpx;
+}
+.housePriceOfMonthUnit{
+		font-weight: normal;
+}
+.apartment_item_bottom{
+        color:#101D36;
+		margin-top: 11rpx;
+        box-sizing: border-box;
+		font-size: 32rpx;
+		line-height: 50rpx;
+		font-weight: bold;
+		text-align: left;
+}
+.apartment_item_addr{
+        margin-right: 12rpx;
+}
+.apartment_item_name{
+        margin-right: 12rpx;
+}
+

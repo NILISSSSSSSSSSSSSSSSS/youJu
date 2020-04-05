@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "get-user-info": "/components/getUserInfoView",
+    "bottom-tab": "/pagesStore/components/compStore/bottomTab"
+  }
+}

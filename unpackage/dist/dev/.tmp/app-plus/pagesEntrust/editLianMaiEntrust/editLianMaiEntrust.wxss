@@ -1,0 +1,315 @@
+
+.title.data-v-6f3cf502{
+    background-color:#f6f6f6;
+    color:#999999;
+    height:70rpx;
+    line-height:70rpx;
+    padding-left:30rpx;
+    font-size:26rpx;
+}
+#perfectInfo.data-v-6f3cf502{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.g-perfect-center.data-v-6f3cf502{
+    width: 690rpx;
+    height: auto;
+    padding: 0 30rpx;
+    position: relative;
+}
+.g-title.data-v-6f3cf502{
+    font-size: 30rpx;
+    color: #333333;
+}
+.s-subText.data-v-6f3cf502{
+    font-size: 24rpx;
+    color: #999999;
+}
+.pad20.data-v-6f3cf502{
+    padding-top: 20rpx;
+    padding-bottom: 20rpx;
+}
+.pad35.data-v-6f3cf502{
+    padding-top: 35rpx;
+    padding-bottom: 35rpx;
+}
+.pad3550.data-v-6f3cf502{
+    padding-top: 35rpx;
+    padding-bottom: 50rpx;
+}
+.pad50.data-v-6f3cf502{
+    padding-top: 30rpx;
+    padding-bottom: 50rpx;
+}
+.g-gray-blank.data-v-6f3cf502{
+    width: 100%;
+    height: 30rpx;
+    background-color: #f6f6f6;
+}
+.g-tips-seat.data-v-6f3cf502{
+    width: 720rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    padding-left: 30rpx;
+    font-size: 26rpx;
+}
+.g-entrust-info.data-v-6f3cf502{
+    background-color: #f6f6f6;
+    color: #999999;
+}
+.g-perfect-info.data-v-6f3cf502{
+    background-color: #f0f6ff;
+    color: #4d72af;
+}
+.g-houses.data-v-6f3cf502{
+    height: 40rpx;
+    font-size: 40rpx;
+    color: #333333;
+    font-weight: 600;
+}
+.g-house-info.data-v-6f3cf502{
+    width: 480rpx;
+    height: auto;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 28rpx;
+    color: #666666;
+    margin-top: 30rpx;
+}
+.g-house-info text.data-v-6f3cf502{
+    padding-right: 19rpx;
+}
+.g-house-Price.data-v-6f3cf502{
+    width: 230rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    font-size: 50rpx;
+    color: #ab7f2e;
+    position: absolute;
+    right: 33rpx;
+    bottom: 49rpx;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: 600;
+    position: absolute;
+    top: 87rpx;
+    right: 30rpx;
+}
+.g-house-unit.data-v-6f3cf502{
+    font-size: 26rpx;
+}
+/* 楼盘信息选择 */
+.g-info-select.data-v-6f3cf502{
+    width: 720rpx;
+    height: auto;
+    padding-left: 30rpx;
+}
+.g-info-item.data-v-6f3cf502{
+    height: 110rpx;
+    line-height: 110rpx;
+    border-bottom: 1rpx solid #ededed;
+    font-size: 30rpx;
+    color: #333333;
+}
+.g-info-item.data-v-6f3cf502:last-child{
+    border-bottom: none;
+}
+.g-right-box.data-v-6f3cf502{
+    height: 44rpx;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    -webkit-box-align:center;
+    -webkit-align-items:center;
+            align-items:center;
+    margin-top: 30rpx;
+}
+.g-right-box input.data-v-6f3cf502{
+    display: inline-block;
+    height: 44rpx;
+    color: #333333;
+}
+.s-select-color.data-v-6f3cf502{
+    color: #333333;
+}
+.g-divid-line.data-v-6f3cf502{
+    display: block;
+    height: 70%;
+    line-height: 100%;
+    width: 5rpx;
+    margin: 0 24rpx;
+    color: #e7e7e7;
+}
+.w94.data-v-6f3cf502{
+    width: 94rpx;
+}
+.w74.data-v-6f3cf502{
+    width: 74rpx;
+}
+.w70.data-v-6f3cf502{
+    width: 70rpx;
+}
+.w60.data-v-6f3cf502{
+    width: 60rpx;
+}
+.fl.data-v-6f3cf502{float: left;}
+.fr.data-v-6f3cf502{float: right;padding-right: 30rpx;}
+.s-select-fill.data-v-6f3cf502{
+    line-height: 100rpx;
+    font-size: 24rpx;
+    display: inline-block;
+    color: #999999;
+}
+.s-copy-more.data-v-6f3cf502{
+    width: 300rpx;
+    text-align: right;
+    color: #cccccc;
+    float: left;
+    margin-right: 20rpx;
+}
+.g-more-img.data-v-6f3cf502{
+    width: 14rpx;
+    height: 24rpx;
+}
+/* 备注 */
+.g-remark-box.data-v-6f3cf502{
+    width: 648rpx;
+    height: 134rpx;
+    background-color: #f6f6f6;
+    border-radius: 4rpx;
+    border: solid 1rpx #eeeeee;
+    margin-top: 36rpx;
+    padding: 21rpx;
+    position: relative;
+}
+.g-remark-text.data-v-6f3cf502{
+    width: 100%;
+    font-size: 24rpx;
+}
+.g-remark-placeholder.data-v-6f3cf502{
+    font-size: 24rpx;
+    color: #cccccc;
+}
+.g-remark-length.data-v-6f3cf502{
+    position: absolute;
+    right: 20rpx;
+    bottom: 20rpx;
+    font-size: 20rpx;
+    color: #cccccc;
+}
+/* 保存 */
+.g-foot-submit.data-v-6f3cf502{
+    width: 690rpx;
+    height: 80rpx;
+    background-image: -webkit-linear-gradient(right,
+    #fe8e0d 0%,
+    #ff6f2e 100%),
+    -webkit-linear-gradient(
+            #00ca85,
+            #00ca85);
+    background-image: linear-gradient(-90deg,
+    #fe8e0d 0%,
+    #ff6f2e 100%),
+    linear-gradient(
+            #00ca85,
+            #00ca85);
+    background-blend-mode: normal,
+    normal;
+    border-radius: 40rpx;
+    font-size: 32rpx;
+    line-height: 81rpx;
+    text-align: center;
+    color: #ffffff;
+}
+/* 房源图片 */
+.s-hous-tips.data-v-6f3cf502{
+    font-size: 22rpx;
+    color: #999999;
+    padding-top: 10rpx;
+}
+.g-housImgs-box.data-v-6f3cf502{
+    width: 100%;
+    height: auto;
+    padding: 15rpx 0 0 0;
+}
+.g-first-img.data-v-6f3cf502{
+    width: 45rpx;
+    height: 26rpx;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.f-delete-img.data-v-6f3cf502{
+    width: 30rpx;
+    height: 30rpx;
+    position: absolute;
+    top: -10rpx;
+    right: -10rpx;
+    z-index: 99;
+}
+.g-houseImg.data-v-6f3cf502{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.g-itemImg.data-v-6f3cf502{}
+/* test/test.wxss */
+.outer.data-v-6f3cf502{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+movable-area.data-v-6f3cf502{
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+}
+.g-housImgs-item.data-v-6f3cf502{
+    width: 156rpx;
+    height: 156rpx;
+    position: relative;
+    margin-top: 15rpx;
+    margin-right: 22rpx;
+}
+.g-housImgs-item.data-v-6f3cf502:nth-child(4n){ margin-right: 0rpx;}
+.index-first.data-v-6f3cf502{
+    display: inline-block;
+    width: 15rpx;
+    height: 150rpx;
+}
+/* 添加埋点样式 */
+.cont-box-item.data-v-6f3cf502{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.cont-box-item button.data-v-6f3cf502{
+    width: 100%;
+    height: 100%;
+}
+.price-input.data-v-6f3cf502{
+    width: 170rpx;
+    padding-right: 10rpx;
+    text-align: right;
+}
+

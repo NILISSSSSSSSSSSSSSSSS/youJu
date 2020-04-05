@@ -1,0 +1,14 @@
+
+.head_view.data-v-fbcd293e{
+	width:40px;
+	height:40px;
+	overflow:hidden;
+	background-color:#F2F2F2;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.head_view>image.data-v-fbcd293e{
+	width:40px;
+	display:inline;
+}
+

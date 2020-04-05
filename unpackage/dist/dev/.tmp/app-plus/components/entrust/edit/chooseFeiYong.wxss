@@ -1,0 +1,64 @@
+
+.choose_fei_title.data-v-024fdecf {
+  text-align: left;
+  font-size: 28rpx;
+  color: #101d36;
+  height: 40rpx;
+  line-height: 40rpx;
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 28rpx;
+}
+.choose_fei_cont.data-v-024fdecf {
+  position: relative;
+  box-sizing: border-box;
+}
+.choose_fei_item.data-v-024fdecf {
+  width: 100%;
+  height: 124rpx;
+  text-align: center;
+  color: #101d36;
+  font-size: 28rpx;
+  background-color: #f1f3f6;
+  border-radius: 12rpx;
+  will-change: transform;
+  margin: auto 23rpx auto 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.choose_fei_cont .choose_fei_item_active.data-v-024fdecf {
+  background-color: #FFFFFF;
+  color: #ab7f2e;
+  border: 1rpx solid #ab7f2e;
+  font-weight: normal;
+}
+.choose_fei_item.data-v-024fdecf:last-child {
+  margin-right: 0;
+}
+.choose_fei_item_active .fee_li_val.data-v-024fdecf {
+  color: #101d36;
+}
+.fee_li_val.data-v-024fdecf {
+  color: #101d36;
+  margin-bottom: 2rpx;
+}
+.fee_li_val_name.data-v-024fdecf {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.fee_li_val_unit.data-v-024fdecf {
+  font-weight: normal;
+  font-size: 26rpx;
+  margin-left: 5rpx;
+}
+

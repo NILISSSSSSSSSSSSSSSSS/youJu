@@ -1,0 +1,171 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/message/message",
+    "pages/my/my",
+    "pages/chooseCity/chooseCity",
+    "pages/webView/webView",
+    "pagesHouse/apartmentDetail/apartmentDetail",
+    "pagesHouse/leaseList/leaseList",
+    "pagesHouse/apartmentList/apartmentList",
+    "pagesHouse/search/search",
+    "pagesHouse/erHouseList/erHouseList",
+    "pagesHouse/newHouseList/newHouseList",
+    "pagesHouse/erHouseDetail/erHouseDetail",
+    "pagesHouse/nearInfoMap/nearInfoMap",
+    "pagesHouse/newHouseDetail/newHouseDetail",
+    "pagesHouse/newHouseHuXing/newHouseHuXing",
+    "pagesHouse/entrustHouseDetail/entrustHouseDetail",
+    "pagesHouse/newHouseLouPanTuKu/newHouseLouPanTuKu",
+    "pagesHouse/fakeHouse/fakeHouse",
+    "pagesHouse/collection/collection",
+    "pagesHouse/buildBook/buildBook",
+    "pagesTool/calculatorFangDai/calculatorFangDai",
+    "pagesTool/calculatorShuiFei/calculatorShuiFei",
+    "pagesTool/housePriceEvaluate/housePriceEvaluate",
+    "pagesTool/housePriceEvaluate/evaluateConditionChoose",
+    "pagesTool/housePriceEvaluate/priceTrend",
+    "pagesTool/changePhone/changePhone",
+    "pagesTool/messageDetail/messageDetail",
+    "pagesTool/messageDetail/systemMessage",
+    "pagesTool/messageDetailH5/messageDetailH5",
+    "pagesTool/wallet/wallet",
+    "pagesTool/appSet/appSet",
+    "pagesTool/appSet/appLogin",
+    "pagesTool/appSet/console",
+    "pagesEntrust/entrust/entrust",
+    "pagesEntrust/registration/registration",
+    "pagesEntrust/trustList/trustList",
+    "pagesEntrust/entrustDetail/entrustDetail",
+    "pagesEntrust/prizeTrustDetail/prizeTrustDetail",
+    "pagesEntrust/pushMsg/pushMsg",
+    "pagesEntrust/entrustTrack/entrustTrack",
+    "pagesEntrust/privilegeFindHouse/privilegeFindHouse",
+    "pagesEntrust/entrustAgent/entrustAgent",
+    "pagesEntrust/payEntrustMoney/payEntrustMoney",
+    "pagesEntrust/editLianMaiEntrust/editLianMaiEntrust",
+    "packageShare/pages/quickPay/quickPay",
+    "pagesStore/compStore/compStore",
+    "pagesStore/mine/mine",
+    "pagesStore/contractSearch/contractSearch",
+    "pagesStore/contractTcDetail/contractTcDetail",
+    "pagesWeb/fenQi/fenQi",
+    "pagesWeb/downLoad/downLoad",
+    "pagesWeb/standingOrder/standingOrder",
+    "pagesWeb/aboutUs/aboutUs",
+    "pagesWeb/homeActive/zeroPay",
+    "pagesWeb/takeLook/takeLook",
+    "pagesWeb/deptMap/deptMap",
+    "pagesWeb/deptMapWx/deptMapWx",
+    "pagesWeb/contractSign/contractSign",
+    "pagesWeb/authorize/authorize",
+    "pagesShare/aboutLook/aboutLook",
+    "pagesShare/takeLook/takeLook",
+    "pagesShare/takeLookAppraise/takeLookAppraise",
+    "pagesShare/contractShare/contactInfo",
+    "pagesShare/contractShare/contractProcess"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#aaafb8",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tab/home_new.png",
+        "selectedIconPath": "static/images/tab/home_new_.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "static/images/tab/news_new.png",
+        "selectedIconPath": "static/images/tab/news_new_.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/images/tab/mine_new.png",
+        "selectedIconPath": "static/images/tab/mine_new_.png"
+      }
+    ]
+  },
+  "preloadRule": {
+    "pagesTool/changePhone/changePhone": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "pagesTool",
+        "pagesHouse"
+      ]
+    },
+    "pagesHouse/fakeHouse/fakeHouse": {
+      "network": "all",
+      "packages": [
+        "pagesEntrust"
+      ]
+    }
+  },
+  "nvue": {
+    "pages": {
+      "pagesStore/personalStore/personalStore.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarTitleText": "",
+          "backgroundColor": "#FFFFFF",
+          "titleNView": {
+            "buttons": [
+              {
+                "type": "share",
+                "float": "right",
+                "id": "share"
+              }
+            ]
+          },
+          "scrollIndicator": "none",
+          "softinputNavBar": "none"
+        },
+        "nvue": true
+      },
+      "pagesTool/mapFindHouse/mapFindHouse.html": {
+        "window": {
+          "usingComponents": {},
+          "navigationBarTitleText": "地图找房",
+          "softinputNavBar": "none"
+        },
+        "nvue": true
+      }
+    }
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "悠居客",
+  "compilerVersion": "2.5.1",
+  "usingComponents": {
+    "get-user-info": "/components/getUserInfoView",
+    "no-data-trust": "/components/houseListNoDataTrust",
+    "house-detail-loading": "/components/houseDetailLoading",
+    "new-msg-view": "/components/newMsgView",
+    "scroll-loading": "/components/scrollLoading",
+    "loading-data": "/components/loadingData",
+    "login-view": "/components/loginView",
+    "collect-form-id": "/components/collectFormId",
+    "show-modal": "/components/common/showModal"
+  }
+}

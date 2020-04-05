@@ -1,0 +1,260 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 认领委托弹窗 */
+.claim-model.data-v-a7134c3e{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+            align-items: center;
+    z-index: 9999;
+}
+.claim-model-mask.data-v-a7134c3e{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+.claim-model-cont.data-v-a7134c3e{
+    position: relative;
+    z-index: 200;
+    width: 610rpx;
+    background-color: #ffffff;
+    border-radius: 10rpx;
+    padding-bottom: 60rpx;
+}
+.claim-model-cont .cont-head.data-v-a7134c3e{
+    width: 100%;
+    height: 190rpx;
+    position: relative;
+    background: url("http://cdn.haofang.net/static/uuminiapp/claimEntrust/model_bg.png") center no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-radius: 10rpx 10rpx 0rpx 0rpx;
+}
+.claim-model-cont .close.data-v-a7134c3e{
+    width: 60rpx;
+    height: 60rpx;
+    position: absolute;
+    right: 0rpx;
+    top: 0rpx;
+    z-index: 30;
+    background: url("http://cdn.haofang.net/static/uuminiapp/claimEntrust/close_icon.png") center no-repeat;
+    background-size: 33% 33%;
+}
+.claim-model-cont .cont-head .user.data-v-a7134c3e{
+    width: 160rpx;
+    height: 206rpx;
+    position: absolute;
+    top: 90rpx;
+    left: 0;
+    right: 0;
+    margin:auto;
+}
+.claim-model-cont .cont-head .user image.data-v-a7134c3e{
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50% 50%;
+    border: 6rpx solid #fff;
+}
+.claim-model-cont .cont-head .user .name.data-v-a7134c3e{
+    font-family: MicrosoftYaHei;
+    font-size: 32rpx;
+    color: #333333;
+}
+.cont-main.data-v-a7134c3e{
+    text-align: center;
+}
+.cont-main .explain.data-v-a7134c3e{
+    width: 448rpx;
+    margin: 0 auto;
+    margin-top: 167rpx;
+    font-family: PingFang-SC-Medium;
+    font-size: 28rpx;
+    line-height: 40rpx;
+    letter-spacing: 0rpx;
+    color: #666666;
+}
+.claim-btn.data-v-a7134c3e{
+    text-align: center;
+    width: 510rpx;
+    height: 80rpx;
+    margin: 0 auto;
+    background-image: -webkit-linear-gradient(right,
+    #fe8e0d 0%,
+    #ff6f2e 100%),
+    -webkit-linear-gradient(
+            #00ca85,
+            #00ca85);
+    background-image: linear-gradient(-90deg,
+    #fe8e0d 0%,
+    #ff6f2e 100%),
+    linear-gradient(
+            #00ca85,
+            #00ca85);
+    background-blend-mode: normal,
+    normal;
+    border-radius: 40rpx;
+    font-size: 32rpx;
+    color: #ffffff;
+    line-height: 80rpx;
+    margin-top: 64rpx;
+}
+

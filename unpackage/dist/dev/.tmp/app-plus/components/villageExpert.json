@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "link-me-view": "/components/linkMeView"
+  }
+}

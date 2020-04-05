@@ -1,0 +1,81 @@
+
+.margin_bottom_20.data-v-60bba1e8{
+		margin-bottom: 20rpx;
+}
+.build_des_view.data-v-60bba1e8{
+        width: 100%;
+        padding: 0 40rpx;
+        box-sizing: border-box;
+}
+.build_des.data-v-60bba1e8{
+        width:100%;
+		box-sizing:border-box;
+		background:#fff;
+		-webkit-flex-wrap: wrap;
+		        flex-wrap: wrap;
+		box-sizing: border-box;
+		margin-top: 8rpx;
+		font-size: 32rpx;
+		color: #101D36;
+}
+.build_des_item.data-v-60bba1e8{
+        width:50%;
+		text-overflow:ellipsis;
+		white-space:nowrap;
+		overflow:hidden;
+		text-align: left;
+		line-height: 66rpx;
+}
+.flex_wap.data-v-60bba1e8{
+        -webkit-flex-wrap: wrap;
+                flex-wrap: wrap;
+        width:50%;
+        margin-bottom: 20rpx;
+}
+.build_des_title.data-v-60bba1e8{
+        color: #8E94A1;
+        font-size: 32rpx;
+        margin-right: 17rpx;
+        -webkit-flex-shrink: 0;
+                flex-shrink: 0;
+		display: inline-block;
+		width: 146rpx;
+		text-align: left;
+}
+.build_more.data-v-60bba1e8{
+		font-size: 32rpx;
+		color: #101D36;
+        line-height: 1.5;
+}
+.four_view text.data-v-60bba1e8{
+        margin-left: 4rpx;
+}
+.three_view text.data-v-60bba1e8{
+        margin-left: 20rpx;
+}
+.build_des_hide.data-v-60bba1e8{
+        text-overflow:ellipsis;
+        white-space:nowrap;
+        overflow:hidden;
+}
+.more_btn.data-v-60bba1e8{
+		height: 40rpx;
+		line-height: 40rpx;
+		width: 100%;
+		margin-top: 18rpx;
+		-webkit-flex-shrink: 0;
+		        flex-shrink: 0;
+}
+    /* .more_btn view{
+		margin: auto;
+		background:url(http://cdn.haofang.net/static/uuminiapp/pageNewUi/erhouse_detail_sprites.png)  no-repeat;
+		background-size:242px 40px;
+		height:9px;
+		width:9px;
+		background-position:-23px 0;
+   } */
+.more_btn .lookMoreActive.data-v-60bba1e8{
+		-webkit-transform:rotate(-180deg);
+		        transform:rotate(-180deg);
+}
+

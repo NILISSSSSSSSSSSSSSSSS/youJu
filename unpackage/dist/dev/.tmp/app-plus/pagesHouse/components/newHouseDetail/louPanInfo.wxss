@@ -1,0 +1,157 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 单价+楼层+装修+朝向+年代+类型+小区 */
+.house_other.data-v-5983930a{
+    width:100%;
+    box-sizing:border-box;
+    background:#fff;
+    -webkit-flex-wrap: wrap;
+            flex-wrap: wrap;
+    box-sizing: border-box;
+    font-size: 32rpx;
+	color: #101D36;
+	padding: 0 40rpx;
+}
+.house_other_item.data-v-5983930a{
+    width:50%;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+	text-align: left;
+	line-height: 66rpx;
+	padding-right: 10rpx;
+	box-sizing: border-box;
+}
+.house_other_item_100.data-v-5983930a{
+	width: 100%;
+	line-height: 66rpx;
+}
+.house_other_item_100 .house_other_cont.data-v-5983930a{
+	font-size: 32rpx;
+	color: #101D36;
+}
+.house_other_title.data-v-5983930a{
+    color: #8E94A1;
+    font-size: 32rpx;
+    margin-right: 17rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	width: 140rpx;
+}
+.house_other_title_more.data-v-5983930a{
+	color: #8E94A1;
+	font-size: 32rpx;
+	margin-right: 17rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.house_other_title_more .house_other_title.data-v-5983930a{
+	display: inline-block;
+}
+.house_other_text.data-v-5983930a{
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+	text-align: left;
+	width:50%;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+

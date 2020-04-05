@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "新房",
+  "navigationBarTextStyle": "black",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "backgroundColor": "#FFFFFF",
+  "onReachBottomDistance": 100,
+  "softinputNavBar": "none",
+  "bounce": "none",
+  "usingComponents": {
+    "new-msg-view": "/components/newMsgView",
+    "screen-house": "/pagesHouse/components/screenHouse",
+    "search-btn-view": "/components/searchBtnView",
+    "map-find-house-btn": "/pagesHouse/components/mapFindHouseBtn",
+    "new-house-list-item": "/components/newHouseListItem"
+  }
+}

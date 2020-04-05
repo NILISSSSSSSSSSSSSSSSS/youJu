@@ -1,0 +1,1151 @@
+
+
+<template>
+    <div class="store-cont">
+        <list v-if="!loadingNav" ref="list" class="store-view f_c_s"
+              :show-scrollbar="false">
+            <!--顶部-->
+            <cell class="list-item f_r_b">
+                <div class="f_r_s list-item-left">
+                    <div class="header-img-view">
+                        <image class="header-img" resize="cover" :placeholder="defaultImg" :src="archiveInfo.img"></image>
+                    </div>
+
+                    <div class="f_c_c list-text-cont">
+                        <text class="archive-name">{{ archiveInfo.name }}</text>
+                        <text class="dept-name">{{ archiveInfo.deptName }}</text>
+                        <text class="service-reg">服务区域：{{ archiveInfo.serviceReg }}</text>
+                    </div>
+                </div>
+
+                <div class="list-item-right f_c_c">
+                    <text class="list-item-right-star">{{ archiveInfo.star }}</text>
+                    <text class="list-item-right-text">综合评分</text>
+                </div>
+            </cell>
+
+            <!--数量-->
+            <cell class="num-item f_r_b">
+                <div class="f_c_c num-item-cont">
+                    <text class="num-item-num">{{ archiveInfo.joinDays }}</text>
+                    <text class="num-item-text">加入悠居客(天)</text>
+                </div>
+
+                <div class="f_c_c num-item-cont">
+                    <text class="num-item-num">{{ archiveInfo.servicePeoples }}</text>
+                    <text class="num-item-text">已服务(人)</text>
+                </div>
+
+                <div class="f_c_c num-item-cont">
+                    <text class="num-item-num">{{ archiveInfo.thirtyDayLooNum }}</text>
+                    <text class="num-item-text">近30天带看(数)</text>
+                </div>
+            </cell>
+
+            <!--主服务小区-->
+            <cell class="service-list" v-if="serviceBuildList && serviceBuildList.length > 0">
+                <div class="title">主服务小区</div>
+
+                <scroller class="service-list-scroller"
+                          :show-scrollbar="false"
+                          :scroll-direction="'horizontal'">
+                    <block v-for="(item, index) in serviceBuildList" :key="index">
+                        <service-build-item :index="index" :item="item"></service-build-item>
+                    </block>
+                </scroller>
+            </cell>
+
+            <!--TA的房源-->
+            <cell class="he-house">
+                <text class="title">TA的房源</text>
+            </cell>
+
+            <!--nav-->
+            <cell ref="nav" class="nav-list f_r_s">
+                <text :class="[navType==='lease'?'nav-text-active':'']"
+                      @click.stop="changeNavType('lease')"
+                      class="nav-text">在租({{ inLeaseNum }})</text>
+                <text :class="[navType==='sale'?'nav-text-active':'']"
+                      @click.stop="changeNavType('sale')"
+                      class="nav-text">在售({{ inSaleNum }})</text>
+                <text :class="[navType==='newHouse'?'nav-text-active':'']"
+                      @click.stop="changeNavType('newHouse')"
+                      class="nav-text">新盘({{ newHouseNum }})</text>
+            </cell>
+
+            <!--nav 悬停-->
+            <cell ref="appBar" class="nav-list-fixed f_r_s">
+                <text :class="[navType==='lease'?'nav-text-active':'']"
+                      @click.stop="changeNavType('lease')"
+                      class="nav-text">在租({{ inLeaseNum }})</text>
+                <text :class="[navType==='sale'?'nav-text-active':'']"
+                      @click.stop="changeNavType('sale')"
+                      class="nav-text">在售({{ inSaleNum }})</text>
+                <text :class="[navType==='newHouse'?'nav-text-active':'']"
+                      @click.stop="changeNavType('newHouse')"
+                      class="nav-text">新盘({{ newHouseNum }})</text>
+            </cell>
+
+            <!--房源-->
+            <cell class="house-list-item" v-for="(item, index) in houseList"
+                  :key="index">
+                <er-house-list-item :width="'670'" :item="item"></er-house-list-item>
+            </cell>
+
+            <!--暂无数据-->
+            <cell class="load-more" v-if="houseList && houseList.length>0 && !haveMoreData">
+                <text class="load-more-text">没有更多数据了！</text>
+            </cell>
+
+            <!--触底加载-->
+            <loading v-if="haveMoreData" @loading="onLoading"
+                     class="load-more"
+                     :display="refreshing ? 'show' : 'hide'">
+                <loading-indicator class="indicator"></loading-indicator>
+                <text class="load-more-text">加载中...</text>
+            </loading>
+        </list>
+
+        <screenLoading v-if="loadingNav"></screenLoading>
+    </div>
+</template>
+
+<script>
+    import Binding from 'weex-bindingx';
+    const domModule = weex.requireModule('dom');
+    import {Const} from "../../utils/Const";
+    import {ServiceBuildItem} from "../../static/app-plus/components/ComponentItem";
+    import serviceBuildItem from "../../static/app-plus/components/serviceBuildItem";
+    import erHouseListItem from "../../static/app-plus/components/erHouseListItem";
+    import centerLoading from "../../static/app-plus/components/centerLoading";
+    import screenLoading from "../../static/app-plus/components/screenLoading";
+
+    class PrivateData {
+        static houseConfig = {
+            lease: {
+                haveMoreData: true,
+                pageSize: 10,
+                currentPage: 1,
+                list: null
+            },
+            sale: {
+                haveMoreData: true,
+                pageSize: 10,
+                currentPage: 1,
+                list: null
+            },
+            newHouse: {
+                haveMoreData: true,
+                pageSize: 10,
+                currentPage: 1,
+                list: null
+            }
+        }
+    }
+
+    export default {
+        components: {
+            serviceBuildItem,
+            erHouseListItem,
+            centerLoading,
+            screenLoading
+        },
+        computed: {
+            defaultImg() {
+                return Const.defaultHeadImg;
+            }
+        },
+        data() {
+            return {
+                navType: "sale",
+                archiveInfo: {
+                    img: "http://cdn.haofang.net/static/uuminiapp/im/defaultHead.png?t=20180427",
+                    name: "",
+                    deptName: "",
+                    serviceReg: "",
+                    star: "3.5",
+                    // 加入悠居客天数
+                    joinDays: 0,
+                    // 已经服务的人数
+                    servicePeoples: 0,
+                    // 近30天带看
+                    thirtyDayLooNum: 0,
+                },
+                // 服务小区列表
+                serviceBuildList: [],
+                haveMoreData: true,
+                refreshing: false,
+                houseList: [],
+                inLeaseNum: 0,
+                inSaleNum: 0,
+                newHouseNum: 0,
+
+                // 切换nav的loading
+                loadingNav: false,
+            }
+        },
+        mounted() {
+            this.initData();
+        },
+        methods: {
+            getEl(el) {
+                if (typeof el === 'string' || typeof el === 'number') return el;
+                if (WXEnvironment) {
+                    return el.ref;
+                }
+
+                return el instanceof HTMLElement ? el : el.$el;
+            },
+
+            async initData() {
+                this.loadingNav = true;
+                this.initArchiveInfo();
+                this.initServiceBuildList();
+                this.initInLeaseHouseList();
+                this.initNewHouseList();
+                await this.initInSaleHouseList();
+                this.changeNavType("sale", true);
+                this.loadingNav =  false;
+                setTimeout(() => {
+                    domModule.getComponentRect(this.$refs.nav, option => {
+                        const top = Math.abs(option.size.top);
+                        const listView = this.getEl(this.$refs.list);
+                        Binding.bind({
+                            anchor: listView,
+                            eventType: 'scroll',
+                            props: [
+                                {
+                                    element: this.getEl(this.$refs.appBar),
+                                    property: 'opacity',
+                                    expression: {
+                                        origin: `y>${top}?1:0`
+                                    }
+                                }
+                            ]
+                        });
+                    });
+                }, 500);
+            },
+            // 经纪人信息
+            initArchiveInfo() {
+                let archiveInfo ={
+                    img: "http://cdn.haofang.net/static/uuminiapp/im/defaultHead.png?t=20180427",
+                    name: "刘晓林",
+                    deptName: "优优好房青白江店",
+                    serviceReg: "青白江区域,青白江区域,青白江区域,青白江区域",
+                    star: "5.0",
+                    // 加入悠居客天数
+                    joinDays: 678,
+                    // 已经服务的人数
+                    servicePeoples: 59,
+                    // 近30天带看
+                    thirtyDayLooNum: 50,
+                };
+                this.archiveInfo = archiveInfo;
+                uni.setNavigationBarTitle({title: `${archiveInfo.name}的主页`});
+            },
+            // 服务小区列表
+            initServiceBuildList() {
+                let serviceBuildList = [];
+                for (let i = 0;i<=10;i++) {
+                    let item = new ServiceBuildItem();
+                    item.buildId = i;
+                    item.buildName = "育才主导"+i;
+                    item.buildPic = "";
+                    item.inLeaseNum = i;
+                    item.unitPrice = "1999元/㎡";
+                    item.inSaleNum = i*12;
+                    serviceBuildList.push(item);
+                }
+                return new Promise((resolve) => {
+                    setTimeout(() => {
+                        this.serviceBuildList = serviceBuildList;
+                    }, 0);
+                });
+            },
+            // TA的房源
+            async initInSaleHouseList() {
+                let data = await this.getSaleAndLeaseHouseList();
+                PrivateData.houseConfig.sale.list = data.list;
+                this.inSaleNum = data.num;
+                return Promise.resolve(data);
+            },
+            async initInLeaseHouseList() {
+                let data = await this.getSaleAndLeaseHouseList();
+                PrivateData.houseConfig.lease.list = data.list;
+                this.inLeaseNum = data.num;
+            },
+            async initNewHouseList() {
+                let data = await this.getNewHouseList();
+                PrivateData.houseConfig.newHouse.list = data.list;
+                this.newHouseNum = data.num;
+            },
+            // 获取房源列表
+            getSaleAndLeaseHouseList() {
+                return new Promise((resolve) => {
+                    setTimeout(() => {
+                        let list = [
+                            {
+                                "compId":"47558",
+                                "isTopHouse":false,
+                                "houseId":"6731953",
+                                "buildId":"2032177",
+                                "houseImg":"http://pic.myfun7.com/oss/online/tmp/2019/11/18/304211f7ced14886a109dcc62ac74a33.png",
+                                "houseTitle":"公开课个v叫姑姑复古风反馈",
+                                "shareTitle":"",
+                                "houseTing":"3室1卫",
+                                "houseRoom":"",
+                                "houseHall":"",
+                                "houseWei":"",
+                                "houseArea":"124",
+                                "houseAreaUnit":"m²",
+                                "houseAddress":"",
+                                "houseName":"天府软件园D区",
+                                "houseTags":[
+
+                                ],
+                                "houseTotalPrice":"125",
+                                "houseTotalPriceUnit":"万",
+                                "housePriceOfArea":"10080.6",
+                                "housePriceOfAreaUnit":"元/m²",
+                                "hasVr":false,
+                                "hasVideo":false,
+                                "cityId":"1",
+                                "caseType":"1",
+                                "reSource":"1",
+                                "trueHouse":true,
+                                "isShowBrowseNum":"",
+                                "houseUseage":"1",
+                                "houseUseageCn":"住宅",
+                                "regionName":"",
+                                "sectionName":"",
+                                "pageFrom":"",
+                                "archiveId":""
+                            },
+                            {
+                                "compId":"47877",
+                                "isTopHouse":false,
+                                "houseId":"6718749",
+                                "buildId":"2032177",
+                                "houseImg":"http://pic.myfun7.com/oss/online/tmp/2019/11/12/525668f3613149139618c54d227e0620.jpg",
+                                "houseTitle":"消防官兵就不给很方便补课黄灿灿举报快播",
+                                "shareTitle":"",
+                                "houseTing":"2室1卫",
+                                "houseRoom":"",
+                                "houseHall":"",
+                                "houseWei":"",
+                                "houseArea":"88",
+                                "houseAreaUnit":"m²",
+                                "houseAddress":"",
+                                "houseName":"天府软件园D区",
+                                "houseTags":[
+
+                                ],
+                                "houseTotalPrice":"89",
+                                "houseTotalPriceUnit":"万",
+                                "housePriceOfArea":"10114",
+                                "housePriceOfAreaUnit":"元/m²",
+                                "hasVr":false,
+                                "hasVideo":false,
+                                "cityId":"1",
+                                "caseType":"1",
+                                "reSource":"1",
+                                "trueHouse":true,
+                                "isShowBrowseNum":"",
+                                "houseUseage":"1",
+                                "houseUseageCn":"住宅",
+                                "regionName":"",
+                                "sectionName":"",
+                                "pageFrom":"",
+                                "archiveId":""
+                            },
+                            {
+                                "compId":"47701",
+                                "isTopHouse":false,
+                                "houseId":"6643877",
+                                "buildId":"2032177",
+                                "houseImg":"http://192.168.0.243/video/oss/online/tmp/2019/10/18/f7c5a4bc556448e5ba29fa83bdf59cc5.jpeg",
+                                "houseTitle":"测试看房时间怎么样可以更改",
+                                "shareTitle":"",
+                                "houseTing":"-室-卫",
+                                "houseRoom":"",
+                                "houseHall":"",
+                                "houseWei":"",
+                                "houseArea":"300",
+                                "houseAreaUnit":"m²",
+                                "houseAddress":"",
+                                "houseName":"天府软件园D区",
+                                "houseTags":[
+
+                                ],
+                                "houseTotalPrice":"300",
+                                "houseTotalPriceUnit":"万",
+                                "housePriceOfArea":"10000",
+                                "housePriceOfAreaUnit":"元/m²",
+                                "hasVr":false,
+                                "hasVideo":true,
+                                "cityId":"1",
+                                "caseType":"1",
+                                "reSource":"1",
+                                "trueHouse":true,
+                                "isShowBrowseNum":"",
+                                "houseUseage":"6",
+                                "houseUseageCn":"仓库",
+                                "regionName":"",
+                                "sectionName":"",
+                                "pageFrom":"",
+                                "archiveId":""
+                            },
+                            {
+                                "compId":"12001",
+                                "isTopHouse":false,
+                                "houseId":"6641594",
+                                "buildId":"2032177",
+                                "houseImg":"http://pic.myfun7.com/oss/online/tmp/2019/01/22/1c4ccf3874df4e31b2f354db309d4815.png",
+                                "houseTitle":"阿斯蒂芬啊大苏打123 爱的房阿萨斯蒂芬",
+                                "shareTitle":"",
+                                "houseTing":"1室1卫",
+                                "houseRoom":"",
+                                "houseHall":"",
+                                "houseWei":"",
+                                "houseArea":"86",
+                                "houseAreaUnit":"m²",
+                                "houseAddress":"",
+                                "houseName":"天府软件园D区",
+                                "houseTags":[
+                                    "两证齐全",
+                                    "车库",
+                                    "保姆室"
+                                ],
+                                "houseTotalPrice":"80",
+                                "houseTotalPriceUnit":"万",
+                                "housePriceOfArea":"10000",
+                                "housePriceOfAreaUnit":"元/m²",
+                                "hasVr":false,
+                                "hasVideo":false,
+                                "cityId":"1",
+                                "caseType":"1",
+                                "reSource":"1",
+                                "trueHouse":true,
+                                "isShowBrowseNum":"",
+                                "houseUseage":"1",
+                                "houseUseageCn":"住宅",
+                                "regionName":"",
+                                "sectionName":"",
+                                "pageFrom":"",
+                                "archiveId":""
+                            },
+                            {
+                                "compId":"12001",
+                                "isTopHouse":false,
+                                "houseId":"6627974",
+                                "buildId":"2032177",
+                                "houseImg":"http://picloc.myfun7.compic/hftpic/house/2016/05/1_1/AA01A1/SmallPic/1/CSCD1605121050247_132526406441414.jpg",
+                                "houseTitle":"厕所测上厕所测上厕所测是",
+                                "shareTitle":"",
+                                "houseTing":"",
+                                "houseRoom":"",
+                                "houseHall":"",
+                                "houseWei":"",
+                                "houseArea":"129",
+                                "houseAreaUnit":"m²",
+                                "houseAddress":"",
+                                "houseName":"天府软件园D区",
+                                "houseTags":[
+
+                                ],
+                                "houseTotalPrice":"123",
+                                "houseTotalPriceUnit":"万",
+                                "housePriceOfArea":"10000",
+                                "housePriceOfAreaUnit":"元/m²",
+                                "hasVr":false,
+                                "hasVideo":false,
+                                "cityId":"1",
+                                "caseType":"1",
+                                "reSource":"1",
+                                "trueHouse":false,
+                                "isShowBrowseNum":"",
+                                "houseUseage":"4",
+                                "houseUseageCn":"写字楼",
+                                "regionName":"",
+                                "sectionName":"",
+                                "pageFrom":"",
+                                "archiveId":""
+                            },
+                            {
+                                "compId":"",
+                                "isTopHouse":false,
+                                "houseId":"1401",
+                                "buildId":"2032177",
+                                "houseImg":"http://cdn.haofang.net/static/wxPlusApp/yjk/house/house_list_default.png",
+                                "houseTitle":"南延线1 天府软件园D区",
+                                "shareTitle":"",
+                                "houseTing":"2室2卫",
+                                "houseRoom":"",
+                                "houseHall":"",
+                                "houseWei":"",
+                                "houseArea":"123",
+                                "houseAreaUnit":"m²",
+                                "houseAddress":"",
+                                "houseName":"天府软件园D区",
+                                "houseTags":[
+                                    "业主房源"
+                                ],
+                                "houseTotalPrice":"123",
+                                "houseTotalPriceUnit":"万",
+                                "housePriceOfArea":"10000",
+                                "housePriceOfAreaUnit":"元/m²",
+                                "hasVr":false,
+                                "hasVideo":false,
+                                "cityId":"1",
+                                "caseType":"1",
+                                "reSource":"4",
+                                "trueHouse":false,
+                                "isShowBrowseNum":"",
+                                "houseUseage":"1",
+                                "houseUseageCn":"住宅",
+                                "regionName":"",
+                                "sectionName":"",
+                                "pageFrom":"",
+                                "archiveId":""
+                            },
+                            {
+                                "compId":"",
+                                "isTopHouse":false,
+                                "houseId":"1111",
+                                "buildId":"2032177",
+                                "houseImg":"http://cdn.haofang.net/static/wxPlusApp/yjk/house/house_list_default.png",
+                                "houseTitle":"南延线1 天府软件园D区",
+                                "shareTitle":"",
+                                "houseTing":"1室1卫",
+                                "houseRoom":"",
+                                "houseHall":"",
+                                "houseWei":"",
+                                "houseArea":"80",
+                                "houseAreaUnit":"m²",
+                                "houseAddress":"",
+                                "houseName":"天府软件园D区",
+                                "houseTags":[
+                                    "业主房源"
+                                ],
+                                "houseTotalPrice":"80",
+                                "houseTotalPriceUnit":"万",
+                                "housePriceOfArea":"10000",
+                                "housePriceOfAreaUnit":"元/m²",
+                                "hasVr":false,
+                                "hasVideo":false,
+                                "cityId":"1",
+                                "caseType":"1",
+                                "reSource":"4",
+                                "trueHouse":false,
+                                "isShowBrowseNum":"",
+                                "houseUseage":"1",
+                                "houseUseageCn":"住宅",
+                                "regionName":"",
+                                "sectionName":"",
+                                "pageFrom":"",
+                                "archiveId":""
+                            },
+                            {
+                                "compId":"47558",
+                                "isTopHouse":false,
+                                "houseId":"6731953",
+                                "buildId":"2032177",
+                                "houseImg":"http://pic.myfun7.com/oss/online/tmp/2019/11/18/304211f7ced14886a109dcc62ac74a33.png",
+                                "houseTitle":"公开课个v叫姑姑复古风反馈",
+                                "shareTitle":"",
+                                "houseTing":"3室1卫",
+                                "houseRoom":"",
+                                "houseHall":"",
+                                "houseWei":"",
+                                "houseArea":"124",
+                                "houseAreaUnit":"m²",
+                                "houseAddress":"",
+                                "houseName":"天府软件园D区",
+                                "houseTags":[
+
+                                ],
+                                "houseTotalPrice":"125",
+                                "houseTotalPriceUnit":"万",
+                                "housePriceOfArea":"10080.6",
+                                "housePriceOfAreaUnit":"元/m²",
+                                "hasVr":false,
+                                "hasVideo":false,
+                                "cityId":"1",
+                                "caseType":"1",
+                                "reSource":"1",
+                                "trueHouse":true,
+                                "isShowBrowseNum":"",
+                                "houseUseage":"1",
+                                "houseUseageCn":"住宅",
+                                "regionName":"",
+                                "sectionName":"",
+                                "pageFrom":"",
+                                "archiveId":""
+                            },
+                            {
+                                "compId":"47877",
+                                "isTopHouse":false,
+                                "houseId":"6718749",
+                                "buildId":"2032177",
+                                "houseImg":"http://pic.myfun7.com/oss/online/tmp/2019/11/12/525668f3613149139618c54d227e0620.jpg",
+                                "houseTitle":"消防官兵就不给很方便补课黄灿灿举报快播",
+                                "shareTitle":"",
+                                "houseTing":"2室1卫",
+                                "houseRoom":"",
+                                "houseHall":"",
+                                "houseWei":"",
+                                "houseArea":"88",
+                                "houseAreaUnit":"m²",
+                                "houseAddress":"",
+                                "houseName":"天府软件园D区",
+                                "houseTags":[
+
+                                ],
+                                "houseTotalPrice":"89",
+                                "houseTotalPriceUnit":"万",
+                                "housePriceOfArea":"10114",
+                                "housePriceOfAreaUnit":"元/m²",
+                                "hasVr":false,
+                                "hasVideo":false,
+                                "cityId":"1",
+                                "caseType":"1",
+                                "reSource":"1",
+                                "trueHouse":true,
+                                "isShowBrowseNum":"",
+                                "houseUseage":"1",
+                                "houseUseageCn":"住宅",
+                                "regionName":"",
+                                "sectionName":"",
+                                "pageFrom":"",
+                                "archiveId":""
+                            },
+                            {
+                                "compId":"47701",
+                                "isTopHouse":false,
+                                "houseId":"6643877",
+                                "buildId":"2032177",
+                                "houseImg":"http://192.168.0.243/video/oss/online/tmp/2019/10/18/f7c5a4bc556448e5ba29fa83bdf59cc5.jpeg",
+                                "houseTitle":"测试看房时间怎么样可以更改",
+                                "shareTitle":"",
+                                "houseTing":"-室-卫",
+                                "houseRoom":"",
+                                "houseHall":"",
+                                "houseWei":"",
+                                "houseArea":"300",
+                                "houseAreaUnit":"m²",
+                                "houseAddress":"",
+                                "houseName":"天府软件园D区",
+                                "houseTags":[
+
+                                ],
+                                "houseTotalPrice":"300",
+                                "houseTotalPriceUnit":"万",
+                                "housePriceOfArea":"10000",
+                                "housePriceOfAreaUnit":"元/m²",
+                                "hasVr":false,
+                                "hasVideo":true,
+                                "cityId":"1",
+                                "caseType":"1",
+                                "reSource":"1",
+                                "trueHouse":true,
+                                "isShowBrowseNum":"",
+                                "houseUseage":"6",
+                                "houseUseageCn":"仓库",
+                                "regionName":"",
+                                "sectionName":"",
+                                "pageFrom":"",
+                                "archiveId":""
+                            },
+                        ];
+                        if (PrivateData.houseConfig[this.navType].currentPage >= 3) {
+                            list = [
+                                {
+                                    "compId":"47558",
+                                    "isTopHouse":false,
+                                    "houseId":"6731953",
+                                    "buildId":"2032177",
+                                    "houseImg":"http://pic.myfun7.com/oss/online/tmp/2019/11/18/304211f7ced14886a109dcc62ac74a33.png",
+                                    "houseTitle":"公开课个v叫姑姑复古风反馈",
+                                    "shareTitle":"",
+                                    "houseTing":"3室1卫",
+                                    "houseRoom":"",
+                                    "houseHall":"",
+                                    "houseWei":"",
+                                    "houseArea":"124",
+                                    "houseAreaUnit":"m²",
+                                    "houseAddress":"",
+                                    "houseName":"天府软件园D区",
+                                    "houseTags":[
+
+                                    ],
+                                    "houseTotalPrice":"125",
+                                    "houseTotalPriceUnit":"万",
+                                    "housePriceOfArea":"10080.6",
+                                    "housePriceOfAreaUnit":"元/m²",
+                                    "hasVr":false,
+                                    "hasVideo":false,
+                                    "cityId":"1",
+                                    "caseType":"1",
+                                    "reSource":"1",
+                                    "trueHouse":true,
+                                    "isShowBrowseNum":"",
+                                    "houseUseage":"1",
+                                    "houseUseageCn":"住宅",
+                                    "regionName":"",
+                                    "sectionName":"",
+                                    "pageFrom":"",
+                                    "archiveId":""
+                                },
+                                {
+                                    "compId":"47877",
+                                    "isTopHouse":false,
+                                    "houseId":"6718749",
+                                    "buildId":"2032177",
+                                    "houseImg":"http://pic.myfun7.com/oss/online/tmp/2019/11/12/525668f3613149139618c54d227e0620.jpg",
+                                    "houseTitle":"消防官兵就不给很方便补课黄灿灿举报快播",
+                                    "shareTitle":"",
+                                    "houseTing":"2室1卫",
+                                    "houseRoom":"",
+                                    "houseHall":"",
+                                    "houseWei":"",
+                                    "houseArea":"88",
+                                    "houseAreaUnit":"m²",
+                                    "houseAddress":"",
+                                    "houseName":"天府软件园D区",
+                                    "houseTags":[
+
+                                    ],
+                                    "houseTotalPrice":"89",
+                                    "houseTotalPriceUnit":"万",
+                                    "housePriceOfArea":"10114",
+                                    "housePriceOfAreaUnit":"元/m²",
+                                    "hasVr":false,
+                                    "hasVideo":false,
+                                    "cityId":"1",
+                                    "caseType":"1",
+                                    "reSource":"1",
+                                    "trueHouse":true,
+                                    "isShowBrowseNum":"",
+                                    "houseUseage":"1",
+                                    "houseUseageCn":"住宅",
+                                    "regionName":"",
+                                    "sectionName":"",
+                                    "pageFrom":"",
+                                    "archiveId":""
+                                },
+                                {
+                                    "compId":"47701",
+                                    "isTopHouse":false,
+                                    "houseId":"6643877",
+                                    "buildId":"2032177",
+                                    "houseImg":"http://192.168.0.243/video/oss/online/tmp/2019/10/18/f7c5a4bc556448e5ba29fa83bdf59cc5.jpeg",
+                                    "houseTitle":"测试看房时间怎么样可以更改",
+                                    "shareTitle":"",
+                                    "houseTing":"-室-卫",
+                                    "houseRoom":"",
+                                    "houseHall":"",
+                                    "houseWei":"",
+                                    "houseArea":"300",
+                                    "houseAreaUnit":"m²",
+                                    "houseAddress":"",
+                                    "houseName":"天府软件园D区",
+                                    "houseTags":[
+
+                                    ],
+                                    "houseTotalPrice":"300",
+                                    "houseTotalPriceUnit":"万",
+                                    "housePriceOfArea":"10000",
+                                    "housePriceOfAreaUnit":"元/m²",
+                                    "hasVr":false,
+                                    "hasVideo":true,
+                                    "cityId":"1",
+                                    "caseType":"1",
+                                    "reSource":"1",
+                                    "trueHouse":true,
+                                    "isShowBrowseNum":"",
+                                    "houseUseage":"6",
+                                    "houseUseageCn":"仓库",
+                                    "regionName":"",
+                                    "sectionName":"",
+                                    "pageFrom":"",
+                                    "archiveId":""
+                                },
+                            ];
+                        }
+                        resolve({
+                            list,
+                            num: 23,
+                        });
+                    }, 200);
+                })
+            },
+            // 获取新房数据
+            getNewHouseList() {
+                return new Promise((resolve) => {
+                    setTimeout(() => {
+                        let list = [
+                            {
+                                "compId":"47558",
+                                "isTopHouse":false,
+                                "houseId":"6731953",
+                                "buildId":"2032177",
+                                "houseImg":"http://pic.myfun7.com/oss/online/tmp/2019/11/18/304211f7ced14886a109dcc62ac74a33.png",
+                                "houseTitle":"公开课个v叫姑姑复古风反馈",
+                                "shareTitle":"",
+                                "houseTing":"3室1卫",
+                                "houseRoom":"",
+                                "houseHall":"",
+                                "houseWei":"",
+                                "houseArea":"124",
+                                "houseAreaUnit":"m²",
+                                "houseAddress":"",
+                                "houseName":"天府软件园D区",
+                                "houseTags":[
+
+                                ],
+                                "houseTotalPrice":"125",
+                                "houseTotalPriceUnit":"万",
+                                "housePriceOfArea":"10080.6",
+                                "housePriceOfAreaUnit":"元/m²",
+                                "hasVr":false,
+                                "hasVideo":false,
+                                "cityId":"1",
+                                "caseType":"1",
+                                "reSource":"1",
+                                "trueHouse":true,
+                                "isShowBrowseNum":"",
+                                "houseUseage":"1",
+                                "houseUseageCn":"住宅",
+                                "regionName":"",
+                                "sectionName":"",
+                                "pageFrom":"",
+                                "archiveId":""
+                            },
+                            {
+                                "compId":"47877",
+                                "isTopHouse":false,
+                                "houseId":"6718749",
+                                "buildId":"2032177",
+                                "houseImg":"http://pic.myfun7.com/oss/online/tmp/2019/11/12/525668f3613149139618c54d227e0620.jpg",
+                                "houseTitle":"消防官兵就不给很方便补课黄灿灿举报快播",
+                                "shareTitle":"",
+                                "houseTing":"2室1卫",
+                                "houseRoom":"",
+                                "houseHall":"",
+                                "houseWei":"",
+                                "houseArea":"88",
+                                "houseAreaUnit":"m²",
+                                "houseAddress":"",
+                                "houseName":"天府软件园D区",
+                                "houseTags":[
+
+                                ],
+                                "houseTotalPrice":"89",
+                                "houseTotalPriceUnit":"万",
+                                "housePriceOfArea":"10114",
+                                "housePriceOfAreaUnit":"元/m²",
+                                "hasVr":false,
+                                "hasVideo":false,
+                                "cityId":"1",
+                                "caseType":"1",
+                                "reSource":"1",
+                                "trueHouse":true,
+                                "isShowBrowseNum":"",
+                                "houseUseage":"1",
+                                "houseUseageCn":"住宅",
+                                "regionName":"",
+                                "sectionName":"",
+                                "pageFrom":"",
+                                "archiveId":""
+                            },
+                        ];
+                        resolve({
+                            list,
+                            num: 2,
+                        });
+                    }, 200);
+                })
+            },
+
+            // 上滑加载
+            async onLoading() {
+                this.refreshing = true;
+                if (!this.haveMoreData) {
+                    setTimeout(() => {
+                        this.refreshing = false;
+                    }, 200);
+                    return ;
+                }
+
+                const eventMap = new Map();
+                eventMap.set("lease", "loadingLeaseHouseList");
+                eventMap.set("sale", "loadingSaleHouseList");
+                eventMap.set("newHouse", "loadingNewHouseList");
+                await this[eventMap.get(this.navType)]();
+                this.houseList = PrivateData.houseConfig[this.navType].list;
+                this.refreshing = false;
+            },
+            async loadingLeaseHouseList() {
+                PrivateData.houseConfig.lease.currentPage++;
+                let data = await this.getSaleAndLeaseHouseList();
+                if (data.list.length < PrivateData.houseConfig.lease.pageSize) {
+                    setTimeout(() => {
+                        this.haveMoreData = false;
+                    }, 500);
+                }
+                if (data.list > 0) {
+                    PrivateData.houseConfig.lease.list = [
+                        ...PrivateData.houseConfig.lease.list,
+                        ...(data.list)
+                    ];
+                }
+                return Promise.resolve(data);
+            },
+            async loadingSaleHouseList() {
+                PrivateData.houseConfig.sale.currentPage++;
+                let data = await this.getSaleAndLeaseHouseList();
+                if (data.list.length < PrivateData.houseConfig.sale.pageSize) {
+                    setTimeout(() => {
+                        this.haveMoreData = false;
+                    }, 500);
+                }
+                if (data.list.length > 0) {
+                    PrivateData.houseConfig.sale.list = [
+                        ...PrivateData.houseConfig.sale.list,
+                        ...(data.list)
+                    ];
+                }
+                return Promise.resolve(data);
+            },
+            async loadingNewHouseList() {
+                PrivateData.houseConfig.newHouse.currentPage++;
+                let data = await this.getNewHouseList();
+                if (data.list.length < PrivateData.houseConfig.newHouse.pageSize) {
+                    setTimeout(() => {
+                        this.haveMoreData = false;
+                    }, 500);
+                }
+                if (data.list.length > 0) {
+                    PrivateData.houseConfig.newHouse.list = [
+                        ...PrivateData.houseConfig.newHouse.list,
+                        ...(data.list)
+                    ];
+                    this.houseList = PrivateData.houseConfig.newHouse.list;
+                }
+                return Promise.resolve(data);
+            },
+
+            // 切换nav type
+            changeNavType(type, isInit = false) {
+                this.navType = type;
+                this.haveMoreData = true;
+                this.houseList = PrivateData.houseConfig[type].list;
+                if (this.houseList.length < PrivateData.houseConfig[type].pageSize) {
+                    setTimeout(() => {
+                        this.haveMoreData = false;
+                    }, 500);
+                }
+                if (!isInit) {
+                    setTimeout(() => {
+                        domModule.scrollToElement(this.$refs.nav);
+                    }, 200);
+                }
+            }
+        }
+    }
+</script>
+
+<style>
+    /*顶部*/
+    .store-cont{
+        width: 750rpx;
+        flex: 1;
+    }
+    .store-view{
+        width: 750rpx;
+        flex: 1;
+    }
+    .list-item{
+        width: 750rpx;
+        padding-left: 40rpx;
+        box-sizing: border-box;
+        padding-right: 40rpx;
+        padding-top: 60rpx;
+        align-items: center;
+    }
+    .header-img-view{
+        width: 120rpx;
+        height: 120rpx;
+        border-radius: 120rpx;
+        align-items: center;
+        margin-right: 24rpx;
+    }
+    .header-img{
+        width: 120rpx;
+        height: 120rpx;
+        border-radius: 120rpx;
+    }
+    .archive-name{
+        min-height: 50rpx;
+        font-size: 38rpx;
+        letter-spacing: 0;
+        color: #333333;
+        text-align: left;
+        line-height: 50rpx;
+        font-weight: bold;
+        text-overflow: ellipsis;
+        lines: 1;
+    }
+    .dept-name{
+        min-height: 35rpx;
+        font-size: 24rpx;
+        font-weight: normal;
+        color: #888888;
+        line-height: 35rpx;
+        margin-top: 6rpx;
+        text-overflow: ellipsis;
+        lines: 1;
+    }
+    .service-reg{
+        min-height: 35rpx;
+        font-size: 24rpx;
+        font-weight: normal;
+        color: #888888;
+        line-height: 35rpx;
+        margin-top: 4rpx;
+        text-overflow: ellipsis;
+        lines: 1;
+    }
+    .list-item-left{
+        flex: 1;
+    }
+    .list-text-cont{
+        flex: 1;
+    }
+    .list-item-right{
+        width: 150rpx;
+        border-left-width: 1rpx;
+        border-left-color: #e6e6e6;
+    }
+    .list-item-right-text{
+        font-size: 26rpx;
+        font-weight: normal;
+        color: #666666;
+        text-align: center;
+        line-height: 30rpx;
+        margin-top: 14rpx;
+    }
+    .list-item-right-star{
+        font-size: 66rpx;
+        font-weight: normal;
+        color: #ff7200;
+        line-height: 70rpx;
+        text-align: center;
+    }
+
+    /*数量*/
+    .num-item{
+        width: 750rpx;
+        padding-left: 40rpx;
+        box-sizing: border-box;
+        padding-right: 40rpx;
+        padding-top: 56rpx;
+        align-items: center;
+    }
+    .num-item-cont{}
+    .num-item-num{
+        font-size: 44rpx;
+        line-height: 56rpx;
+        font-weight: bold;
+        color: #333333;
+        text-align: center;
+    }
+    .num-item-text{
+        font-size: 26rpx;
+        font-weight: normal;
+        color: #999999;
+        line-height: 40rpx;
+        text-align: center;
+    }
+
+    /*主服务小区*/
+    .service-list{
+        padding-top: 60rpx;
+        width: 750rpx;
+        box-sizing: border-box;
+    }
+    .title{
+        line-height: 60rpx;
+        font-size: 36rpx;
+        font-weight: bold;
+        color: #333333;
+        padding-left: 40rpx;
+    }
+    .service-list-scroller{
+        width: 750rpx;
+        flex-direction: row;
+        margin-top: 36rpx;
+    }
+
+    /*TA的房源*/
+    .he-house{
+        padding-top: 40rpx;
+    }
+    .house-list-item{
+        padding-left: 40rpx;
+        padding-right: 40rpx;
+        width: 750rpx;
+    }
+
+    /*nav*/
+    .nav-list-fixed{
+        opacity: 0;
+        padding-left: 40rpx;
+        padding-right: 40rpx;
+        width: 750rpx;
+        line-height: 76rpx;
+        background-color: #FFFFFF;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 76rpx;
+        z-index: 99;
+    }
+    .nav-list{
+        padding-left: 40rpx;
+        padding-right: 40rpx;
+        width: 750rpx;
+        line-height: 76rpx;
+    }
+    .nav-text{
+        font-size: 30rpx;
+        color: #666666;
+        line-height: 76rpx;
+        text-align: left;
+        margin-right: 60rpx;
+    }
+    .nav-text-active{
+        color: #ff5400;
+    }
+
+    /*上滑加载*/
+    .load-more{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 50rpx;
+        line-height: 50rpx;
+    }
+    .indicator {
+        height: 38rpx;
+        width: 38rpx;
+        color: blue;
+        margin-right: 4rpx;
+    }
+    .load-more-text{
+        font-size: 28rpx;
+        color: #8e94a1;
+        text-align: left;
+    }
+</style>

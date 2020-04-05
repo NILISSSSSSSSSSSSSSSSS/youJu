@@ -1,0 +1,17 @@
+
+.go_back_home_view.data-v-619624e2{
+	position:fixed;
+	right:2rpx;
+	bottom:120rpx;
+	z-index:101;
+	background:url('http://cdn.haofang.net/static/wxPlusApp/yjk/btn_home.png')  no-repeat center center;
+	background-size:100%;
+	height:106rpx;
+	width:106rpx;
+	box-shadow: 0 0 33.2rpx 1.8rpx rgba(116, 116, 116, 0.2);
+	border-radius: 50%;
+}
+.go_back_home_view.go_back_home_view_iphoneX.data-v-619624e2{
+	bottom: 154rpx;
+}
+

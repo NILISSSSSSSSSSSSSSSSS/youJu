@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "悠居客",
+  "navigationStyle": "custom",
+  "titleNView": {
+    "type": "transparent"
+  },
+  "scrollIndicator": "none",
+  "softinputNavBar": "none",
+  "usingComponents": {
+    "get-user-info": "/components/getUserInfoView",
+    "gift-coupon-view": "/components/giftCouponView",
+    "er-house-list-item": "/components/erHouseListItem",
+    "new-house-list-item": "/components/newHouseListItem",
+    "apartment-house-list-item": "/components/apartmentHouseListItem",
+    "claim-authon": "/components/claimAuthon"
+  }
+}

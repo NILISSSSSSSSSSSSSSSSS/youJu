@@ -1,0 +1,1188 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 专车看房弹窗 */
+.car_look_house_view{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 200;
+	background: rgba(0,0,0,0.5);
+}
+.car_look_house_info{
+	background: #FFFFFF;
+	width:550rpx;
+	border-radius: 10rpx;
+	box-sizing: border-box;
+	overflow: hidden;
+	margin: auto;
+	position: relative;
+	padding: 40rpx 30rpx 50rpx;
+}
+.car_look_title{
+	text-align:center;
+	font-size:38rpx;
+	color:#333;
+	margin-bottom:16rpx;
+}
+.car_look_close{
+	text-align:center;
+	height:60rpx;
+	position:absolute;
+	top:0;
+	right:0;
+	width:60rpx;
+}
+.car_look_close image{
+	width:20rpx;
+	height:20rpx;
+	margin: auto;
+}
+.car_look_subtitle{
+	text-align:center;
+	font-size:24rpx;
+	line-height:35rpx;
+	color:#999;
+	margin-bottom:16rpx;
+}
+.car_input_view{
+	margin-bottom:20rpx;
+}
+.car_input{
+	background-color:#f2f2f2;
+	height:86rpx;
+	line-height: 86rpx;
+	padding:0rpx 25rpx;
+	box-sizing: border-box;
+	font-size:30rpx;
+	color:#333;
+}
+.car_input_plac{
+	background-color:#f2f2f2;
+	height:86rpx;
+	line-height: 86rpx;
+	padding:0rpx;
+	box-sizing: border-box;
+	font-size:30rpx;
+	text-align: left;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.get_code{
+	width:213rpx;
+	text-align:center;
+	color:#ab7f2e;
+	font-size:28rpx;
+	line-height:86rpx;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+}
+.car_look_submit{
+	color:#fff;
+	border-radius: 10rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+	font-size: 36rpx;
+	color: #FFFFFF;
+	background:-webkit-linear-gradient(left, #fe8e0d, #ff7f1e, #ff6f2e);
+	background:linear-gradient(to right, #fe8e0d, #ff7f1e, #ff6f2e);
+}
+/* 头部 */
+.build_book_view{
+	width: 100%;
+	min-height: 100%;
+}
+.new_build_view{
+	width: 100%;
+	min-height: 100%;
+	background-color: #fefefe;
+	background-image: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/foobg.png);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.build_title_view{
+	width: 100%;
+	height: 420rpx;
+	padding-top: 188rpx;
+	text-align: center;
+	background-image: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/quality.png);
+	background-repeat: no-repeat;
+	background-position: center 72rpx, center bottom;
+	background-size: 82rpx 118rpx,100% auto;
+	box-sizing: border-box;
+}
+.title-box{
+	width: 630rpx;
+	height: 128rpx;
+	background: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/title-bg.png) no-repeat center;
+	background-size: 100%;
+	margin: 0 auto;
+	padding-top: 20rpx;
+	box-sizing: border-box;
+}
+.build-name{
+	font-size: 60rpx;
+	color: #2e3746;
+	font-weight: bold;
+	margin-bottom: 24rpx;
+}
+.houseType-text .span-icon{
+	display: inline-block;
+	width: 12rpx;
+	height: 32rpx;
+	background: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/area.png) no-repeat center;
+	background-size: 100%;
+	margin-right: 10rpx;
+}
+.houseType-text .strong-icon{
+	display: inline-block;
+	font-size: 40rpx;
+	font-weight: normal;
+	margin-bottom: 6rpx;
+}
+.houseType-text .em-icon{
+	font-size: 28rpx;
+	display: inline-block;
+	margin: 0;
+}
+/* 小区图片 */
+.houseimg-box{
+	height: 472rpx;
+	border-top: 1rpx solid #a6aebc;
+	border-bottom: 1rpx solid #a6aebc;
+	padding-top: 6rpx;
+	padding-bottom: 6rpx;
+}
+.houseimg-box .house-content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#house-content image{
+	width: 100%;
+	height: 100%;
+}
+/* 小区价格 */
+.house-info-box{
+	width: 100%;
+	padding-top: 70rpx;
+}
+.house-info-title{
+	text-align: center;
+	margin-bottom: 108rpx;
+}
+.house-info-title .i-icon{
+	display: inline-block;
+	width: 168rpx;
+	height: 4rpx;
+	background: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/title-h.png) no-repeat center/100%;
+	margin-bottom: 28rpx;
+}
+.h3-text .span-text{
+	display: inline-block;
+	font-size: 18rpx;
+	color: #2e3746;
+	width: 18rpx;
+}
+.house-info-title .h3-text text{
+	font-size: 40rpx;
+	color: #2e3746;
+	margin-left: 4rpx;
+}
+.house-info-title .p-text{
+	font-size: 28rpx;
+	margin-top: 20rpx;
+	color: #2e3746;
+}
+.house-info-box .h1-text{
+	margin: 0 auto;
+	width: 670rpx;
+	height: 36rpx;
+	border-bottom: 1rpx solid #a6aebc;
+	background: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/text-eg.png) no-repeat center;
+	background-size: 670rpx 10rpx;
+}
+.no_price{
+	font-size: 24rpx;
+	color: #aaaaaa;
+}
+/* 楼盘介绍 */
+.house-content-box{
+	padding-bottom: 144rpx;
+}
+.houseimg{
+	width: 670rpx;
+	height: 440rpx;
+	margin: 0 auto;
+	margin-top: 40rpx;
+	position: relative;
+}
+.houseimg-list{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.houseimg .i-text{
+	position: absolute;
+	display: block;
+	left: 0;
+	right: 0;
+	bottom: -32rpx;
+	z-index: 99;
+	margin: auto;
+	width: 64rpx;
+	height: 64rpx;
+	background: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/pz-bg.png) no-repeat center;
+	background-size: 100%;
+}
+.house-about{
+	margin-top: 80rpx;
+	padding: 0 40rpx;
+	padding-top: 52rpx;
+	background: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/title-1.png) no-repeat 0.2rpx top;
+	background-size:  auto 8rpx;
+	margin-bottom: 138rpx;
+}
+.house-about .h2-text{
+	font-size: 40rpx;
+	color: #2e3746;
+	margin-bottom: 38rpx;
+}
+.house-about .p-text{
+	font-size: 26rpx;
+	color: #4a515b;
+	line-height: 40rpx;
+	margin-bottom: 20rpx;
+}
+.house-about .i-text{
+	display: block;
+	width: 18rpx;
+	height: 18rpx;
+	background: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/text-icon.png) no-repeat center;
+	background-size: 100%;
+}
+#house-content,#houseimg-list{
+	background: url(http://cdn.haofang.net/static/uuweb/buildingBook/housingLongFigure/no-img.png) no-repeat center;
+	background-size: 146rpx 104rpx;
+	background-color: #ebf0f5;
+}
+#houseimg-list image{
+	width: 100%;
+	height: 100%;
+}
+/* 户型介绍 */
+.houseType-box{
+	width: 100%;
+}
+.houseType-box .h2-text{
+	width: 362rpx;
+	height: 180rpx;
+	background: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/houseTypeImgTitle.png) no-repeat center;
+	background-size: 100%;
+	margin: 0 auto;
+	margin-bottom: 36rpx;
+}
+.houseimg-list-box {
+	padding: 0 40rpx;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.houseimg-list-box .li{
+	width: 100%;
+	position: relative;
+	margin-bottom: 126rpx;
+}
+.houseimg-list-box .li image{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.houseimg-list-box ._li:last-child{
+	margin-bottom: 0;
+}
+#houseTypeimg-one,#houseTypeimg-two{
+	background-size: 146rpx 104rpx;
+	background-color: #ebf0f5;
+}
+/* 位置地图 */
+.area-info{
+	width: 100%;
+	margin-top: 186rpx;
+}
+.area-info .h2-text{
+	width: 100%;
+	height: 182rpx;
+	background: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/area-title.png) no-repeat center;
+	background-size: 100%;
+	margin-bottom: 60rpx;
+}
+.map-box{
+	width: 100%;
+	height: 476rpx;
+	background:url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/area-line.png) no-repeat 606rpx top;
+	background-size: 126rpx 56rpx;
+	padding-top: 36rpx;
+}
+#map{
+	position: relative;
+	width: 670rpx;
+	height: 440rpx;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#map image{
+	width: 100%;
+	height: 100%;
+}
+.BMap_Marker ._img{
+	width: 100%;
+}
+/* 楼盘地址 */
+.check-out{
+	margin-top: 94rpx;
+	width: 100%;
+	text-align: center;
+}
+.check-out .i-text{
+	display: inline-block;
+	width: 90rpx;
+	height: 8rpx;
+	background: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/livable-city.png) no-repeat center;
+	background-size: 100%;
+	margin-bottom: 26rpx;
+}
+.check-out .p-text{
+	font-size: 24rpx;
+	margin-bottom: 24rpx;
+	color: #2e3746;
+}
+.check-out .address-info{
+	width: 606rpx;
+	min-height: 90rpx;
+	padding: 0 20rpx;
+	margin: 0 auto;
+	background-size: 100% 6rpx;
+	border: 1rpx solid #a6aebc;
+	position: relative;
+	font-size: 26rpx;
+	color: #2e3746;
+	text-align: center;
+	line-height: 1.8;
+	padding-top: 30rpx;
+	padding-bottom: 16rpx;
+}
+.address-info::after{
+	content: '';
+	position: absolute;
+	right: 40rpx;
+	bottom: -10rpx;
+	width: 190rpx;
+	height: 20rpx;
+	background-image: url(http://cdn.haofang.net/static/uuweb/buildingBook/newBuilding/bottom-img.png);
+	background-color:#fff;
+	background-position: center;
+	background-size: 172rpx 16rpx;
+	background-repeat: no-repeat;
+}
+/* 经纪人信息 */
+.broker-information{
+	width: 100%;
+	margin-top: 200rpx;
+	height: 350rpx;
+	background: url(http://cdn.haofang.net/static/uuweb/buildingBook/housingLongFigure/user.png) no-repeat center;
+	background-size: 550rpx 350rpx;
+	position: relative;
+	padding-top: 80rpx;
+	text-align: center;
+	box-sizing: border-box;
+}
+.user-photo{
+	position: absolute;
+	border-radius: 50%;
+	border:1rpx solid #becbdc;
+	width: 110rpx;
+	height: 110rpx;
+	background-image: url(http://cdn.haofang.net/static/uuweb/buildingBook/housingLongFigure/default_head.png);
+	background-size: cover;
+	background-position: center;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: -50rpx;
+	background-color: #fff;
+}
+.user-photo .i-text{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	/* background: ; */
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.broker-information .p-text{
+	font-size: 38rpx;
+	color: #4a5871;
+	margin-top: 24rpx;
+	font-weight: bold;
+}
+.broker-information .h4-text{
+	font-size: 24rpx;
+	color: #4a5871;
+	margin-top: 20rpx;
+}
+.broker-information .h5-text{
+	font-size: 18rpx;
+	color: #909aad;
+	margin-top: 24rpx;
+}
+/* 长按识别 */
+.ewm{
+	display: none;
+	margin-top: 110rpx;
+	text-align: center;
+}
+.ewm image{
+	width: 220rpx;
+	height: 220rpx;
+}
+.ewm .p-text{
+	margin-top: 32rpx;
+	font-size: 18rpx;
+	color: #909aad;
+}
+/* 咨询 */
+.build_book_bottom{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:108rpx;
+	z-index:101;
+	background:#fff;
+	padding: 0 20rpx;
+	box-sizing: border-box;
+}
+.bottom_agent_head{
+	width:80rpx;
+	height:80rpx;
+	background-image:url(http://cdn.haofang.net/static/uuweb/buildingBook/housingLongFigure/default_head.png);
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+	margin: auto 20rpx auto 0;
+	-webkit-flex-shrink: 0;
+	        flex-shrink: 0;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.bottom_agent_head image{
+	width: 100%;
+	height: 100%;
+}
+.bottom_agent_name{
+	text-align:left;
+	box-sizing:border-box;
+	font-size:30rpx;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.bottom_agent_star_view{
+	margin-top: 5rpx;
+}
+.bottom_agent_star_view image{
+	height: 16rpx;
+	width: 16rpx;
+	margin: auto 5rpx auto 0;
+}
+.book_bottom_btn_view {
+	width: 450rpx;
+}
+.book_bottom_btn_view>view{
+	width: 200rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+	color:#fff;
+	font-size: 30rpx;
+	text-align: center;
+	border-radius: 10rpx;
+}
+.bottom_chart_btn{
+	float: left;
+	background-color: #febd3a;
+}
+.bottom_car_btn{
+	float: left;
+	background-color: #5786f2;
+	margin-left: 14rpx;
+}
+

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c22493be-5fa4-47ff-8c65-ba605a0e1224" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1Y9ZP01OE8hSqPx1jDskOgxZ4k1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../html5_canvas_dzdh(jb51.net)" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JSON" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\小黑项目\悠居客多端\static\app-plus\components" />
+      <recent name="D:\小黑项目\悠居客多端\static\app-plus\images" />
+      <recent name="D:\小黑项目\悠居客多端\static\h5" />
+      <recent name="D:\小黑项目\悠居客多端\pagesTool\mapFindHouse" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c22493be-5fa4-47ff-8c65-ba605a0e1224" name="Default Changelist" comment="" />
+      <created>1582356742434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582356742434</updated>
+      <workItem from="1582356743887" duration="26049000" />
+      <workItem from="1582436126647" duration="24755000" />
+      <workItem from="1583936806625" duration="970000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="522" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582365785014">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="522" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1582365785014" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1583937396566">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583937396566" />
+    <state x="272" y="58" key="SettingsEditor" timestamp="1582360222181">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582360222181" />
+    <state x="390" y="138" width="755" height="548" key="find.popup" timestamp="1582381527862">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="390" y="138" width="755" height="548" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1582381527862" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1582375025147">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1582375025147" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/pagesStore/personalStore/personalStore.nvue</url>
+          <line>948</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

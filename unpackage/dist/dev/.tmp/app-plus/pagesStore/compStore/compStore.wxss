@@ -1,0 +1,1200 @@
+
+.flexRowStart{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.flexColumnStart{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.flexRowSpaceBetween{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.flexRowCenter{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.flexRowEnd{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.flexColumnSpaceBetween{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.flexColumnCenter{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.compStoreBottomButtonClickView {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.compStoreBottomButtonView{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  border-top: 2rpx solid #e7e7e7;
+  box-sizing: border-box;
+}
+.compStoreBottomButtonIphoneXEmptyView{
+  height: 68rpx;
+  width: 100%;
+}
+.compStoreBottomButtonContentView{
+  height: 100rpx;
+  /* padding: 0 150upx; */
+  box-sizing: border-box;
+}
+.compStoreBottomButtonImage{
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  margin: 0 auto 5rpx;
+}
+.compStoreBottomButtonText{
+  margin: 0 auto;
+}
+.flexRowStart{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.flexRowSpaceBetween{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.flexRowCenter{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.flexRowEnd{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.flexColumnStart{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.flexColumnSpaceBetween{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.flexColumnCenter{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.flexWidth1{-webkit-box-flex:1;-webkit-flex:1;flex:1;}
+.flexWidth2{-webkit-box-flex:2;-webkit-flex:2;flex:2;}
+.flexWidth3{-webkit-box-flex:3;-webkit-flex:3;flex:3;}
+.compStoreChooseTabNoFixedView{
+  position: relative;
+  width: 100%;
+  border-radius: 16rpx 16rpx 0 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  border-bottom: 1rpx solid #ebebeb;
+}
+.compStoreChooseTabNoFixedContentView{
+  height: 80rpx;
+  padding: 25rpx 0;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.compStoreChooseTabNoFixedInfoView{
+  width: 100%;
+  height: 100%;
+  line-height: 30rpx;
+  box-sizing: border-box;
+}
+.compStoreChooseTabNoFixedInfoTextView{
+  font-size:25rpx;
+  color:#494949;
+  margin-right: 15rpx;
+  text-align: left;
+  max-width: 65%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.compStoreChooseTabInfoImg{
+  width: 15rpx;
+  height: 9rpx;
+  margin: auto 0;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.compStoreChooseTabTcMarkView{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom: 0;
+  width:100%;
+  overflow:hidden;
+  background:rgba(0, 0, 0, 0.3);
+  z-index: 180;
+}
+.compStoreChooseTabTcView{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom: 0;
+  width:100%;
+  overflow:hidden;
+  background:rgba(0, 0, 0, 0.3);
+  z-index: 200;
+  border-radius: 16rpx 16rpx 0 0;
+}
+.compStoreChooseTabTcContView{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.compStoreChooseResultView{
+  /*height: 65%;*/
+  width: 100%;
+  overflow: hidden;
+  margin-top: -4rpx;
+  box-sizing: border-box;
+  border-top: 2rpx solid #e6e6e6;
+}
+/*区域选择*/
+.compStoreChooseRegionTemplateView{
+  height: 100%;
+  overflow: hidden;
+  font-size: 30rpx;
+}
+.compStoreChooseRegionTemplateLeftView{
+  overflow-y: auto;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #f4f4f4;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  margin-right: -2rpx;
+}
+.compStoreChooseRegionLeftText{
+  padding: 0 40rpx;
+  box-sizing: border-box;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  width:100%;
+  height:90rpx;
+  line-height:90rpx;
+  border-bottom:1px solid #eee;
+  text-align: center;
+}
+.compStoreChooseRegionTemplateRightView{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+.compStoreChooseRegionRightText{
+  width:100%;
+  height:90rpx;
+  line-height:90rpx;
+  padding-left:20rpx;
+  box-sizing:border-box;
+  border-bottom:1px solid #eee;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+/*价格选择*/
+.compStoreChoosePriceTemplateContentView{
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background-color: #FFFFFF;
+}
+.compStoreChoosePriceTemplateView{
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-size: 30rpx;
+}
+.compStoreChoosePriceTemplateViewText{
+  height:90rpx;
+  line-height:90rpx;
+  width:100%;
+  box-sizing:border-box;
+  border-bottom:1px solid #eee;
+  padding-left:56rpx;
+}
+.compStoreChoosePriceTemplateViewTextEmpty{
+  height:120rpx;
+  line-height:120rpx;
+  width:100%;
+  box-sizing:border-box;
+  padding-left:56rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.compStoreChoosePriceTemplateFixedView{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height:100rpx;
+  box-sizing:border-box;
+  padding:0 40rpx 0;
+  background-color: #FFFFFF;
+}
+.compStoreChoosePriceTemplateFixedViewInput{
+  width:180rpx;
+  height:50rpx;
+  text-align:center;
+  border:1px solid #cccccc;
+  border-radius:10rpx;
+  font-size:29rpx;
+  margin: auto 0;
+}
+.compStoreChoosePriceTemplateFixedViewInputLine{
+  height: 50rpx;
+  margin: auto 0;
+  width: 50rpx;
+  text-align: center;
+}
+.compStoreChoosePriceTemplateFixedViewInputLabel{
+  font-size: 29rpx;
+  margin-left: 10rpx;
+  line-height: 100rpx;
+}
+.compStoreChoosePriceTemplateFixedConfirmView{
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  width:120rpx;
+  height:50rpx;
+  background:#ff5a1f;
+  text-align:center;
+  border-radius:10rpx;
+  color:#ffffff;
+  line-height:50rpx;
+  box-sizing: border-box;
+  margin: auto 0;
+  font-size: 29rpx;
+}
+/*更多选择*/
+.compStoreChooseMoreTemplateView{
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  width: 100%;
+}
+.compStoreChooseMoreTemplateListView{
+  padding-bottom:9rpx;
+  border-bottom:1px solid #f3f3f3;
+  box-sizing: border-box;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.compStoreChooseMoreTemplateTitleView{
+  height:90rpx;
+  line-height:90rpx;
+  font-size:29rpx;
+  color:#2d2c2c;
+  letter-spacing:1px;
+  font-family:'\9ED1\4F53';
+}
+.compStoreChooseMoreTemplateCheckView{
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.compStoreChooseMoreTemplateViewText{
+  width:150rpx;
+  height:68rpx;
+  background:#ffffff;
+  line-height:64rpx;
+  text-align:center;
+  color:#6c6c6c;
+  border-radius:6rpx;
+  font-size:26rpx;
+  margin-right:21rpx;
+  margin-bottom:20rpx;
+  letter-spacing:1px;
+  box-sizing:border-box;
+  border:1px solid #d6d6d6;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+}
+.compStoreChooseMoreTemplateFixedView{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing:border-box;
+  background-color: #FFFFFF;
+  height:120rpx;
+  padding:20rpx 50rpx;
+}
+.compStoreChooseMoreRevertClick{
+  width:100%;
+  height: 100%;
+  line-height: 80rpx;
+  border-radius:6rpx;
+  background:-webkit-linear-gradient(left, rgb(255,203,0) , rgb(255,148,2));
+  text-align:center;
+  font-size:33rpx;
+  color:#fff;
+  letter-spacing:10rpx;
+}
+.compStoreChooseMoreConfirmClick{
+  width: 100%;
+  height: 100%;
+  border-radius:6rpx;
+  text-align:center;
+  line-height:80rpx;
+  font-size:33rpx;
+  letter-spacing:10rpx;
+  background:-webkit-linear-gradient(left, rgb(255,132,0) , rgb(255,84,0));
+  color:#fff;
+}
+.compStoreChooseMoreEmptyButton{
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  width: 20rpx;
+  height: 100%;
+}
+.compStoreErHouse{
+  min-height: 200rpx;
+  background: #FFFFFF;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.compStoreErHouseContentView{
+  background-color: #FFFFFF;
+}
+.compStoreErHouseHouseItemView{
+  padding: 0 30rpx 20rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #ebebeb;
+}
+.flexRowStart{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.flexColumnStart{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.flexRowSpaceBetween{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.flexRowCenter{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.flexRowEnd{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+}
+.flexColumnSpaceBetween{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.flexColumnCenter{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.compStoreIndexView{
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  width: 100%;
+}
+.compStoreIndexYXAgentView{
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius:16rpx;
+  padding:50rpx 30rpx;
+  box-sizing: border-box;
+  overflow:hidden;
+  position: relative;
+}
+.compStoreIndexAgentView{
+  height: 40rpx;
+}
+.compStoreIndexLineRed{
+  width:8rpx;
+  height:36rpx;
+  background:-webkit-linear-gradient(top, #ff8a17 , #ab7f2e);
+  background:linear-gradient(top, #ff8a17 , #ab7f2e);
+  border-radius: 4rpx;
+  box-sizing: border-box;
+  margin: auto 10rpx auto 0;
+}
+.compStoreIndexAgentTitle{
+  font-size:34rpx;
+  color:#333;
+  font-weight:bold;
+  margin: auto 0;
+}
+.compStoreIndexMoreAgent{
+  font-size:24rpx;
+  color:#aaa;
+  text-align:right;
+  margin: auto 0;
+}
+.compStoreIndexAgentHeaderImgView{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background:url(http://cd.haofang.net/Public/newPC/images/default/head/90x90.png) no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  margin-right: 20rpx;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  border: 1rpx solid #f3f3f3;
+}
+.compStoreIndexBuildAddr{
+  font-size: 22rpx;
+  color: #999;
+  padding-left: 18rpx;
+  margin-top: 6rpx;
+}
+.compStoreIndexAgentHeaderImg{
+  width: 100%;
+  height: 100%;
+}
+.compStoreIndexAgentInfoView{
+  width: 100%;
+  margin-top: 50rpx;
+}
+.entrustButtonView{
+  min-width: 144rpx;
+  border-radius:24rpx;
+  height:50rpx;
+  text-align:center;
+  line-height:50rpx;
+  font-size:26rpx;
+  color:#fff;
+  background:-webkit-linear-gradient(left, #ff8a17 , #ab7f2e);
+  padding:0 20rpx;
+  box-sizing: border-box;
+  position: relative;
+  top: 15rpx;
+}
+.compStoreIndexAgentInfoName{
+  font-size:32rpx;
+  color:#333;
+  font-weight:bold;
+  text-align: left;
+}
+.compStoreIndexAgentInfoStarImgSrc{
+  width:17rpx;
+  height:16rpx;
+  margin: auto 2rpx auto 0;
+}
+.compStoreIndexAgentInfoStarNum{
+  margin: auto 0 auto 9rpx;
+  font-size:20rpx;
+  color:#ffb400;
+}
+.compStoreIndexAgentInfoService{
+  font-size:22rpx;
+  color:#999;
+  margin-top: 8rpx;
+  text-align: left;
+}
+.compStoreIndexHouseListView{
+  width: 100%;
+  background-color: #FFFFFF;
+  border-radius:16rpx;
+  padding:50rpx 30rpx;
+  padding-bottom: 70rpx;
+  box-sizing: border-box;
+  overflow:hidden;
+  margin-top: 20rpx;
+}
+.sale_no_data {
+  position: relative;
+  top: 250rpx;
+  width: 100%;
+  height: 400rpx;
+}
+.noDataView {
+  margin: 0 auto 20rpx;
+  width: 313rpx;
+  height: 221rpx;
+  background: url(http://cdn.haofang.net/static/uuminiapp/compStore/nodata.png)no-repeat center;
+  background-size: 100% 100%;
+}
+.noDataViewText {
+  font-size: 26rpx;
+  color: #a6a6a6;
+}
+.compStoreIndexAgentViewTitleView{
+  height: 40rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  line-height: 40rpx;
+}
+.compStoreIndexEnterOtherTab{
+  width: 630rpx;
+  height: 86rpx;
+  line-height: 86rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  text-align: center;
+  color: #7b9dbb;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  background-color: #edf2f5;
+	border-radius: 4rpx;
+  font-size: 28rpx;
+  position: relative;
+}
+.compStoreIndexEnterOtherTab:last-child{
+  margin-bottom: 0;
+}
+.compStoreIndexMoreAgent{
+  position: relative;
+  padding-right: 15rpx;
+}
+.compStoreIndexMoreAgent image{
+  width: 9rpx;
+  height: 16rpx;
+  background-size: 100%;
+  position: absolute;
+  top: 10rpx;
+  right: 0;
+}
+.compStoreIndexDeptInfo{
+  padding-left: 15rpx;
+  margin-top: 35rpx;
+  padding-right: 30rpx;
+}
+.compStoreIndexDeptInfoItemNum{
+  color: #333;
+  font-size: 48rpx;
+  font-weight:bold;
+  text-align:left;
+}
+.compStoreIndexDeptInfoItemNoNum{
+  font-size: 36rpx;
+}
+.compStoreIndexDeptInfoItemNumUnit{
+  color: #333;
+  font-size: 26rpx;
+  font-weight:normal;
+}
+.compStoreIndexDeptInfoItemDesc{
+  color: #999;
+  font-size: 22rpx;
+  line-height: 1;
+  margin-top: 17rpx;
+}
+.compStoreIndexDeptPublishBtn{
+  position: absolute;
+  top: 46rpx;
+  right: 30rpx;
+  background-image: -webkit-linear-gradient(left,
+  #ff8a17 0%,
+  #ab7f2e 100%),
+  -webkit-linear-gradient(#ffb400,
+  #ffb400);
+  background-image: linear-gradient(90deg,
+  #ff8a17 0%,
+  #ab7f2e 100%),
+  linear-gradient(#ffb400,
+  #ffb400);
+  width: 144rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  color: #fff;
+  font-size: 26rpx;
+  text-align: center;
+  border-radius: 25rpx;
+}
+.compStoreIndexDeptArchivePublishBtn{
+  width: 64rpx;
+}
+.compStoreIndexDeptArchivePublishBtnIcon {
+  width: 64rpx;
+  height: 64rpx;
+  background:url(http://cdn.haofang.net/static/uuminiapp/flagship/index/btn_online.png) center center no-repeat;
+  background-size:100% 100%;
+}
+.compStoreIndexDeptArchiveContactBtn .compStoreIndexDeptArchivePublishBtnIcon{
+  background:url(http://cdn.haofang.net/static/uuminiapp/flagship/index/btn_contact.png) center center no-repeat;
+  background-size:100% 100%;
+}
+.compStoreIndexDeptArchivePublishBtnText {
+  margin-top: 10rpx;
+  line-height: 1;
+  color: #999999;
+  font-size: 22rpx;
+  text-align: center;
+}
+.compStoreIndexDeptArchiveContactBtn{
+  margin-left: 26rpx;
+}
+.flexMain{
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.no_data_index{
+  background: #FFFFFF;
+  margin-top:30rpx;
+  border-radius:16rpx;
+  height:100%;
+  overflow: hidden;
+}
+.compStoreErHouse{
+  min-height: 200rpx;
+  background: #FFFFFF;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.empty_loading{
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    background: #f5f5f5;
+}
+.topLine{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    color: #315591;
+    background-color: #315591;
+    height: 2px;
+}
+page{
+    background-color: #FFFFFF;
+    min-height: 90%;
+}
+.homeView{
+    /*margin-top: -2upx;*/
+    /*transform: translate(0, -4upx);*/
+}
+.homeView_hidden{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+}
+.pageViewFixed{
+    background: #f6f6f6;
+    top: 0;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    z-index: -1;
+}
+.topBgView{
+    position: fixed;
+    z-index: -1;
+    height: 510rpx;
+    width: 100%;
+    top: -2rpx;
+    left: 0;
+    background: -webkit-linear-gradient(#315591, #f5f5f5);
+    background: linear-gradient(#315591, #f5f5f5);
+    /*background-image: url("http://cdn.haofang.net/static/uuminiapp/compStore/banner_demo.jpg");*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.topBgImgView{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.topBgMarkView{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 510rpx;
+    z-index: 11;
+    background-color: rgba(0,0,0,0.5);
+}
+.topBgColorView{
+    width:100%;
+    height:100rpx;
+    padding-top:30rpx;
+    background:-webkit-linear-gradient(rgba(49,85,145,1),rgba(49,85,145,0));
+    background:linear-gradient(rgba(49,85,145,1),rgba(49,85,145,0));
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:flex;
+    position: fixed;
+    top:0;
+    z-index:12;
+}
+.topBgMarkBgColor{
+    background: -webkit-linear-gradient(rgba(246,246,246,0),rgba(246,246,246,1));
+    background: linear-gradient(rgba(246,246,246,0),rgba(246,246,246,1));
+    position: fixed;
+    top: 352rpx;
+    height: 160rpx;
+    width: 100%;
+    z-index: -1;
+}
+.topBgMarkBgColorAnroid{
+    background: -webkit-linear-gradient(#315591, #f5f5f5);
+    background: linear-gradient(#315591, #f5f5f5);
+    position: fixed;
+    top: 356rpx;
+    height: 160rpx;
+    width: 100%;
+    z-index: -1;
+}
+.flexRowStart{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+}
+.flexColumnStart{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+}
+.flexRowSpaceBetween{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.flexRowCenter{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+.flexRowEnd{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+            justify-content: flex-end;
+}
+.flexColumnSpaceBetween{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+}
+.flexColumnCenter{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+}
+.titleInfoView{
+    width: 100%;
+    margin-top: 40rpx;
+    padding: 0 30rpx;
+    box-sizing: border-box;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+}
+.logoImgSrcView{
+    width: 90rpx;
+    height: 90rpx;
+    overflow: hidden;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+    margin-right: 30rpx;
+    border-radius: 10rpx;
+}
+.titleInfoTextView{
+    height: 90rpx;
+    width: 100%;
+    text-align: left;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #FFFFFF;
+    font-size: 20rpx;
+}
+.titleInfoName{
+    font-size: 38rpx;
+    min-height: 38rpx;
+    text-align: left;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.titleInfoHouseAgent{
+    min-height: 20rpx;
+    text-align: left;
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.FixedViewView{
+    position: fixed;
+    top: -2rpx;
+    height: 88rpx;
+    z-index: 80;
+    width: 100%;
+    overflow: hidden;
+}
+.FixedView{
+    position: fixed;
+    top: -2rpx;
+    z-index: 99;
+    width: 100%;
+}
+.topBgImgSrcFixedView{
+    width: 100%;
+    height: 510rpx;
+    z-index: 20;
+}
+.showChangeFixedView{
+    background: -webkit-linear-gradient(rgba(49,85,145,1),rgba(49,85,145,0));
+}
+.changeButtonArrViewStickyTab{
+    padding-bottom:30rpx;
+    box-sizing:border-box;
+    /*background:#315591;*/
+    /*padding-top: 10px;*/
+}
+.changeButtonArrViewSticky{
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 82;
+    top: 0;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+}
+.changeButtonArrView{
+    padding-left: 30rpx;
+    box-sizing: border-box;
+    height: 55rpx;
+    position: relative;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+}
+.changeButtonClickView{
+    position: relative;
+    height: 55rpx;
+    box-sizing: border-box;
+    margin-right: 50rpx;
+    color:#fff;
+    font-size:32rpx;
+    font-weight: bold;
+    text-align: center;
+}
+.changeButtonClickViewActive{
+    border-bottom:solid 4rpx #fff;
+}
+.compStoreTopEmptyView{
+    height: 30rpx;
+    -webkit-flex-shrink: 0;
+            flex-shrink: 0;
+    width: 100%;
+}
+.pullUp, .pullUp_noData {
+    height: 40px;
+    line-height: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+.pullUp .pullUpIcon {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin: 6px;
+    border: 2px solid #666;
+    border-bottom-color: transparent;
+    vertical-align: middle;
+    -webkit-animation: loading 0.75s linear infinite;
+    animation: loading 0.75s linear infinite;
+}
+.pullUp.flip .pullUpIcon {
+    -webkit-transform: rotate(0deg) translateZ(0);
+}
+.pullUp.loading .pullUpIcon {
+    background-position: 0 100%;
+    -webkit-transform: rotate(0deg) translateZ(0);
+    -webkit-transition-duration: 0ms;
+    -webkit-animation-name: loading;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes loading {
+0% {
+        -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+}
+50% {
+        -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+}
+100% {
+        -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+}
+}
+.no-more-data {
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    font-size: 26rpx;
+    color: #666666;
+    margin-bottom: 20rpx;
+}
+.sale_no_data {
+    position: relative;
+    top: 250rpx;
+    width: 100%;
+    height: 400rpx;
+}
+.no-pic {
+    margin: 0 auto 20rpx;
+    width: 313rpx;
+    height: 221rpx;
+    background: url(http://cdn.haofang.net/static/uuminiapp/compStore/nodata.png)no-repeat center;
+    background-size: 100% 100%;
+}
+.indexContentView{
+    margin-top: -2rpx;
+    padding-bottom: 50rpx;
+    box-sizing: border-box;
+}
+.indexContentView_height{
+    height: 100%;
+}
+.indexContentView_height .compStoreIndexView{
+    height: 100%;
+}
+page{
+    height: 100%;
+}
+/* 搜索框 */
+.search-box{
+    width: 136rpx;
+    height: 60rpx;
+    letter-spacing: 0rpx;
+    background-color: #ffffff;
+    border-radius: 30rpx;
+    position: relative;
+    opacity: 0.3;
+    margin-right: 50rpx;
+    bottom: 5rpx;
+}
+.search-icon{
+    width: 30rpx;
+    height: 60rpx;
+    background: url(http://cdn.haofang.net/static/uuminiapp/flagship/index/search.png) center center no-repeat;
+    background-size: 30rpx 29rpx;
+    position: absolute;
+    top: -1rpx;
+    left: 21rpx;
+    /* top: 50%; */
+    /* bottom: 50%; */
+}
+.search-text{
+    width: 56rpx;
+    height: 60rpx;
+    font-size: 28rpx;
+    color: #ffffff;
+    opacity: 1 !important;
+    position: absolute;
+    line-height: 60rpx;
+    top: -1rpx;
+    left: 62rpx;
+}
+.homeView .shop{
+    border-radius:24rpx;
+    height:48rpx;
+    text-align:center;
+    line-height:48rpx;
+    font-size:26rpx;
+    color:#fff;
+    background: #ff6f2e;
+    padding:0 20rpx;
+    box-sizing: border-box;
+    position: relative;
+    white-space: nowrap;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+            justify-content: center;
+    top: 15rpx;
+}
+.phoneX-bottom{
+    margin-bottom: 90rpx !important;
+}
+.search-info{
+    position: relative;
+}
+
